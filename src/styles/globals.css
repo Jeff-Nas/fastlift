@@ -1,5 +1,5 @@
 @import "tailwindcss";
 
 @theme {
-  --shadow-card: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  --shadow-card: 1px 1px 3px rgba(9, 9, 9, 0.463);
 }
