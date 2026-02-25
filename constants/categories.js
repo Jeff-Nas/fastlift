@@ -39,4 +39,21 @@ export const CATEGORIES = [
   },
 ];
 
-export const MANUFACTURERS = ["jlg", "genie", "skyjack", "haulotte"];
+export const MANUFACTURERS = [
+  {
+    label: "jlg",
+    image: "/images/logos/icon-jlg.png",
+  },
+  {
+    label: "genie",
+    image: "/images/logos/icon-genie.png",
+  },
+  {
+    label: "skyjack",
+    image: "/images/logos/icon-skyjack.png",
+  },
+  {
+    label: "haulotte",
+    image: "/images/logos/icon-haulotte.png",
+  },
+];
