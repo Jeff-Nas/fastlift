@@ -35,13 +35,16 @@ export default function Manufacturer() {
           onValueChange={handleManufacturerChange}
         >
           {/* Estilizando o botão do Select com Tailwind 4 */}
-          <SelectTrigger className="w-full max-w-[200px] border-2 border-[#ff6600] rounded-xl text-base font-semibold text-slate-700">
+          <SelectTrigger className="w-full max-w-55 border-2 border-gray-600 rounded-lg text-base font-semibold text-slate-700">
             <SelectValue placeholder="Selecione..." />
           </SelectTrigger>
 
           <SelectContent>
             <SelectGroup>
               <SelectLabel className="text-gray-500">Fabricantes</SelectLabel>
+              <SelectItem value="Selecionar fabricante">
+                Selecionar fabricante
+              </SelectItem>
               {MANUFACTURERS.map((brand, index) => (
                 <SelectItem
                   key={`${brand.label}-${index}`}
