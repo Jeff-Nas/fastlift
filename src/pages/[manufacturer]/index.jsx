@@ -2,6 +2,7 @@ import { CATEGORIES, MANUFACTURERS } from "../../../constants/categories";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link";
+import { RotateCw } from "lucide-react";
 import {
   Select,
   SelectContent,
@@ -15,7 +16,14 @@ import {
 export default function Manufacturer() {
   const router = useRouter();
   const { manufacturer } = router.query;
+  const currrentBrand = MANUFACTURERS.find(
+    (brand) => brand.label === manufacturer,
+  );
+  console.log(currrentBrand?.image);
 
+  {
+    /*The  onValueChange passes the string value*/
+  }
   const handleManufacturerChange = (selectedBrand) => {
     if (selectedBrand) {
       router.push(`/${selectedBrand}`);
@@ -24,9 +32,26 @@ export default function Manufacturer() {
 
   return (
     <div className="p-4 bg-slate-50">
-      <h1 className="text-4xl text-center my-4 font-semibold text-gray-800">
-        Manuais Técnicos
-      </h1>
+      <div className="flex flex-col items-center mb-2 h-37.5">
+        <h1 className="text-4xl text-center my-4 font-semibold text-gray-800">
+          Manuais Técnicos
+        </h1>
+        {currrentBrand ? (
+          <Image
+            className="w-40 h-11 lg:w-60 lg:h-16 animate-fade-in"
+            src={currrentBrand.image}
+            width={200}
+            height={10}
+          />
+        ) : (
+          <div className="flex flex-col items-center gap-1">
+            <RotateCw size={33} className="text-blue-400 animate-spin" />
+            <span className="text-gray-600 font-light">
+              ...buscando fabricante
+            </span>
+          </div>
+        )}
+      </div>
 
       {/* manufacturer  selection section*/}
       <div className="flex justify-center mb-8">
@@ -34,17 +59,14 @@ export default function Manufacturer() {
           value={manufacturer || ""}
           onValueChange={handleManufacturerChange}
         >
-          {/* Estilizando o botão do Select com Tailwind 4 */}
           <SelectTrigger className="w-full max-w-55 border-2 border-gray-600 rounded-lg text-base font-semibold text-slate-700">
-            <SelectValue placeholder="Selecione..." />
+            <SelectValue placeholder="Selecionar fabricante" />
           </SelectTrigger>
 
           <SelectContent>
             <SelectGroup>
               <SelectLabel className="text-gray-500">Fabricantes</SelectLabel>
-              <SelectItem value="Selecionar fabricante">
-                Selecionar fabricante
-              </SelectItem>
+
               {MANUFACTURERS.map((brand, index) => (
                 <SelectItem
                   key={`${brand.label}-${index}`}
@@ -70,7 +92,7 @@ export default function Manufacturer() {
                 width={200}
                 height={600}
                 alt={cat.label}
-                className="w-20 h-28 lg:w-30 lg:h-38 group-hover:scale-110 transition-transform duration-300"
+                className="w-20 h-28 lg:w-30 lg:h-38 group-hover:scale-110 group-active:scale-120 transition-transform duration-300"
               />
             </figure>
           </Link>

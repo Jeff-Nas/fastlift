@@ -6,8 +6,20 @@
 
 @theme {
   --shadow-card: 1px 1px 3px rgba(9, 9, 9, 0.463);
+  --animate-fade-in: fade-in 0.5s ease-in-out;
+
+  /* 2. Definimos os keyframes logo abaixo, ainda dentro do @theme */
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 }
 
+/* Shadcn UI*/
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
