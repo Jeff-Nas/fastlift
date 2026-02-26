@@ -19,7 +19,6 @@ export default function Manufacturer() {
   const currrentBrand = MANUFACTURERS.find(
     (brand) => brand.label === manufacturer,
   );
-  console.log(currrentBrand?.image);
 
   {
     /*The  onValueChange passes the string value*/
@@ -36,12 +35,15 @@ export default function Manufacturer() {
         <h1 className="text-4xl text-center my-4 font-semibold text-gray-800">
           Manuais Técnicos
         </h1>
+
+        {/* Image of manufacturer */}
         {currrentBrand ? (
           <Image
             className="w-40 h-11 lg:w-60 lg:h-16 animate-fade-in"
             src={currrentBrand.image}
             width={200}
             height={10}
+            alt={currrentBrand.label}
           />
         ) : (
           <div className="flex flex-col items-center gap-1">
@@ -84,7 +86,10 @@ export default function Manufacturer() {
       {/*categories section*/}
       <div className="grid grid-cols-2 gap-3 lg:grid-cols-3 lg:gap-5 lg:mx-8">
         {CATEGORIES.map((cat, index) => (
-          <Link href="#" key={`${cat.slug}-${index}`}>
+          <Link
+            href={`/${manufacturer}/${cat.slug}`}
+            key={`${cat.slug}-${index}`}
+          >
             <figure className="group shadow-card rounded-md flex flex-col items-center justify-center h-42 lg:h-60 hover:bg-gray-200 bg-white">
               <figcaption className="mb-2">{cat.label}</figcaption>
               <Image

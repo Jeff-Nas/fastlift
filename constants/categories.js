@@ -36,7 +36,7 @@ export const CATEGORIES = [
 export const MANUFACTURERS = [
   {
     label: "jlg",
-    image: "/images/logos/icon-jlg.png",
+    image: "/images/logos/icon-jlg-v3.png",
   },
   {
     label: "genie",
