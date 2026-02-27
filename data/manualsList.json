@@ -1,415 +1,898 @@
 [
   {
-    "nome_arquivo": "1200SJP-1350SJP JLG-parts-pn-3121208-31-10-18-no-serie-0300000100-a-0300201016.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/1200SJP/parts/1200SJP-1350SJP JLG-parts-pn-3121208-31-10-18-no-serie-0300000100-a-0300201016.pdf",
+    "nome_arquivo": "S-65-4WD-esquema-hidraulico.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/S-60-e-S-65/esquemas/S-65-4WD-esquema-hidraulico.pdf",
+    "tamanho": 84638,
+    "data_modificacao": "2025-12-11T22:38:00.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S-60-e-S-65/esquemas/S-65-4WD-esquema-hidraulico.pdf"
+  },
+  {
+    "nome_arquivo": "S60-e-S65-operation-pt-br.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/S-60-e-S-65/operation/S60-e-S65-operation-pt-br.pdf",
+    "tamanho": 794179,
+    "data_modificacao": "2025-12-11T22:38:00.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S-60-e-S-65/operation/S60-e-S65-operation-pt-br.pdf"
+  },
+  {
+    "nome_arquivo": "S60-S65-parts-from-SN-9154.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/S-60-e-S-65/parts/S60-S65-parts-from-SN-9154.pdf",
+    "tamanho": 5617333,
+    "data_modificacao": "2025-12-11T22:38:00.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S-60-e-S-65/parts/S60-S65-parts-from-SN-9154.pdf"
+  },
+  {
+    "nome_arquivo": "S60-S65-service-PN-77828-SN-9154-a-14781.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/S-60-e-S-65/service/S60-S65-service-PN-77828-SN-9154-a-14781.pdf",
+    "tamanho": 7120312,
+    "data_modificacao": "2025-12-11T22:38:00.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S-60-e-S-65/service/S60-S65-service-PN-77828-SN-9154-a-14781.pdf"
+  },
+  {
+    "nome_arquivo": "S100-a-S125-service-PN-102916-jan-2019-en.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/S100-a-S125/service/S100-a-S125-service-PN-102916-jan-2019-en.pdf",
+    "tamanho": 12303283,
+    "data_modificacao": "2025-12-26T03:38:36.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S100-a-S125/service/S100-a-S125-service-PN-102916-jan-2019-en.pdf"
+  },
+  {
+    "nome_arquivo": "S100-a-S125-service-PN-102916PB-mai-2011-pt.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/S100-a-S125/service/S100-a-S125-service-PN-102916PB-mai-2011-pt.pdf",
+    "tamanho": 7065539,
+    "data_modificacao": "2025-12-26T03:38:20.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S100-a-S125/service/S100-a-S125-service-PN-102916PB-mai-2011-pt.pdf"
+  },
+  {
+    "nome_arquivo": "S80XC-e-S85XC-maintenance-a-partir-SN-101-en.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/S80XC-&-S85XC/maintenance/S80XC-e-S85XC-maintenance-a-partir-SN-101-en.pdf",
+    "tamanho": 5991847,
+    "data_modificacao": "2025-12-11T22:38:00.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S80XC-%26-S85XC/maintenance/S80XC-e-S85XC-maintenance-a-partir-SN-101-en.pdf"
+  },
+  {
+    "nome_arquivo": "S80XC-e-S85XC-operation-a-partir-SN-101-pt-br.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/S80XC-&-S85XC/operation/S80XC-e-S85XC-operation-a-partir-SN-101-pt-br.pdf",
+    "tamanho": 3037564,
+    "data_modificacao": "2025-12-11T22:38:00.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S80XC-%26-S85XC/operation/S80XC-e-S85XC-operation-a-partir-SN-101-pt-br.pdf"
+  },
+  {
+    "nome_arquivo": "S80XC-e-S85XC-parts-a-partir-SN-101.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/S80XC-&-S85XC/parts/S80XC-e-S85XC-parts-a-partir-SN-101.pdf",
+    "tamanho": 131999174,
+    "data_modificacao": "2025-12-11T22:38:00.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S80XC-%26-S85XC/parts/S80XC-e-S85XC-parts-a-partir-SN-101.pdf"
+  },
+  {
+    "nome_arquivo": "S80XC-e-S85XC-service-and-repair-a-partir-SN-101.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/S80XC-&-S85XC/service/S80XC-e-S85XC-service-and-repair-a-partir-SN-101.pdf",
+    "tamanho": 7729485,
+    "data_modificacao": "2025-12-11T22:38:00.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S80XC-%26-S85XC/service/S80XC-e-S85XC-service-and-repair-a-partir-SN-101.pdf"
+  },
+  {
+    "nome_arquivo": "SX180-service-PN-218229PB-SN-do-SX18014-100-09-2017-pt.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/SX180/service/SX180-service-PN-218229PB-SN-do-SX18014-100-09-2017-pt.pdf",
+    "tamanho": 11878253,
+    "data_modificacao": "2025-12-25T10:10:12.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/SX180/service/SX180-service-PN-218229PB-SN-do-SX18014-100-09-2017-pt.pdf"
+  },
+  {
+    "nome_arquivo": "SX180-service-and-repair-PN-1268497-SN-from-SX18014-101-to-SX18016-599–date-12-2019-en.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/SX180/service/SX180-service-and-repair-PN-1268497-SN-from-SX18014-101-to-SX18016-599–date-12-2019-en.pdf",
+    "tamanho": 19176079,
+    "data_modificacao": "2025-12-26T03:39:24.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/SX180/service/SX180-service-and-repair-PN-1268497-SN-from-SX18014-101-to-SX18016-599%E2%80%93date-12-2019-en.pdf"
+  },
+  {
+    "nome_arquivo": "TZ34-20-service-PN-84382-SN-from-TZ3403-001-to-TZ3413-595-jun-13-en.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/TZ34-20/service/TZ34-20-service-PN-84382-SN-from-TZ3403-001-to-TZ3413-595-jun-13-en.pdf",
+    "tamanho": 2977196,
+    "data_modificacao": "2025-12-25T10:07:26.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/TZ34-20/service/TZ34-20-service-PN-84382-SN-from-TZ3403-001-to-TZ3413-595-jun-13-en.pdf"
+  },
+  {
+    "nome_arquivo": "Z135-70-service-and-repair-PN-1268557-SN-from-Z13505-101-to-Z13513-2000-out-2018-en.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/Z135-70/service/Z135-70-service-and-repair-PN-1268557-SN-from-Z13505-101-to-Z13513-2000-out-2018-en.pdf",
+    "tamanho": 7164877,
+    "data_modificacao": "2025-12-25T07:55:44.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/Z135-70/service/Z135-70-service-and-repair-PN-1268557-SN-from-Z13505-101-to-Z13513-2000-out-2018-en.pdf"
+  },
+  {
+    "nome_arquivo": "Z34-22-IC-service-PN-128300PB-jan-2011-pt.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/Z34-22/service/Z34-22-IC-service-PN-128300PB-jan-2011-pt.pdf",
+    "tamanho": 1825444,
+    "data_modificacao": "2025-12-26T03:36:22.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/Z34-22/service/Z34-22-IC-service-PN-128300PB-jan-2011-pt.pdf"
+  },
+  {
+    "nome_arquivo": "Z34-22-IC-service-and-repair-PN-1274592-date-09-2016-en.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/Z34-22/service/Z34-22-IC-service-and-repair-PN-1274592-date-09-2016-en.pdf",
+    "tamanho": 8256094,
+    "data_modificacao": "2025-12-26T03:40:02.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/Z34-22/service/Z34-22-IC-service-and-repair-PN-1274592-date-09-2016-en.pdf"
+  },
+  {
+    "nome_arquivo": "Z45-25-e-Z45-25J-IC-service-and-repair-PN-107846PB-07-2009-pt.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/Z45-22IC/service/Z45-25-e-Z45-25J-IC-service-and-repair-PN-107846PB-07-2009-pt.pdf",
+    "tamanho": 4837273,
+    "data_modificacao": "2025-12-26T03:36:36.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/Z45-22IC/service/Z45-25-e-Z45-25J-IC-service-and-repair-PN-107846PB-07-2009-pt.pdf"
+  },
+  {
+    "nome_arquivo": "Z45-25-e-Z45-25J-IC-service-and-repair-PN-1268548-11-2017-en.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/Z45-22IC/service/Z45-25-e-Z45-25J-IC-service-and-repair-PN-1268548-11-2017-en.pdf",
+    "tamanho": 23341063,
+    "data_modificacao": "2025-12-26T03:36:50.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/Z45-22IC/service/Z45-25-e-Z45-25J-IC-service-and-repair-PN-1268548-11-2017-en.pdf"
+  },
+  {
+    "nome_arquivo": "Z51-30J-operation-pt.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/Z51-30/operation/Z51-30J-operation-pt.pdf",
+    "tamanho": 835066,
+    "data_modificacao": "2025-12-11T22:39:00.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/Z51-30/operation/Z51-30J-operation-pt.pdf"
+  },
+  {
+    "nome_arquivo": "Z51-30J-parts-partir-SN-100.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/Z51-30/parts/Z51-30J-parts-partir-SN-100.pdf",
+    "tamanho": 3089460,
+    "data_modificacao": "2025-12-11T22:39:00.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/Z51-30/parts/Z51-30J-parts-partir-SN-100.pdf"
+  },
+  {
+    "nome_arquivo": "Z51-30J-service-a-partir-SN-100.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/Z51-30/service/Z51-30J-service-a-partir-SN-100.pdf",
+    "tamanho": 5718591,
+    "data_modificacao": "2025-12-11T22:39:00.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/Z51-30/service/Z51-30J-service-a-partir-SN-100.pdf"
+  },
+  {
+    "nome_arquivo": "Z60-34-service-PN-75861-06-2015-en.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/Z60-34/service/Z60-34-service-PN-75861-06-2015-en.pdf",
+    "tamanho": 6208420,
+    "data_modificacao": "2025-12-26T03:36:58.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/Z60-34/service/Z60-34-service-PN-75861-06-2015-en.pdf"
+  },
+  {
+    "nome_arquivo": "Z60-34-service-PN-75861PB-03-2011-pt.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/Z60-34/service/Z60-34-service-PN-75861PB-03-2011-pt.pdf",
+    "tamanho": 5507627,
+    "data_modificacao": "2025-12-26T03:37:04.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/Z60-34/service/Z60-34-service-PN-75861PB-03-2011-pt.pdf"
+  },
+  {
+    "nome_arquivo": "Z80-60-service-PN-88619-fev-2015-en.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/Z80-60/service/Z80-60-service-PN-88619-fev-2015-en.pdf",
+    "tamanho": 12749775,
+    "data_modificacao": "2025-12-26T03:37:12.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/Z80-60/service/Z80-60-service-PN-88619-fev-2015-en.pdf"
+  },
+  {
+    "nome_arquivo": "Z80-60-service-PN-88619PB-mai-2011-pt.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/Z80-60/service/Z80-60-service-PN-88619PB-mai-2011-pt.pdf",
+    "tamanho": 6784018,
+    "data_modificacao": "2025-12-26T03:37:20.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/Z80-60/service/Z80-60-service-PN-88619PB-mai-2011-pt.pdf"
+  },
+  {
+    "nome_arquivo": "ZX135-70-parts-from-SN-ZX13513-2001-to-ZX13516-2789-en.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/ZX135-70/parts/ZX135-70-parts-from-SN-ZX13513-2001-to-ZX13516-2789-en.pdf",
+    "tamanho": 7651911,
+    "data_modificacao": "2025-12-25T07:50:20.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/ZX135-70/parts/ZX135-70-parts-from-SN-ZX13513-2001-to-ZX13516-2789-en.pdf"
+  },
+  {
+    "nome_arquivo": "ZX135-70-service-PN-218700-SN-de-ZX13513-2001-ate-ZX13514-2532-set-15-en.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/ZX135-70/service/ZX135-70-service-PN-218700-SN-de-ZX13513-2001-ate-ZX13514-2532-set-15-en.pdf",
+    "tamanho": 10285932,
+    "data_modificacao": "2025-12-26T03:37:40.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/ZX135-70/service/ZX135-70-service-PN-218700-SN-de-ZX13513-2001-ate-ZX13514-2532-set-15-en.pdf"
+  },
+  {
+    "nome_arquivo": "ZX135-70-service-PN-218700PB-SN-de-ZX13513-2001-mar-2015-pt.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/ZX135-70/service/ZX135-70-service-PN-218700PB-SN-de-ZX13513-2001-mar-2015-pt.pdf",
+    "tamanho": 10437599,
+    "data_modificacao": "2025-12-25T07:51:46.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/ZX135-70/service/ZX135-70-service-PN-218700PB-SN-de-ZX13513-2001-mar-2015-pt.pdf"
+  },
+  {
+    "nome_arquivo": "GS-2668RT-service-PN-112657-NS-from-GS6805-44771-date-06-16-en.pdf",
+    "caminho_r2": "genie/diesel/scissor-lift/GS-2668RT-&-GS3268RT/service/GS-2668RT-service-PN-112657-NS-from-GS6805-44771-date-06-16-en.pdf",
+    "tamanho": 3125130,
+    "data_modificacao": "2025-12-25T03:15:54.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/scissor-lift/GS-2668RT-%26-GS3268RT/service/GS-2668RT-service-PN-112657-NS-from-GS6805-44771-date-06-16-en.pdf"
+  },
+  {
+    "nome_arquivo": "GS-3369RT-service-PN-1272215-jun-19-en.pdf",
+    "caminho_r2": "genie/diesel/scissor-lift/GS-3369RT/service/GS-3369RT-service-PN-1272215-jun-19-en.pdf",
+    "tamanho": 3048547,
+    "data_modificacao": "2025-12-25T10:18:34.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/scissor-lift/GS-3369RT/service/GS-3369RT-service-PN-1272215-jun-19-en.pdf"
+  },
+  {
+    "nome_arquivo": "GS-3384-a-GS-5390-service-and-repair-&-models-GS-3390-GS-4390-PN-1272222-OUT-2020-en.pdf",
+    "caminho_r2": "genie/diesel/scissor-lift/GS-3384-a-GS-5390/service/GS-3384-a-GS-5390-service-and-repair-&-models-GS-3390-GS-4390-PN-1272222-OUT-2020-en.pdf",
+    "tamanho": 9648764,
+    "data_modificacao": "2025-12-24T11:54:18.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/scissor-lift/GS-3384-a-GS-5390/service/GS-3384-a-GS-5390-service-and-repair-%26-models-GS-3390-GS-4390-PN-1272222-OUT-2020-en.pdf"
+  },
+  {
+    "nome_arquivo": "GS-3384-a-GS-5390-service-service-&-models-GS-3390-GS-4390-PN-84793PB-MAR-2010-pt.pdf",
+    "caminho_r2": "genie/diesel/scissor-lift/GS-3384-a-GS-5390/service/GS-3384-a-GS-5390-service-service-&-models-GS-3390-GS-4390-PN-84793PB-MAR-2010-pt.pdf",
+    "tamanho": 4039510,
+    "data_modificacao": "2025-12-25T10:18:12.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/scissor-lift/GS-3384-a-GS-5390/service/GS-3384-a-GS-5390-service-service-%26-models-GS-3390-GS-4390-PN-84793PB-MAR-2010-pt.pdf"
+  },
+  {
+    "nome_arquivo": "GTH-2506-operation-manual.pdf",
+    "caminho_r2": "genie/diesel/telehandler/GTH-2506/operation/GTH-2506-operation-manual.pdf",
+    "tamanho": 11390616,
+    "data_modificacao": "2025-12-25T10:16:08.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/telehandler/GTH-2506/operation/GTH-2506-operation-manual.pdf"
+  },
+  {
+    "nome_arquivo": "GTH-2506-parts-SN-17785-Remsa.pdf",
+    "caminho_r2": "genie/diesel/telehandler/GTH-2506/parts/GTH-2506-parts-SN-17785-Remsa.pdf",
+    "tamanho": 6212211,
+    "data_modificacao": "2025-12-25T10:15:42.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/telehandler/GTH-2506/parts/GTH-2506-parts-SN-17785-Remsa.pdf"
+  },
+  {
+    "nome_arquivo": "Z30-20N-a-Z34-22DC-service-PN-139378-abr-2016-en.pdf",
+    "caminho_r2": "genie/electric/boom-lift/Z30-a-Z34/service/Z30-20N-a-Z34-22DC-service-PN-139378-abr-2016-en.pdf",
+    "tamanho": 10949426,
+    "data_modificacao": "2025-12-26T03:35:56.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/electric/boom-lift/Z30-a-Z34/service/Z30-20N-a-Z34-22DC-service-PN-139378-abr-2016-en.pdf"
+  },
+  {
+    "nome_arquivo": "Z30-20N-a-Z34-22DC-service-PN-139378PB-jun-2008-pt.pdf",
+    "caminho_r2": "genie/electric/boom-lift/Z30-a-Z34/service/Z30-20N-a-Z34-22DC-service-PN-139378PB-jun-2008-pt.pdf",
+    "tamanho": 2531750,
+    "data_modificacao": "2025-12-26T03:36:08.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/electric/boom-lift/Z30-a-Z34/service/Z30-20N-a-Z34-22DC-service-PN-139378PB-jun-2008-pt.pdf"
+  },
+  {
+    "nome_arquivo": "Z45-25-e-Z-45-25JDC-service-and-repair-PN-1268530-11-2017-en.pdf",
+    "caminho_r2": "genie/electric/boom-lift/Z45/service/Z45-25-e-Z-45-25JDC-service-and-repair-PN-1268530-11-2017-en.pdf",
+    "tamanho": 5205080,
+    "data_modificacao": "2025-12-26T03:36:30.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/electric/boom-lift/Z45/service/Z45-25-e-Z-45-25JDC-service-and-repair-PN-1268530-11-2017-en.pdf"
+  },
+  {
+    "nome_arquivo": "GS-1530-GS-1930-GS-2032-GS-2632-GS-3232-GS-2046-GS-2646-GS-3246-service-PN-97385-fev-2012-en.pdf",
+    "caminho_r2": "genie/electric/scissor-lift/GS-1530-a-GS3246/service/GS-1530-GS-1930-GS-2032-GS-2632-GS-3232-GS-2046-GS-2646-GS-3246-service-PN-97385-fev-2012-en.pdf",
+    "tamanho": 13146596,
+    "data_modificacao": "2025-12-25T07:49:14.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/electric/scissor-lift/GS-1530-a-GS3246/service/GS-1530-GS-1930-GS-2032-GS-2632-GS-3232-GS-2046-GS-2646-GS-3246-service-PN-97385-fev-2012-en.pdf"
+  },
+  {
+    "nome_arquivo": "GS-2668-e-GS-3268DC-parts-SN-depois-de-GS68-41217.pdf",
+    "caminho_r2": "genie/electric/scissor-lift/GS-2668-&-GS-3268DC/parts/GS-2668-e-GS-3268DC-parts-SN-depois-de-GS68-41217.pdf",
+    "tamanho": 4673143,
+    "data_modificacao": "2025-12-25T03:08:12.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/electric/scissor-lift/GS-2668-%26-GS-3268DC/parts/GS-2668-e-GS-3268DC-parts-SN-depois-de-GS68-41217.pdf"
+  },
+  {
+    "nome_arquivo": "gs-2668-&-gs-3268dc-service-manual.pdf",
+    "caminho_r2": "genie/electric/scissor-lift/GS-2668-&-GS-3268DC/service/gs-2668-&-gs-3268dc-service-manual.pdf",
+    "tamanho": 3565438,
+    "data_modificacao": "2025-12-11T22:37:00.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/electric/scissor-lift/GS-2668-%26-GS-3268DC/service/gs-2668-%26-gs-3268dc-service-manual.pdf"
+  },
+  {
+    "nome_arquivo": "GS1330-a-GS4655-service-and-repair-PN-1309020-date-03-2021-en.pdf",
+    "caminho_r2": "genie/electric/scissor-lift/GS1330-a-GS4655/service/GS1330-a-GS4655-service-and-repair-PN-1309020-date-03-2021-en.pdf",
+    "tamanho": 4400268,
+    "data_modificacao": "2025-12-26T05:04:06.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/electric/scissor-lift/GS1330-a-GS4655/service/GS1330-a-GS4655-service-and-repair-PN-1309020-date-03-2021-en.pdf"
+  },
+  {
+    "nome_arquivo": "GR26J-service-PN-227656-SET-17-en.pdf",
+    "caminho_r2": "genie/electric/vertical-mast-lift/GR-20J-&-GR-26J/service/GR26J-service-PN-227656-SET-17-en.pdf",
+    "tamanho": 3685120,
+    "data_modificacao": "2025-12-24T11:54:50.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/electric/vertical-mast-lift/GR-20J-%26-GR-26J/service/GR26J-service-PN-227656-SET-17-en.pdf"
+  },
+  {
+    "nome_arquivo": "ha120px-parts-manual.pdf",
+    "caminho_r2": "haulotte/diesel/boom-lift/ha120px-a-ha260px/parts/ha120px-parts-manual.pdf",
+    "tamanho": 16076354,
+    "data_modificacao": "2025-12-23T20:27:00.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/haulotte/diesel/boom-lift/ha120px-a-ha260px/parts/ha120px-parts-manual.pdf"
+  },
+  {
+    "nome_arquivo": "ha120px-a-ha260px-service-manual.pdf",
+    "caminho_r2": "haulotte/diesel/boom-lift/ha120px-a-ha260px/service/ha120px-a-ha260px-service-manual.pdf",
+    "tamanho": 24088852,
+    "data_modificacao": "2025-12-25T11:34:48.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/haulotte/diesel/boom-lift/ha120px-a-ha260px/service/ha120px-a-ha260px-service-manual.pdf"
+  },
+  {
+    "nome_arquivo": "ha16-spx-parts-pn-2420327510–07-05.pdf",
+    "caminho_r2": "haulotte/diesel/boom-lift/ha16spx/parts/ha16-spx-parts-pn-2420327510–07-05.pdf",
+    "tamanho": 8635115,
+    "data_modificacao": "2025-12-25T11:45:36.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/haulotte/diesel/boom-lift/ha16spx/parts/ha16-spx-parts-pn-2420327510%E2%80%9307-05.pdf"
+  },
+  {
+    "nome_arquivo": "ha18px-a-ha51sjrt-parts-pn-4000415260-04-15.pdf",
+    "caminho_r2": "haulotte/diesel/boom-lift/ha18px-a-ha51sjrt/parts/ha18px-a-ha51sjrt-parts-pn-4000415260-04-15.pdf",
+    "tamanho": 72005432,
+    "data_modificacao": "2025-12-25T11:44:44.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/haulotte/diesel/boom-lift/ha18px-a-ha51sjrt/parts/ha18px-a-ha51sjrt-parts-pn-4000415260-04-15.pdf"
+  },
+  {
+    "nome_arquivo": "ha32px-ha100jrt-parts-pn-4000316770-10-14.pdf",
+    "caminho_r2": "haulotte/diesel/boom-lift/ha32px-a-ha100jrt/parts/ha32px-ha100jrt-parts-pn-4000316770-10-14.pdf",
+    "tamanho": 65553286,
+    "data_modificacao": "2025-12-25T11:42:44.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/haulotte/diesel/boom-lift/ha32px-a-ha100jrt/parts/ha32px-ha100jrt-parts-pn-4000316770-10-14.pdf"
+  },
+  {
+    "nome_arquivo": "ha32px-a-ha100jrt-service-manual-pn-2420344160-03-14.pdf",
+    "caminho_r2": "haulotte/diesel/boom-lift/ha32px-a-ha100jrt/service/ha32px-a-ha100jrt-service-manual-pn-2420344160-03-14.pdf",
+    "tamanho": 17706940,
+    "data_modificacao": "2025-12-25T11:32:28.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/haulotte/diesel/boom-lift/ha32px-a-ha100jrt/service/ha32px-a-ha100jrt-service-manual-pn-2420344160-03-14.pdf"
+  },
+  {
+    "nome_arquivo": "htl4014-htl4017-parts-evolution-pn-4000202020-12-13.pdf",
+    "caminho_r2": "haulotte/diesel/telehandler/htl4014-htl4017/parts/htl4014-htl4017-parts-evolution-pn-4000202020-12-13.pdf",
+    "tamanho": 54690216,
+    "data_modificacao": "2025-12-25T11:40:02.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/haulotte/diesel/telehandler/htl4014-htl4017/parts/htl4014-htl4017-parts-evolution-pn-4000202020-12-13.pdf"
+  },
+  {
+    "nome_arquivo": "htl4014-htl4017-parts-pn-2420339140-11-07.pdf",
+    "caminho_r2": "haulotte/diesel/telehandler/htl4014-htl4017/parts/htl4014-htl4017-parts-pn-2420339140-11-07.pdf",
+    "tamanho": 32300481,
+    "data_modificacao": "2025-12-25T11:40:48.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/haulotte/diesel/telehandler/htl4014-htl4017/parts/htl4014-htl4017-parts-pn-2420339140-11-07.pdf"
+  },
+  {
+    "nome_arquivo": "ha15ip-ha43je-parts-pn-2420339510-05-15.pdf",
+    "caminho_r2": "haulotte/electric/boom-lift/ha15ip-a-ha43je/parts/ha15ip-ha43je-parts-pn-2420339510-05-15.pdf",
+    "tamanho": 25226076,
+    "data_modificacao": "2025-12-25T11:47:56.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/haulotte/electric/boom-lift/ha15ip-a-ha43je/parts/ha15ip-ha43je-parts-pn-2420339510-05-15.pdf"
+  },
+  {
+    "nome_arquivo": "ha12ip-a-ha43je-service-manual-10-16.pdf",
+    "caminho_r2": "haulotte/electric/boom-lift/ha15ip-a-ha43je/service/ha12ip-a-ha43je-service-manual-10-16.pdf",
+    "tamanho": 18517614,
+    "data_modificacao": "2025-12-25T11:36:54.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/haulotte/electric/boom-lift/ha15ip-a-ha43je/service/ha12ip-a-ha43je-service-manual-10-16.pdf"
+  },
+  {
+    "nome_arquivo": "star8-a-star26j-parts-pn-4000415350-15-12.pdf",
+    "caminho_r2": "haulotte/electric/mast-lift/star8-a-star26j/parts/star8-a-star26j-parts-pn-4000415350-15-12.pdf",
+    "tamanho": 31645633,
+    "data_modificacao": "2025-12-25T11:38:52.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/haulotte/electric/mast-lift/star8-a-star26j/parts/star8-a-star26j-parts-pn-4000415350-15-12.pdf"
+  },
+  {
+    "nome_arquivo": "star8-a-star10-service-manual-pn-2420333590-2-14.pdf",
+    "caminho_r2": "haulotte/electric/mast-lift/star8-a-star26j/service/star8-a-star10-service-manual-pn-2420333590-2-14.pdf",
+    "tamanho": 17003848,
+    "data_modificacao": "2025-12-25T11:19:08.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/haulotte/electric/mast-lift/star8-a-star26j/service/star8-a-star10-service-manual-pn-2420333590-2-14.pdf"
+  },
+  {
+    "nome_arquivo": "star8-a-star10-service-manual-pn-2420333590-7-13.pdf",
+    "caminho_r2": "haulotte/electric/mast-lift/star8-a-star26j/service/star8-a-star10-service-manual-pn-2420333590-7-13.pdf",
+    "tamanho": 16920369,
+    "data_modificacao": "2025-12-25T11:20:34.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/haulotte/electric/mast-lift/star8-a-star26j/service/star8-a-star10-service-manual-pn-2420333590-7-13.pdf"
+  },
+  {
+    "nome_arquivo": "compact-14-parts-manual-pn-2420341680-07-15.pdf",
+    "caminho_r2": "haulotte/electric/scissor-lift/compact-14/parts/compact-14-parts-manual-pn-2420341680-07-15.pdf",
+    "tamanho": 18437932,
+    "data_modificacao": "2025-12-25T11:48:58.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/haulotte/electric/scissor-lift/compact-14/parts/compact-14-parts-manual-pn-2420341680-07-15.pdf"
+  },
+  {
+    "nome_arquivo": "compact-14-service-manual-pn-2420333800-10-12.pdf",
+    "caminho_r2": "haulotte/electric/scissor-lift/compact-14/service/compact-14-service-manual-pn-2420333800-10-12.pdf",
+    "tamanho": 18871626,
+    "data_modificacao": "2025-02-05T18:45:00.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/haulotte/electric/scissor-lift/compact-14/service/compact-14-service-manual-pn-2420333800-10-12.pdf"
+  },
+  {
+    "nome_arquivo": "1200SJP-1350SJP-parts-PN-3121208-NS-0300000100-a-0300201016-date-31-10-18.pdf",
+    "caminho_r2": "jlg/diesel/big-boom/1200SJP-1350SJP/parts/1200SJP-1350SJP-parts-PN-3121208-NS-0300000100-a-0300201016-date-31-10-18.pdf",
     "tamanho": 45521560,
     "data_modificacao": "2025-02-05T23:46:00.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/1200SJP/parts/1200SJP-1350SJP%20JLG-parts-pn-3121208-31-10-18-no-serie-0300000100-a-0300201016.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/big-boom/1200SJP-1350SJP/parts/1200SJP-1350SJP-parts-PN-3121208-NS-0300000100-a-0300201016-date-31-10-18.pdf"
   },
   {
-    "nome_arquivo": "1200SJP-1350SJP-service-pn-3121142-22-04-2019-en.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/1200SJP/service/1200SJP-1350SJP-service-pn-3121142-22-04-2019-en.pdf",
+    "nome_arquivo": "1200SJP-1350SJP-service-PN-3121142-date-22-04-2019-en.pdf",
+    "caminho_r2": "jlg/diesel/big-boom/1200SJP-1350SJP/service/1200SJP-1350SJP-service-PN-3121142-date-22-04-2019-en.pdf",
     "tamanho": 112379057,
     "data_modificacao": "2025-02-05T23:48:00.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/1200SJP/service/1200SJP-1350SJP-service-pn-3121142-22-04-2019-en.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/big-boom/1200SJP-1350SJP/service/1200SJP-1350SJP-service-PN-3121142-date-22-04-2019-en.pdf"
   },
   {
-    "nome_arquivo": "1250AJP_parts-pn-3121172-25-08-18-no-serie-0300000100-a-0300201017.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/1250AJP/parts/1250AJP_parts-pn-3121172-25-08-18-no-serie-0300000100-a-0300201017.pdf",
+    "nome_arquivo": "1250AJP-parts-PN-3121172-NS-0300000100-a-0300201017-date-25-08-18.pdf",
+    "caminho_r2": "jlg/diesel/big-boom/1250AJP/parts/1250AJP-parts-PN-3121172-NS-0300000100-a-0300201017-date-25-08-18.pdf",
     "tamanho": 41035989,
     "data_modificacao": "2025-02-05T23:46:00.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/1250AJP/parts/1250AJP_parts-pn-3121172-25-08-18-no-serie-0300000100-a-0300201017.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/big-boom/1250AJP/parts/1250AJP-parts-PN-3121172-NS-0300000100-a-0300201017-date-25-08-18.pdf"
   },
   {
-    "nome_arquivo": "1250AJP-service-manual.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/1250AJP/service/1250AJP-service-manual.pdf",
+    "nome_arquivo": "1250AJP-service-en.pdf",
+    "caminho_r2": "jlg/diesel/big-boom/1250AJP/service/1250AJP-service-en.pdf",
     "tamanho": 46618567,
     "data_modificacao": "2025-07-18T10:47:04.456869100-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/1250AJP/service/1250AJP-service-manual.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/big-boom/1250AJP/service/1250AJP-service-en.pdf"
   },
   {
-    "nome_arquivo": "1200SJP-1350SJP JLG-parts-pn-3121208-31-10-18-no-serie-0300000100-a-0300201016.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/1350SJP/parts/1200SJP-1350SJP JLG-parts-pn-3121208-31-10-18-no-serie-0300000100-a-0300201016.pdf",
+    "nome_arquivo": "1200SJP-e-1350SJP-parts-PN-3121208-date-31-10-18-NS-030000010-a-0300201016.pdf",
+    "caminho_r2": "jlg/diesel/big-boom/1350SJP/parts/1200SJP-e-1350SJP-parts-PN-3121208-date-31-10-18-NS-030000010-a-0300201016.pdf",
     "tamanho": 45521560,
     "data_modificacao": "2025-02-05T23:46:00.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/1350SJP/parts/1200SJP-1350SJP%20JLG-parts-pn-3121208-31-10-18-no-serie-0300000100-a-0300201016.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/big-boom/1350SJP/parts/1200SJP-e-1350SJP-parts-PN-3121208-date-31-10-18-NS-030000010-a-0300201016.pdf"
   },
   {
-    "nome_arquivo": "1200SJP-1350SJP-service-pn-3121142-22-04-2019-en.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/1350SJP/service/1200SJP-1350SJP-service-pn-3121142-22-04-2019-en.pdf",
+    "nome_arquivo": "1200SJP-e-1350SJP-service-PN-3121142-date-22-04-2019-en.pdf",
+    "caminho_r2": "jlg/diesel/big-boom/1350SJP/service/1200SJP-e-1350SJP-service-PN-3121142-date-22-04-2019-en.pdf",
     "tamanho": 112379057,
     "data_modificacao": "2025-02-05T23:48:00.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/1350SJP/service/1200SJP-1350SJP-service-pn-3121142-22-04-2019-en.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/big-boom/1350SJP/service/1200SJP-e-1350SJP-service-PN-3121142-date-22-04-2019-en.pdf"
   },
   {
-    "nome_arquivo": "340AJ-parts_pn-3121260_08-08-2018-no-serie-0300000100-a-0300200801.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/340AJ/parts/340AJ-parts_pn-3121260_08-08-2018-no-serie-0300000100-a-0300200801.pdf",
+    "nome_arquivo": "340AJ-parts-PN-3121260-8-08-2018-NS-0300000100-a-0300200801.pdf",
+    "caminho_r2": "jlg/diesel/boom-lift/340AJ/parts/340AJ-parts-PN-3121260-8-08-2018-NS-0300000100-a-0300200801.pdf",
     "tamanho": 18523472,
     "data_modificacao": "2025-06-05T18:04:41.887074900-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/340AJ/parts/340AJ-parts_pn-3121260_08-08-2018-no-serie-0300000100-a-0300200801.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/boom-lift/340AJ/parts/340AJ-parts-PN-3121260-8-08-2018-NS-0300000100-a-0300200801.pdf"
   },
   {
-    "nome_arquivo": "340AJ-service-pn-31217118_28-04-2020-en.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/340AJ/service/340AJ-service-pn-31217118_28-04-2020-en.pdf",
+    "nome_arquivo": "340AJ-service-PN-31217118-28-04-2020-en.pdf",
+    "caminho_r2": "jlg/diesel/boom-lift/340AJ/service/340AJ-service-PN-31217118-28-04-2020-en.pdf",
     "tamanho": 43181418,
     "data_modificacao": "2025-06-05T18:04:42.763230700-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/340AJ/service/340AJ-service-pn-31217118_28-04-2020-en.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/boom-lift/340AJ/service/340AJ-service-PN-31217118-28-04-2020-en.pdf"
   },
   {
-    "nome_arquivo": "450A_450AJ-SIII-parts-pn-3121291-19-05-20_no-serie-0300160835-A-0300201990.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/450AJ/peças/450A_450AJ-SIII-parts-pn-3121291-19-05-20_no-serie-0300160835-A-0300201990.pdf",
-    "tamanho": 31247578,
-    "data_modificacao": "2025-06-05T18:04:46.208084000-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/450AJ/pe%C3%A7as/450A_450AJ-SIII-parts-pn-3121291-19-05-20_no-serie-0300160835-A-0300201990.pdf"
-  },
-  {
-    "nome_arquivo": "450A_450AJ_SIII-parts-pn_3121244_17-07-18-no-serie_0300124000_a_0300160834.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/450AJ/peças/450A_450AJ_SIII-parts-pn_3121244_17-07-18-no-serie_0300124000_a_0300160834.pdf",
-    "tamanho": 38933493,
-    "data_modificacao": "2025-06-05T18:04:45.000053300-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/450AJ/pe%C3%A7as/450A_450AJ_SIII-parts-pn_3121244_17-07-18-no-serie_0300124000_a_0300160834.pdf"
-  },
-  {
-    "nome_arquivo": "450A_450AJ_SII_parts_pn-3121243-17-07-18-_no-serie-0300065080-a-0300123999.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/450AJ/peças/450A_450AJ_SII_parts_pn-3121243-17-07-18-_no-serie-0300065080-a-0300123999.pdf",
+    "nome_arquivo": "450A-450AJ-SII-parts-PN-3121243-17-07-18-NS-0300065080-a-0300123999.pdf",
+    "caminho_r2": "jlg/diesel/boom-lift/450A-450AJ/parts/450A-450AJ-SII-parts-PN-3121243-17-07-18-NS-0300065080-a-0300123999.pdf",
     "tamanho": 40066619,
     "data_modificacao": "2025-06-05T18:04:43.707634400-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/450AJ/pe%C3%A7as/450A_450AJ_SII_parts_pn-3121243-17-07-18-_no-serie-0300065080-a-0300123999.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/boom-lift/450A-450AJ/parts/450A-450AJ-SII-parts-PN-3121243-17-07-18-NS-0300065080-a-0300123999.pdf"
   },
   {
-    "nome_arquivo": "450A-450AJ-SII_service_pn-3123397-22-12-2010-pt.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/450AJ/serviços/450A-450AJ-SII_service_pn-3123397-22-12-2010-pt.pdf",
-    "tamanho": 33828250,
-    "data_modificacao": "2025-06-05T18:04:51.327347900-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/450AJ/servi%C3%A7os/450A-450AJ-SII_service_pn-3123397-22-12-2010-pt.pdf"
+    "nome_arquivo": "450A-450AJ-SIII-parts-PN-3121244-17-07-18-NS-0300124000-a-0300160834.pdf",
+    "caminho_r2": "jlg/diesel/boom-lift/450A-450AJ/parts/450A-450AJ-SIII-parts-PN-3121244-17-07-18-NS-0300124000-a-0300160834.pdf",
+    "tamanho": 38933493,
+    "data_modificacao": "2025-06-05T18:04:45.000053300-03:00",
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/boom-lift/450A-450AJ/parts/450A-450AJ-SIII-parts-PN-3121244-17-07-18-NS-0300124000-a-0300160834.pdf"
   },
   {
-    "nome_arquivo": "450A_SII-450AJ_SII-service-pn-3121290-0410-2013-en.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/450AJ/serviços/450A_SII-450AJ_SII-service-pn-3121290-0410-2013-en.pdf",
-    "tamanho": 36185387,
-    "data_modificacao": "2025-06-05T18:04:47.872580800-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/450AJ/servi%C3%A7os/450A_SII-450AJ_SII-service-pn-3121290-0410-2013-en.pdf"
+    "nome_arquivo": "450A-450AJ-SIII-parts-PN-3121291-19-05-20-NS-0300160835-a-0300201990.pdf",
+    "caminho_r2": "jlg/diesel/boom-lift/450A-450AJ/parts/450A-450AJ-SIII-parts-PN-3121291-19-05-20-NS-0300160835-a-0300201990.pdf",
+    "tamanho": 31247578,
+    "data_modificacao": "2025-06-05T18:04:46.208084000-03:00",
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/boom-lift/450A-450AJ/parts/450A-450AJ-SIII-parts-PN-3121291-19-05-20-NS-0300160835-a-0300201990.pdf"
   },
   {
-    "nome_arquivo": "450A_SII-450AJ_SII-service-pn_3121180-03-12-2012_en.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/450AJ/serviços/450A_SII-450AJ_SII-service-pn_3121180-03-12-2012_en.pdf",
+    "nome_arquivo": "450A-450AJ-SII-service-PN-3121180-date-03-12-2012-en.pdf",
+    "caminho_r2": "jlg/diesel/boom-lift/450A-450AJ/service/450A-450AJ-SII-service-PN-3121180-date-03-12-2012-en.pdf",
     "tamanho": 37390764,
     "data_modificacao": "2025-06-05T18:04:47.003104000-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/450AJ/servi%C3%A7os/450A_SII-450AJ_SII-service-pn_3121180-03-12-2012_en.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/boom-lift/450A-450AJ/service/450A-450AJ-SII-service-PN-3121180-date-03-12-2012-en.pdf"
   },
   {
-    "nome_arquivo": "600A-600AJ-parts_pn-3121206_17-04-2020-no-serie-0300087000-a-0300177361-en.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/600AJ/parts/600A-600AJ-parts_pn-3121206_17-04-2020-no-serie-0300087000-a-0300177361-en.pdf",
+    "nome_arquivo": "450A-450AJ-SII-service-PN-3121290-date-04-10-2013-en.pdf",
+    "caminho_r2": "jlg/diesel/boom-lift/450A-450AJ/service/450A-450AJ-SII-service-PN-3121290-date-04-10-2013-en.pdf",
+    "tamanho": 36185387,
+    "data_modificacao": "2025-06-05T18:04:47.872580800-03:00",
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/boom-lift/450A-450AJ/service/450A-450AJ-SII-service-PN-3121290-date-04-10-2013-en.pdf"
+  },
+  {
+    "nome_arquivo": "450A-450AJ-SII-service-PN-3123397-date-22-12-2010-pt.pdf",
+    "caminho_r2": "jlg/diesel/boom-lift/450A-450AJ/service/450A-450AJ-SII-service-PN-3123397-date-22-12-2010-pt.pdf",
+    "tamanho": 33828250,
+    "data_modificacao": "2025-06-05T18:04:51.327347900-03:00",
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/boom-lift/450A-450AJ/service/450A-450AJ-SII-service-PN-3123397-date-22-12-2010-pt.pdf"
+  },
+  {
+    "nome_arquivo": "600A-600AJ-parts-PN-3121206-NS-0300087000-a-030017736117-date-04-2020-en.pdf",
+    "caminho_r2": "jlg/diesel/boom-lift/600A-600AJ/parts/600A-600AJ-parts-PN-3121206-NS-0300087000-a-030017736117-date-04-2020-en.pdf",
     "tamanho": 40829052,
     "data_modificacao": "2025-07-07T15:19:29.216091200-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/600AJ/parts/600A-600AJ-parts_pn-3121206_17-04-2020-no-serie-0300087000-a-0300177361-en.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/boom-lift/600A-600AJ/parts/600A-600AJ-parts-PN-3121206-NS-0300087000-a-030017736117-date-04-2020-en.pdf"
   },
   {
-    "nome_arquivo": "600A-600AJ-parts_pn-3121617-30-03-20-no-serie-0300177361-a-0300272252-en.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/600AJ/parts/600A-600AJ-parts_pn-3121617-30-03-20-no-serie-0300177361-a-0300272252-en.pdf",
+    "nome_arquivo": "600A-600AJ-parts-PN-3121617-30-03-20-no-serie-0300177361-a-0300272252-en.pdf",
+    "caminho_r2": "jlg/diesel/boom-lift/600A-600AJ/parts/600A-600AJ-parts-PN-3121617-30-03-20-no-serie-0300177361-a-0300272252-en.pdf",
     "tamanho": 37140760,
     "data_modificacao": "2025-07-07T15:22:42.997880600-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/600AJ/parts/600A-600AJ-parts_pn-3121617-30-03-20-no-serie-0300177361-a-0300272252-en.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/boom-lift/600A-600AJ/parts/600A-600AJ-parts-PN-3121617-30-03-20-no-serie-0300177361-a-0300272252-en.pdf"
   },
   {
-    "nome_arquivo": "600A-600AJ-service_pn-3121201_23-10-17-en.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/600AJ/service/600A-600AJ-service_pn-3121201_23-10-17-en.pdf",
+    "nome_arquivo": "600A-600AJ-service-PN-3121201-date-23-10-17-en.pdf",
+    "caminho_r2": "jlg/diesel/boom-lift/600A-600AJ/service/600A-600AJ-service-PN-3121201-date-23-10-17-en.pdf",
     "tamanho": 78845803,
     "data_modificacao": "2025-07-07T15:30:42.658737200-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/600AJ/service/600A-600AJ-service_pn-3121201_23-10-17-en.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/boom-lift/600A-600AJ/service/600A-600AJ-service-PN-3121201-date-23-10-17-en.pdf"
   },
   {
-    "nome_arquivo": "600A-600AJ-service_pn-3123339_05-01-2008-pt.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/600AJ/service/600A-600AJ-service_pn-3123339_05-01-2008-pt.pdf",
+    "nome_arquivo": "600A-600AJ-service-PN-3123339-date-05-01-2008-pt.pdf",
+    "caminho_r2": "jlg/diesel/boom-lift/600A-600AJ/service/600A-600AJ-service-PN-3123339-date-05-01-2008-pt.pdf",
     "tamanho": 21761045,
     "data_modificacao": "2025-07-07T15:31:23.246173000-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/600AJ/service/600A-600AJ-service_pn-3123339_05-01-2008-pt.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/boom-lift/600A-600AJ/service/600A-600AJ-service-PN-3123339-date-05-01-2008-pt.pdf"
   },
   {
-    "nome_arquivo": "600A-660AJ-service_pn-3121616_ 29-06-2018-en.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/600AJ/service/600A-660AJ-service_pn-3121616_ 29-06-2018-en.pdf",
+    "nome_arquivo": "600A-660AJ-service-PN-3121616-date-29-06-2018-en.pdf",
+    "caminho_r2": "jlg/diesel/boom-lift/600A-600AJ/service/600A-660AJ-service-PN-3121616-date-29-06-2018-en.pdf",
     "tamanho": 27960867,
     "data_modificacao": "2025-07-07T15:31:55.583186500-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/600AJ/service/600A-660AJ-service_pn-3121616_%2029-06-2018-en.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/boom-lift/600A-600AJ/service/600A-660AJ-service-PN-3121616-date-29-06-2018-en.pdf"
   },
   {
-    "nome_arquivo": "600SC-660SJC JLG_parts_pn-3121251-30-09-18-no-serie-0300128000-a-0300174703.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/660SJC/parts/600SC-660SJC JLG_parts_pn-3121251-30-09-18-no-serie-0300128000-a-0300174703.pdf",
+    "nome_arquivo": "600SC-660SJC-parts-PN-3121251NS-0300128000-a-0300174703-date-30-09-18-en.pdf",
+    "caminho_r2": "jlg/diesel/boom-lift/600SC-660SJC/parts/600SC-660SJC-parts-PN-3121251NS-0300128000-a-0300174703-date-30-09-18-en.pdf",
     "tamanho": 31210874,
     "data_modificacao": "2025-07-15T21:31:37.058669300-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/660SJC/parts/600SC-660SJC%20JLG_parts_pn-3121251-30-09-18-no-serie-0300128000-a-0300174703.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/boom-lift/600SC-660SJC/parts/600SC-660SJC-parts-PN-3121251NS-0300128000-a-0300174703-date-30-09-18-en.pdf"
   },
   {
-    "nome_arquivo": "600SC-660SJC-service-pn-3121157- 22-11-16-en.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/660SJC/service/600SC-660SJC-service-pn-3121157- 22-11-16-en.pdf",
+    "nome_arquivo": "600SC-660SJC-service-PN-3121157-date-22-11-16-en.pdf",
+    "caminho_r2": "jlg/diesel/boom-lift/600SC-660SJC/service/600SC-660SJC-service-PN-3121157-date-22-11-16-en.pdf",
     "tamanho": 24318718,
     "data_modificacao": "2025-07-15T21:30:47.795241400-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/660SJC/service/600SC-660SJC-service-pn-3121157-%2022-11-16-en.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/boom-lift/600SC-660SJC/service/600SC-660SJC-service-PN-3121157-date-22-11-16-en.pdf"
   },
   {
-    "nome_arquivo": "800-800AJ-parts-pn-3121271-31-08-18no-serie-0300140000-a-0300183033.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/800AJ/parts/800-800AJ-parts-pn-3121271-31-08-18no-serie-0300140000-a-0300183033.pdf",
-    "tamanho": 23815450,
-    "data_modificacao": "2025-07-15T21:27:07.163231600-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/800AJ/parts/800-800AJ-parts-pn-3121271-31-08-18no-serie-0300140000-a-0300183033.pdf"
-  },
-  {
-    "nome_arquivo": "800A-800AJ-parts-pn-3121176-31-08-18-no-serie-0300069000-a-0300140000.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/800AJ/parts/800A-800AJ-parts-pn-3121176-31-08-18-no-serie-0300069000-a-0300140000.pdf",
+    "nome_arquivo": "800A-800AJ-parts-PN-3121176-NS-0300069000-a-0300140000-date-31-08-18.pdf",
+    "caminho_r2": "jlg/diesel/boom-lift/800A-800AJ/parts/800A-800AJ-parts-PN-3121176-NS-0300069000-a-0300140000-date-31-08-18.pdf",
     "tamanho": 33879651,
     "data_modificacao": "2025-07-15T21:28:07.307387700-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/800AJ/parts/800A-800AJ-parts-pn-3121176-31-08-18-no-serie-0300069000-a-0300140000.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/boom-lift/800A-800AJ/parts/800A-800AJ-parts-PN-3121176-NS-0300069000-a-0300140000-date-31-08-18.pdf"
   },
   {
-    "nome_arquivo": "800A-800AJ-parts-pn-3121629-27-04-20-no-serie-0300183034-a-0300272376.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/800AJ/parts/800A-800AJ-parts-pn-3121629-27-04-20-no-serie-0300183034-a-0300272376.pdf",
+    "nome_arquivo": "800A-800AJ-parts-PN-3121271-NS-0300140000-a-0300183033-date-31-08-18.pdf",
+    "caminho_r2": "jlg/diesel/boom-lift/800A-800AJ/parts/800A-800AJ-parts-PN-3121271-NS-0300140000-a-0300183033-date-31-08-18.pdf",
+    "tamanho": 23815450,
+    "data_modificacao": "2025-07-15T21:27:07.163231600-03:00",
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/boom-lift/800A-800AJ/parts/800A-800AJ-parts-PN-3121271-NS-0300140000-a-0300183033-date-31-08-18.pdf"
+  },
+  {
+    "nome_arquivo": "800A-800AJ-parts-PN-3121629-NS-0300183034-a-0300272376-date-27-04-20.pdf",
+    "caminho_r2": "jlg/diesel/boom-lift/800A-800AJ/parts/800A-800AJ-parts-PN-3121629-NS-0300183034-a-0300272376-date-27-04-20.pdf",
     "tamanho": 34841154,
     "data_modificacao": "2025-07-15T21:28:36.184432300-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/800AJ/parts/800A-800AJ-parts-pn-3121629-27-04-20-no-serie-0300183034-a-0300272376.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/boom-lift/800A-800AJ/parts/800A-800AJ-parts-PN-3121629-NS-0300183034-a-0300272376-date-27-04-20.pdf"
   },
   {
-    "nome_arquivo": "800A-800AJ-service-pn-3121628-08-02-2019-en_unlocked.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/800AJ/service/800A-800AJ-service-pn-3121628-08-02-2019-en_unlocked.pdf",
+    "nome_arquivo": "800A-800AJ-service-PN-3121628-date-08-02-2019-en.pdf",
+    "caminho_r2": "jlg/diesel/boom-lift/800A-800AJ/service/800A-800AJ-service-PN-3121628-date-08-02-2019-en.pdf",
     "tamanho": 75248113,
     "data_modificacao": "2025-07-15T21:24:03.337265200-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/800AJ/service/800A-800AJ-service-pn-3121628-08-02-2019-en_unlocked.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/boom-lift/800A-800AJ/service/800A-800AJ-service-PN-3121628-date-08-02-2019-en.pdf"
   },
   {
-    "nome_arquivo": "800A-800AJ-service-pn-3123297-08-05-11-pt_unlocked.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/800AJ/service/800A-800AJ-service-pn-3123297-08-05-11-pt_unlocked.pdf",
+    "nome_arquivo": "800A-800AJ-service-PN-3123297-date-08-05-11-pt.pdf",
+    "caminho_r2": "jlg/diesel/boom-lift/800A-800AJ/service/800A-800AJ-service-PN-3123297-date-08-05-11-pt.pdf",
     "tamanho": 47032154,
     "data_modificacao": "2025-07-15T21:22:37.949055700-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/800AJ/service/800A-800AJ-service-pn-3123297-08-05-11-pt_unlocked.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/boom-lift/800A-800AJ/service/800A-800AJ-service-PN-3123297-date-08-05-11-pt.pdf"
   },
   {
-    "nome_arquivo": "800S-860SJ-parts-pn-3121140-31-08-18-no-serie-0300000100-a-0300139999.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/860SJ/parts/800S-860SJ-parts-pn-3121140-31-08-18-no-serie-0300000100-a-0300139999.pdf",
+    "nome_arquivo": "800S-860SJ-parts-PN-3121140-NS-0300000100-a-0300139999-date-31-08-18.pdf",
+    "caminho_r2": "jlg/diesel/boom-lift/800S-860SJ/parts/800S-860SJ-parts-PN-3121140-NS-0300000100-a-0300139999-date-31-08-18.pdf",
     "tamanho": 35833589,
     "data_modificacao": "2025-07-15T21:20:12.973801600-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/860SJ/parts/800S-860SJ-parts-pn-3121140-31-08-18-no-serie-0300000100-a-0300139999.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/boom-lift/800S-860SJ/parts/800S-860SJ-parts-PN-3121140-NS-0300000100-a-0300139999-date-31-08-18.pdf"
   },
   {
-    "nome_arquivo": "800S-860SJ-service-manual.pdf",
-    "caminho_r2": "JLG/diesel/boom-lift/860SJ/service/800S-860SJ-service-manual.pdf",
+    "nome_arquivo": "800S-860SJ-service-en.pdf",
+    "caminho_r2": "jlg/diesel/boom-lift/800S-860SJ/service/800S-860SJ-service-en.pdf",
     "tamanho": 35153373,
     "data_modificacao": "2025-07-15T21:18:33.128284500-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/boom-lift/860SJ/service/800S-860SJ-service-manual.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/boom-lift/800S-860SJ/service/800S-860SJ-service-en.pdf"
   },
   {
-    "nome_arquivo": "3394RT-4394RT--JLG--PEÇAS--PN_3121134_30-08-18--ANTERIOR_A_0200191606.pdf",
-    "caminho_r2": "JLG/diesel/scissor-lift/parts/3394RT-4394RT--JLG--PEÇAS--PN_3121134_30-08-18--ANTERIOR_A_0200191606.pdf",
+    "nome_arquivo": "3394RT-4394RT-parts-PN-3121134-NS-anterior-a-0200191606-date-30-08-18-en.pdf",
+    "caminho_r2": "jlg/diesel/scissor-lift/3394RT-4394RT/parts/3394RT-4394RT-parts-PN-3121134-NS-anterior-a-0200191606-date-30-08-18-en.pdf",
     "tamanho": 18710931,
     "data_modificacao": "2025-06-05T18:05:04.514471800-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/scissor-lift/parts/3394RT-4394RT--JLG--PE%C3%87AS--PN_3121134_30-08-18--ANTERIOR_A_0200191606.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/scissor-lift/3394RT-4394RT/parts/3394RT-4394RT-parts-PN-3121134-NS-anterior-a-0200191606-date-30-08-18-en.pdf"
   },
   {
-    "nome_arquivo": "3394RT-4394RT--JLG--PEÇAS--PN_3121250_30-08-18--NO.SÉRIE_0200191606_ A_0200239052.pdf",
-    "caminho_r2": "JLG/diesel/scissor-lift/parts/3394RT-4394RT--JLG--PEÇAS--PN_3121250_30-08-18--NO.SÉRIE_0200191606_ A_0200239052.pdf",
+    "nome_arquivo": "3394RT-4394RT-parts-PN-3121250-18-NS-0200191606-A-0200239052-date-30-08-en.pdf",
+    "caminho_r2": "jlg/diesel/scissor-lift/3394RT-4394RT/parts/3394RT-4394RT-parts-PN-3121250-18-NS-0200191606-A-0200239052-date-30-08-en.pdf",
     "tamanho": 20361030,
     "data_modificacao": "2025-06-05T18:05:05.616356100-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/scissor-lift/parts/3394RT-4394RT--JLG--PE%C3%87AS--PN_3121250_30-08-18--NO.S%C3%89RIE_0200191606_%20A_0200239052.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/scissor-lift/3394RT-4394RT/parts/3394RT-4394RT-parts-PN-3121250-18-NS-0200191606-A-0200239052-date-30-08-en.pdf"
   },
   {
-    "nome_arquivo": "3394R-4394RT--JLG--SERVICE--PN_3121133--SN_0200191606_excluding_ SN_0200186972-0200187002-0200187013.pdf",
-    "caminho_r2": "JLG/diesel/scissor-lift/service/3394R-4394RT--JLG--SERVICE--PN_3121133--SN_0200191606_excluding_ SN_0200186972-0200187002-0200187013.pdf",
+    "nome_arquivo": "3394R-4394RT-service-PN-3121133-SN-0200191606-excluding-SN-0200186972-0200187002-0200187013-en.pdf",
+    "caminho_r2": "jlg/diesel/scissor-lift/3394RT-4394RT/service/3394R-4394RT-service-PN-3121133-SN-0200191606-excluding-SN-0200186972-0200187002-0200187013-en.pdf",
     "tamanho": 11637697,
     "data_modificacao": "2025-06-05T18:05:05.986463600-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/diesel/scissor-lift/service/3394R-4394RT--JLG--SERVICE--PN_3121133--SN_0200191606_excluding_%20SN_0200186972-0200187002-0200187013.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/diesel/scissor-lift/3394RT-4394RT/service/3394R-4394RT-service-PN-3121133-SN-0200191606-excluding-SN-0200186972-0200187002-0200187013-en.pdf"
   },
   {
-    "nome_arquivo": "E300A-E300AJ-PEÇAS-pn-3120773-31-03-2017-anterior-a-0300138358.pdf",
-    "caminho_r2": "JLG/eletric/boom-lift/E300/parts/E300A-E300AJ-PEÇAS-pn-3120773-31-03-2017-anterior-a-0300138358.pdf",
+    "nome_arquivo": "E300A-E300AJ-parts-PN-3120773-NS-anterior-a-0300138358date-31-03-2017-en.pdf",
+    "caminho_r2": "jlg/electric/boom-lift/E300A-E300AJ/parts/E300A-E300AJ-parts-PN-3120773-NS-anterior-a-0300138358date-31-03-2017-en.pdf",
     "tamanho": 16352992,
     "data_modificacao": "2025-06-05T18:04:52.327787900-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/boom-lift/E300/parts/E300A-E300AJ-PE%C3%87AS-pn-3120773-31-03-2017-anterior-a-0300138358.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/boom-lift/E300A-E300AJ/parts/E300A-E300AJ-parts-PN-3120773-NS-anterior-a-0300138358date-31-03-2017-en.pdf"
   },
   {
-    "nome_arquivo": "E300A-E300AJ-PEÇAS-pn-3121254_18-06-2018 _no-serie-0300138358-a-0300211843.pdf",
-    "caminho_r2": "JLG/eletric/boom-lift/E300/parts/E300A-E300AJ-PEÇAS-pn-3121254_18-06-2018 _no-serie-0300138358-a-0300211843.pdf",
+    "nome_arquivo": "E300A-E300AJ-parts-PN-3121254-NS-0300138358-a-0300211843-date-18-06-2018-en.pdf",
+    "caminho_r2": "jlg/electric/boom-lift/E300A-E300AJ/parts/E300A-E300AJ-parts-PN-3121254-NS-0300138358-a-0300211843-date-18-06-2018-en.pdf",
     "tamanho": 15431302,
     "data_modificacao": "2025-06-05T18:04:52.878733000-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/boom-lift/E300/parts/E300A-E300AJ-PE%C3%87AS-pn-3121254_18-06-2018%20_no-serie-0300138358-a-0300211843.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/boom-lift/E300A-E300AJ/parts/E300A-E300AJ-parts-PN-3121254-NS-0300138358-a-0300211843-date-18-06-2018-en.pdf"
   },
   {
-    "nome_arquivo": "E300A-E300AJ-SERVIÇO-pn-3120772-13-01-2009-en.pdf",
-    "caminho_r2": "JLG/eletric/boom-lift/E300/service/E300A-E300AJ-SERVIÇO-pn-3120772-13-01-2009-en.pdf",
+    "nome_arquivo": "E300A-E300AJ-service-PN-3120772-date-13-01-2009-en.pdf",
+    "caminho_r2": "jlg/electric/boom-lift/E300A-E300AJ/service/E300A-E300AJ-service-PN-3120772-date-13-01-2009-en.pdf",
     "tamanho": 6857361,
     "data_modificacao": "2025-06-05T18:04:53.762224600-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/boom-lift/E300/service/E300A-E300AJ-SERVI%C3%87O-pn-3120772-13-01-2009-en.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/boom-lift/E300A-E300AJ/service/E300A-E300AJ-service-PN-3120772-date-13-01-2009-en.pdf"
   },
   {
-    "nome_arquivo": "E300A-E300AJ-SERVIÇO-pn-3123488-23-08-2012-pt.pdf",
-    "caminho_r2": "JLG/eletric/boom-lift/E300/service/E300A-E300AJ-SERVIÇO-pn-3123488-23-08-2012-pt.pdf",
+    "nome_arquivo": "E300A-E300AJ-service-PN-3123488-date-23-08-2012-pt.pdf",
+    "caminho_r2": "jlg/electric/boom-lift/E300A-E300AJ/service/E300A-E300AJ-service-PN-3123488-date-23-08-2012-pt.pdf",
     "tamanho": 19293236,
     "data_modificacao": "2025-06-05T18:04:53.582709100-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/boom-lift/E300/service/E300A-E300AJ-SERVI%C3%87O-pn-3123488-23-08-2012-pt.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/boom-lift/E300A-E300AJ/service/E300A-E300AJ-service-PN-3123488-date-23-08-2012-pt.pdf"
   },
   {
-    "nome_arquivo": "E400A-E400AJ-M400A-M400AJ-E450A-E450AJ-M450A-M450AJ_parts_pn-3121128-_06-11-18-no.serie-0300000100-a-0300189900.pdf",
-    "caminho_r2": "JLG/eletric/boom-lift/E400A-E450AJ/parts/E400A-E400AJ-M400A-M400AJ-E450A-E450AJ-M450A-M450AJ_parts_pn-3121128-_06-11-18-no.serie-0300000100-a-0300189900.pdf",
+    "nome_arquivo": "E400A-a-E450AJ-parts-e-E400AJ-M400A-M400AJ-E450A-M450A-M450AJ-PN-3121128-NS-0300000100-a-0300189900-date-06-11-18.pdf",
+    "caminho_r2": "jlg/electric/boom-lift/E400A-E450AJ/parts/E400A-a-E450AJ-parts-e-E400AJ-M400A-M400AJ-E450A-M450A-M450AJ-PN-3121128-NS-0300000100-a-0300189900-date-06-11-18.pdf",
     "tamanho": 22745214,
     "data_modificacao": "2025-06-05T18:04:54.327930800-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/boom-lift/E400A-E450AJ/parts/E400A-E400AJ-M400A-M400AJ-E450A-E450AJ-M450A-M450AJ_parts_pn-3121128-_06-11-18-no.serie-0300000100-a-0300189900.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/boom-lift/E400A-E450AJ/parts/E400A-a-E450AJ-parts-e-E400AJ-M400A-M400AJ-E450A-M450A-M450AJ-PN-3121128-NS-0300000100-a-0300189900-date-06-11-18.pdf"
   },
   {
-    "nome_arquivo": "E450A-E450AJ-M450AJ_parts_pn-3121649_16-11-18-no-serie-0300189898-a-0300208529.pdf",
-    "caminho_r2": "JLG/eletric/boom-lift/E400A-E450AJ/parts/E450A-E450AJ-M450AJ_parts_pn-3121649_16-11-18-no-serie-0300189898-a-0300208529.pdf",
+    "nome_arquivo": "E450A-a-E450AJ-parts-e-M450AJ-PN-3121649-NS-0300189898-a-0300208529-date-16-11-18-en.pdf",
+    "caminho_r2": "jlg/electric/boom-lift/E400A-E450AJ/parts/E450A-a-E450AJ-parts-e-M450AJ-PN-3121649-NS-0300189898-a-0300208529-date-16-11-18-en.pdf",
     "tamanho": 40293994,
     "data_modificacao": "2025-06-05T18:04:57.010683400-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/boom-lift/E400A-E450AJ/parts/E450A-E450AJ-M450AJ_parts_pn-3121649_16-11-18-no-serie-0300189898-a-0300208529.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/boom-lift/E400A-E450AJ/parts/E450A-a-E450AJ-parts-e-M450AJ-PN-3121649-NS-0300189898-a-0300208529-date-16-11-18-en.pdf"
   },
   {
-    "nome_arquivo": "E450A-E450AJ-M45A-M450AJ-service-pn-3121714-30-11-2018-en.pdf",
-    "caminho_r2": "JLG/eletric/boom-lift/E400A-E450AJ/service/E450A-E450AJ-M45A-M450AJ-service-pn-3121714-30-11-2018-en.pdf",
+    "nome_arquivo": "E450A-E450AJ-service-e-M45A-M450AJ-PN-3121714-date-30-11-2018-en.pdf",
+    "caminho_r2": "jlg/electric/boom-lift/E400A-E450AJ/service/E450A-E450AJ-service-e-M45A-M450AJ-PN-3121714-date-30-11-2018-en.pdf",
     "tamanho": 52200160,
     "data_modificacao": "2025-06-05T18:04:55.942514800-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/boom-lift/E400A-E450AJ/service/E450A-E450AJ-M45A-M450AJ-service-pn-3121714-30-11-2018-en.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/boom-lift/E400A-E450AJ/service/E450A-E450AJ-service-e-M45A-M450AJ-PN-3121714-date-30-11-2018-en.pdf"
   },
   {
-    "nome_arquivo": "E450A-E450AJ-M45A-M450AJ_service-pn-312112-20-03-2014-en.pdf",
-    "caminho_r2": "JLG/eletric/boom-lift/E400A-E450AJ/service/E450A-E450AJ-M45A-M450AJ_service-pn-312112-20-03-2014-en.pdf",
+    "nome_arquivo": "E450A-E450AJ-servive-e-M45A-M450AJ-PN-312112-date-20-03-2014-en.pdf",
+    "caminho_r2": "jlg/electric/boom-lift/E400A-E450AJ/service/E450A-E450AJ-servive-e-M45A-M450AJ-PN-312112-date-20-03-2014-en.pdf",
     "tamanho": 16415340,
     "data_modificacao": "2025-06-05T18:04:54.964653700-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/boom-lift/E400A-E450AJ/service/E450A-E450AJ-M45A-M450AJ_service-pn-312112-20-03-2014-en.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/boom-lift/E400A-E450AJ/service/E450A-E450AJ-servive-e-M45A-M450AJ-PN-312112-date-20-03-2014-en.pdf"
   },
   {
-    "nome_arquivo": "E600-E600J-E600JP-M600-M600J-M600JP-parts-pn-3121712-no-serie-0300219271-ao-atual.pdf",
-    "caminho_r2": "JLG/eletric/boom-lift/E600-M600JP/parts/E600-E600J-E600JP-M600-M600J-M600JP-parts-pn-3121712-no-serie-0300219271-ao-atual.pdf",
-    "tamanho": 48684460,
-    "data_modificacao": "2025-06-05T18:05:01.459557200-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/boom-lift/E600-M600JP/parts/E600-E600J-E600JP-M600-M600J-M600JP-parts-pn-3121712-no-serie-0300219271-ao-atual.pdf"
-  },
-  {
-    "nome_arquivo": "E600-E600J_parts_pn-3121118-21-06-18-no-serie-0300000100-a-0300219270.pdf",
-    "caminho_r2": "JLG/eletric/boom-lift/E600-M600JP/parts/E600-E600J_parts_pn-3121118-21-06-18-no-serie-0300000100-a-0300219270.pdf",
+    "nome_arquivo": "E600-E600J-parts-PN-3121118-21-06-18-NS-0300000100-a-0300219270-en.pdf",
+    "caminho_r2": "jlg/electric/boom-lift/E600-M600JP/parts/E600-E600J-parts-PN-3121118-21-06-18-NS-0300000100-a-0300219270-en.pdf",
     "tamanho": 22783010,
     "data_modificacao": "2025-06-05T18:04:57.762671700-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/boom-lift/E600-M600JP/parts/E600-E600J_parts_pn-3121118-21-06-18-no-serie-0300000100-a-0300219270.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/boom-lift/E600-M600JP/parts/E600-E600J-parts-PN-3121118-21-06-18-NS-0300000100-a-0300219270-en.pdf"
   },
   {
-    "nome_arquivo": "E600-E600J-E600JP-M600-M600J-M600JP-service-pn-3121711_07-01-2019en.pdf",
-    "caminho_r2": "JLG/eletric/boom-lift/E600-M600JP/service/E600-E600J-E600JP-M600-M600J-M600JP-service-pn-3121711_07-01-2019en.pdf",
+    "nome_arquivo": "E600-a-M600JP-parts-E600J-E600JP-M600-M600J-PN-3121712-NS-0300219271-ao-atual.pdf",
+    "caminho_r2": "jlg/electric/boom-lift/E600-M600JP/parts/E600-a-M600JP-parts-E600J-E600JP-M600-M600J-PN-3121712-NS-0300219271-ao-atual.pdf",
+    "tamanho": 48684460,
+    "data_modificacao": "2025-06-05T18:05:01.459557200-03:00",
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/boom-lift/E600-M600JP/parts/E600-a-M600JP-parts-E600J-E600JP-M600-M600J-PN-3121712-NS-0300219271-ao-atual.pdf"
+  },
+  {
+    "nome_arquivo": "E600-a-M600JP-service-e-E600J-E600JP-M600-M600J-pn-3121711_07-01-2019en.pdf",
+    "caminho_r2": "jlg/electric/boom-lift/E600-M600JP/service/E600-a-M600JP-service-e-E600J-E600JP-M600-M600J-pn-3121711_07-01-2019en.pdf",
     "tamanho": 45375477,
     "data_modificacao": "2025-06-05T18:04:59.288632100-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/boom-lift/E600-M600JP/service/E600-E600J-E600JP-M600-M600J-M600JP-service-pn-3121711_07-01-2019en.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/boom-lift/E600-M600JP/service/E600-a-M600JP-service-e-E600J-E600JP-M600-M600J-pn-3121711_07-01-2019en.pdf"
   },
   {
-    "nome_arquivo": "E600-E600J-E600JP-M600-M600J-M600JP-service-pn-3123347_11-02-2008-pt.pdf",
-    "caminho_r2": "JLG/eletric/boom-lift/E600-M600JP/service/E600-E600J-E600JP-M600-M600J-M600JP-service-pn-3123347_11-02-2008-pt.pdf",
+    "nome_arquivo": "E600-a-M600JP-service-e-E600J-E600JP-M600-M600J-pn-3123347_11-02-2008-pt.pdf",
+    "caminho_r2": "jlg/electric/boom-lift/E600-M600JP/service/E600-a-M600JP-service-e-E600J-E600JP-M600-M600J-pn-3123347_11-02-2008-pt.pdf",
     "tamanho": 14528962,
     "data_modificacao": "2025-06-05T18:04:59.914162000-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/boom-lift/E600-M600JP/service/E600-E600J-E600JP-M600-M600J-M600JP-service-pn-3123347_11-02-2008-pt.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/boom-lift/E600-M600JP/service/E600-a-M600JP-service-e-E600J-E600JP-M600-M600J-pn-3123347_11-02-2008-pt.pdf"
   },
   {
-    "nome_arquivo": "manual-de-operacao_ES-3122377_05-01-13_.pdf",
-    "caminho_r2": "JLG/eletric/scissor-lift/1930ES-A-3246ES/operation/manual-de-operacao_ES-3122377_05-01-13_.pdf",
-    "tamanho": 3879526,
-    "data_modificacao": "2025-06-05T18:05:10.074787900-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/scissor-lift/1930ES-A-3246ES/operation/manual-de-operacao_ES-3122377_05-01-13_.pdf"
-  },
-  {
-    "nome_arquivo": "manual-de-operacoes-ES-3123697.pdf",
-    "caminho_r2": "JLG/eletric/scissor-lift/1930ES-A-3246ES/operation/manual-de-operacoes-ES-3123697.pdf",
-    "tamanho": 7389358,
-    "data_modificacao": "2025-06-05T18:05:10.234803500-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/scissor-lift/1930ES-A-3246ES/operation/manual-de-operacoes-ES-3123697.pdf"
-  },
-  {
-    "nome_arquivo": "1930ES-a-3246ES_parts_pn-3121248- 01-02-18-no-serie-0200152825-a-0200198014.pdf",
-    "caminho_r2": "JLG/eletric/scissor-lift/1930ES-A-3246ES/parts/1930ES-a-3246ES_parts_pn-3121248- 01-02-18-no-serie-0200152825-a-0200198014.pdf",
-    "tamanho": 17372958,
-    "data_modificacao": "2025-06-05T18:05:06.669161200-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/scissor-lift/1930ES-A-3246ES/parts/1930ES-a-3246ES_parts_pn-3121248-%2001-02-18-no-serie-0200152825-a-0200198014.pdf"
-  },
-  {
-    "nome_arquivo": "1930ES-a-3246ES_parts_pn-3121275-01-02-18-no-serie-0200198014-a-0200239381-e-no-serie-B200000100-a-B200020296.pdf",
-    "caminho_r2": "JLG/eletric/scissor-lift/1930ES-A-3246ES/parts/1930ES-a-3246ES_parts_pn-3121275-01-02-18-no-serie-0200198014-a-0200239381-e-no-serie-B200000100-a-B200020296.pdf",
-    "tamanho": 17593207,
-    "data_modificacao": "2025-06-05T18:05:07.220200700-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/scissor-lift/1930ES-A-3246ES/parts/1930ES-a-3246ES_parts_pn-3121275-01-02-18-no-serie-0200198014-a-0200239381-e-no-serie-B200000100-a-B200020296.pdf"
-  },
-  {
-    "nome_arquivo": "1930ES_part-pn-3121681-10-08-20-no-serie-0200239382-a-0200266334-e-B200020297-ao-atual.pdf",
-    "caminho_r2": "JLG/eletric/scissor-lift/1930ES-A-3246ES/parts/1930ES_part-pn-3121681-10-08-20-no-serie-0200239382-a-0200266334-e-B200020297-ao-atual.pdf",
-    "tamanho": 33760629,
-    "data_modificacao": "2025-06-05T18:05:08.645459300-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/scissor-lift/1930ES-A-3246ES/parts/1930ES_part-pn-3121681-10-08-20-no-serie-0200239382-a-0200266334-e-B200020297-ao-atual.pdf"
-  },
-  {
-    "nome_arquivo": "2646ES-3246ES-parts-pn-3121683-10-08-20_no-serie-0200239382-a-0200266434-e-B200020297-ao-atual.pdf",
-    "caminho_r2": "JLG/eletric/scissor-lift/1930ES-A-3246ES/parts/2646ES-3246ES-parts-pn-3121683-10-08-20_no-serie-0200239382-a-0200266434-e-B200020297-ao-atual.pdf",
-    "tamanho": 45031639,
-    "data_modificacao": "2025-06-05T18:05:10.003979100-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/scissor-lift/1930ES-A-3246ES/parts/2646ES-3246ES-parts-pn-3121683-10-08-20_no-serie-0200239382-a-0200266434-e-B200020297-ao-atual.pdf"
-  },
-  {
-    "nome_arquivo": "Manual-serviços-e-manutenção.pdf",
-    "caminho_r2": "JLG/eletric/scissor-lift/1930ES-A-3246ES/service/Manual-serviços-e-manutenção.pdf",
-    "tamanho": 23672292,
-    "data_modificacao": "2025-06-05T18:05:10.995428500-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/scissor-lift/1930ES-A-3246ES/service/Manual-servi%C3%A7os-e-manuten%C3%A7%C3%A3o.pdf"
-  },
-  {
-    "nome_arquivo": "6RS-10RS-operacao.pdf",
-    "caminho_r2": "JLG/eletric/scissor-lift/6RS-10RS/operation/6RS-10RS-operacao.pdf",
-    "tamanho": 7378558,
-    "data_modificacao": "2025-06-05T18:05:12.374505800-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/scissor-lift/6RS-10RS/operation/6RS-10RS-operacao.pdf"
-  },
-  {
-    "nome_arquivo": "6RS-10RS-parts-manual.pdf",
-    "caminho_r2": "JLG/eletric/scissor-lift/6RS-10RS/parts/6RS-10RS-parts-manual.pdf",
-    "tamanho": 14041199,
-    "data_modificacao": "2025-06-05T18:05:13.650249800-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/scissor-lift/6RS-10RS/parts/6RS-10RS-parts-manual.pdf"
-  },
-  {
-    "nome_arquivo": "3123331-service.pdf",
-    "caminho_r2": "JLG/eletric/scissor-lift/6RS-10RS/service/3123331-service.pdf",
-    "tamanho": 6235462,
-    "data_modificacao": "2025-06-05T18:05:11.183280900-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/scissor-lift/6RS-10RS/service/3123331-service.pdf"
-  },
-  {
-    "nome_arquivo": "3369LE-4069LE-M3369-M4069_parts_pn-3121123-08-31-2016-anterior-a-0200230092.pdf",
-    "caminho_r2": "JLG/eletric/scissor-lift/M4069LE/parts/3369LE-4069LE-M3369-M4069_parts_pn-3121123-08-31-2016-anterior-a-0200230092.pdf",
-    "tamanho": 17938705,
-    "data_modificacao": "2025-07-15T19:31:52.845968300-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/scissor-lift/M4069LE/parts/3369LE-4069LE-M3369-M4069_parts_pn-3121123-08-31-2016-anterior-a-0200230092.pdf"
-  },
-  {
-    "nome_arquivo": "3369LE-4069LE_service_en.pdf",
-    "caminho_r2": "JLG/eletric/   /M4069LE/service/3369LE-4069LE_service_en.pdf",
-    "tamanho": 6498727,
-    "data_modificacao": "2025-07-15T19:27:31.303926900-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/scissor-lift/M4069LE/service/3369LE-4069LE_service_en.pdf"
-  },
-  {
-    "nome_arquivo": "Toucan_E26MJ-E18MJ-parts_pn-31210008-07-30-2009.pdf",
-    "caminho_r2": "JLG/eletric/toucan-mast-lifts/parts/Toucan_E26MJ-E18MJ-parts_pn-31210008-07-30-2009.pdf",
+    "nome_arquivo": "E26MJ-E18MJ-parts-toucan-PN-31210008-date-07-30-2009.pdf",
+    "caminho_r2": "jlg/electric/mast-lift/E26MJ-E18MJ/parts/E26MJ-E18MJ-parts-toucan-PN-31210008-date-07-30-2009.pdf",
     "tamanho": 6920936,
     "data_modificacao": "2025-06-05T18:05:01.752132400-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/toucan-mast-lifts/parts/Toucan_E26MJ-E18MJ-parts_pn-31210008-07-30-2009.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/mast-lift/E26MJ-E18MJ/parts/E26MJ-E18MJ-parts-toucan-PN-31210008-date-07-30-2009.pdf"
   },
   {
-    "nome_arquivo": "Toucan_T10-E-T26-parts_pn-31210091- 29-01-2019_anterior-a-num-serie-A300037517-e-entre-A300090000-a-A300091266.pdf",
-    "caminho_r2": "JLG/eletric/toucan-mast-lifts/parts/Toucan_T10-E-T26-parts_pn-31210091- 29-01-2019_anterior-a-num-serie-A300037517-e-entre-A300090000-a-A300091266.pdf",
-    "tamanho": 6285021,
-    "data_modificacao": "2025-06-05T18:05:01.948088000-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/toucan-mast-lifts/parts/Toucan_T10-E-T26-parts_pn-31210091-%2029-01-2019_anterior-a-num-serie-A300037517-e-entre-A300090000-a-A300091266.pdf"
-  },
-  {
-    "nome_arquivo": "Toucan_E26MJ_E18MJ-service-pn-31210019_07-07-2006-en.pdf",
-    "caminho_r2": "JLG/eletric/toucan-mast-lifts/service/Toucan_E26MJ_E18MJ-service-pn-31210019_07-07-2006-en.pdf",
+    "nome_arquivo": "E26MJ-E18MJ-service-Toucan-PN-31210019-date-07-07-2006-en.pdf",
+    "caminho_r2": "jlg/electric/mast-lift/E26MJ-E18MJ/service/E26MJ-E18MJ-service-Toucan-PN-31210019-date-07-07-2006-en.pdf",
     "tamanho": 11138134,
     "data_modificacao": "2025-06-05T18:05:02.237122000-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/toucan-mast-lifts/service/Toucan_E26MJ_E18MJ-service-pn-31210019_07-07-2006-en.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/mast-lift/E26MJ-E18MJ/service/E26MJ-E18MJ-service-Toucan-PN-31210019-date-07-07-2006-en.pdf"
   },
   {
-    "nome_arquivo": "Toucan_T10E-T26E_service_pn-31210090_21-06-2019_en.pdf",
-    "caminho_r2": "JLG/eletric/toucan-mast-lifts/service/Toucan_T10E-T26E_service_pn-31210090_21-06-2019_en.pdf",
+    "nome_arquivo": "T10-e-T26-parts-toucan-PN-31210091-NS-anterior-a-A300037517-e-entre-A300090000-a-A300091266-date-29-01-2019.pdf",
+    "caminho_r2": "jlg/electric/mast-lift/T10-e-T26/parts/T10-e-T26-parts-toucan-PN-31210091-NS-anterior-a-A300037517-e-entre-A300090000-a-A300091266-date-29-01-2019.pdf",
+    "tamanho": 6285021,
+    "data_modificacao": "2025-06-05T18:05:01.948088000-03:00",
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/mast-lift/T10-e-T26/parts/T10-e-T26-parts-toucan-PN-31210091-NS-anterior-a-A300037517-e-entre-A300090000-a-A300091266-date-29-01-2019.pdf"
+  },
+  {
+    "nome_arquivo": "T10E-T26E-service-Toucan-PN-31210090-21-06-2019-en.pdf",
+    "caminho_r2": "jlg/electric/mast-lift/T10-e-T26/service/T10E-T26E-service-Toucan-PN-31210090-21-06-2019-en.pdf",
     "tamanho": 13233107,
     "data_modificacao": "2025-06-05T18:05:03.709666000-03:00",
-    "url_publica": "https://files.fastlift.com.br/JLG/eletric/toucan-mast-lifts/service/Toucan_T10E-T26E_service_pn-31210090_21-06-2019_en.pdf"
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/mast-lift/T10-e-T26/service/T10E-T26E-service-Toucan-PN-31210090-21-06-2019-en.pdf"
+  },
+  {
+    "nome_arquivo": "1930ES-a-3246ES-operation-PN-3122377-date-05-01-13.pdf",
+    "caminho_r2": "jlg/electric/scissor-lift/1930ES-A-3246ES/operation/1930ES-a-3246ES-operation-PN-3122377-date-05-01-13.pdf",
+    "tamanho": 3879526,
+    "data_modificacao": "2025-06-05T18:05:10.074787900-03:00",
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/scissor-lift/1930ES-A-3246ES/operation/1930ES-a-3246ES-operation-PN-3122377-date-05-01-13.pdf"
+  },
+  {
+    "nome_arquivo": "1930ES-a-3246ES-operation-PN-3123697.pdf",
+    "caminho_r2": "jlg/electric/scissor-lift/1930ES-A-3246ES/operation/1930ES-a-3246ES-operation-PN-3123697.pdf",
+    "tamanho": 7389358,
+    "data_modificacao": "2025-06-05T18:05:10.234803500-03:00",
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/scissor-lift/1930ES-A-3246ES/operation/1930ES-a-3246ES-operation-PN-3123697.pdf"
+  },
+  {
+    "nome_arquivo": "1930ES-a-3246ES-parts-PN-3121248-NS-0200152825-a-0200198014-date-01-02-18-en.pdf",
+    "caminho_r2": "jlg/electric/scissor-lift/1930ES-A-3246ES/parts/1930ES-a-3246ES-parts-PN-3121248-NS-0200152825-a-0200198014-date-01-02-18-en.pdf",
+    "tamanho": 17372958,
+    "data_modificacao": "2025-06-05T18:05:06.669161200-03:00",
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/scissor-lift/1930ES-A-3246ES/parts/1930ES-a-3246ES-parts-PN-3121248-NS-0200152825-a-0200198014-date-01-02-18-en.pdf"
+  },
+  {
+    "nome_arquivo": "1930ES-a-3246ES-parts-PN-3121275-NS-0200198014-a-0200239381-NS-B200000100-a-B200020296date-01-02-18-en.pdf",
+    "caminho_r2": "jlg/electric/scissor-lift/1930ES-A-3246ES/parts/1930ES-a-3246ES-parts-PN-3121275-NS-0200198014-a-0200239381-NS-B200000100-a-B200020296date-01-02-18-en.pdf",
+    "tamanho": 17593207,
+    "data_modificacao": "2025-06-05T18:05:07.220200700-03:00",
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/scissor-lift/1930ES-A-3246ES/parts/1930ES-a-3246ES-parts-PN-3121275-NS-0200198014-a-0200239381-NS-B200000100-a-B200020296date-01-02-18-en.pdf"
+  },
+  {
+    "nome_arquivo": "1930ES-parts-PN-3121681-NS-0200239382-a-0200266334-e-B200020297-ao-atual-date-10-08-20-en.pdf",
+    "caminho_r2": "jlg/electric/scissor-lift/1930ES-A-3246ES/parts/1930ES-parts-PN-3121681-NS-0200239382-a-0200266334-e-B200020297-ao-atual-date-10-08-20-en.pdf",
+    "tamanho": 33760629,
+    "data_modificacao": "2025-06-05T18:05:08.645459300-03:00",
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/scissor-lift/1930ES-A-3246ES/parts/1930ES-parts-PN-3121681-NS-0200239382-a-0200266334-e-B200020297-ao-atual-date-10-08-20-en.pdf"
+  },
+  {
+    "nome_arquivo": "2646ES-3246ES-parts-PN-3121683-NS-0200239382-a-0200266434-e-B200020297-ao-atual-date-10-08-20-en.pdf",
+    "caminho_r2": "jlg/electric/scissor-lift/1930ES-A-3246ES/parts/2646ES-3246ES-parts-PN-3121683-NS-0200239382-a-0200266434-e-B200020297-ao-atual-date-10-08-20-en.pdf",
+    "tamanho": 45031639,
+    "data_modificacao": "2025-06-05T18:05:10.003979100-03:00",
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/scissor-lift/1930ES-A-3246ES/parts/2646ES-3246ES-parts-PN-3121683-NS-0200239382-a-0200266434-e-B200020297-ao-atual-date-10-08-20-en.pdf"
+  },
+  {
+    "nome_arquivo": "1930ES-a-3246ES-service-and-maintenance-pt.pdf",
+    "caminho_r2": "jlg/electric/scissor-lift/1930ES-A-3246ES/service/1930ES-a-3246ES-service-and-maintenance-pt.pdf",
+    "tamanho": 23672292,
+    "data_modificacao": "2025-06-05T18:05:10.995428500-03:00",
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/scissor-lift/1930ES-A-3246ES/service/1930ES-a-3246ES-service-and-maintenance-pt.pdf"
+  },
+  {
+    "nome_arquivo": "3369LE-4069LE-parts-e-M3369-M4069-PN-3121123-SN-anterior-a-0200230092-date-08-31-2016.pdf",
+    "caminho_r2": "jlg/electric/scissor-lift/3369LE-4069LE/parts/3369LE-4069LE-parts-e-M3369-M4069-PN-3121123-SN-anterior-a-0200230092-date-08-31-2016.pdf",
+    "tamanho": 17938705,
+    "data_modificacao": "2025-07-15T19:31:52.845968300-03:00",
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/scissor-lift/3369LE-4069LE/parts/3369LE-4069LE-parts-e-M3369-M4069-PN-3121123-SN-anterior-a-0200230092-date-08-31-2016.pdf"
+  },
+  {
+    "nome_arquivo": "3369LE-4069LE-service-PN-3121824-date-13-07-2012-en.pdf",
+    "caminho_r2": "jlg/electric/scissor-lift/3369LE-4069LE/service/3369LE-4069LE-service-PN-3121824-date-13-07-2012-en.pdf",
+    "tamanho": 6498727,
+    "data_modificacao": "2025-07-15T19:27:31.303926900-03:00",
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/scissor-lift/3369LE-4069LE/service/3369LE-4069LE-service-PN-3121824-date-13-07-2012-en.pdf"
+  },
+  {
+    "nome_arquivo": "6RS-10RS-operation-pt.pdf",
+    "caminho_r2": "jlg/electric/scissor-lift/6RS-10RS/operation/6RS-10RS-operation-pt.pdf",
+    "tamanho": 7378558,
+    "data_modificacao": "2025-06-05T18:05:12.374505800-03:00",
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/scissor-lift/6RS-10RS/operation/6RS-10RS-operation-pt.pdf"
+  },
+  {
+    "nome_arquivo": "6RS-10RS-parts-e-1932RS-3248RS-en.pdf",
+    "caminho_r2": "jlg/electric/scissor-lift/6RS-10RS/parts/6RS-10RS-parts-e-1932RS-3248RS-en.pdf",
+    "tamanho": 14041199,
+    "data_modificacao": "2025-06-05T18:05:13.650249800-03:00",
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/scissor-lift/6RS-10RS/parts/6RS-10RS-parts-e-1932RS-3248RS-en.pdf"
+  },
+  {
+    "nome_arquivo": "6RS-10RS-service-e-1932RS-3248RS-PN-3123331.pdf",
+    "caminho_r2": "jlg/electric/scissor-lift/6RS-10RS/service/6RS-10RS-service-e-1932RS-3248RS-PN-3123331.pdf",
+    "tamanho": 6235462,
+    "data_modificacao": "2025-06-05T18:05:11.183280900-03:00",
+    "url_publica": "https://files.fastlift.com.br/jlg/electric/scissor-lift/6RS-10RS/service/6RS-10RS-service-e-1932RS-3248RS-PN-3123331.pdf"
+  },
+  {
+    "nome_arquivo": "SJ6832-RT-parts-PN-160613-NS-37003411-37003469-ao-37004634-02-14.pdf",
+    "caminho_r2": "skyjack/diesel/scissor-lift/SJ6832-RT/parts/SJ6832-RT-parts-PN-160613-NS-37003411-37003469-ao-37004634-02-14.pdf",
+    "tamanho": 11292075,
+    "data_modificacao": "2025-12-13T16:00:06.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/skyjack/diesel/scissor-lift/SJ6832-RT/parts/SJ6832-RT-parts-PN-160613-NS-37003411-37003469-ao-37004634-02-14.pdf"
+  },
+  {
+    "nome_arquivo": "SJ6832-RT-service-PN-157951AE1-NS-37002788-ao-37004670-03-18.pdf",
+    "caminho_r2": "skyjack/diesel/scissor-lift/SJ6832-RT/service/SJ6832-RT-service-PN-157951AE1-NS-37002788-ao-37004670-03-18.pdf",
+    "tamanho": 14490525,
+    "data_modificacao": "2025-12-13T15:40:06.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/skyjack/diesel/scissor-lift/SJ6832-RT/service/SJ6832-RT-service-PN-157951AE1-NS-37002788-ao-37004670-03-18.pdf"
+  },
+  {
+    "nome_arquivo": "SJ8841-RT-parts-PN-157954AE-SR1-NS-40000728-ao-40000917-02-14.pdf",
+    "caminho_r2": "skyjack/diesel/scissor-lift/SJ8831-e-SJ8841-RT/parts/SJ8841-RT-parts-PN-157954AE-SR1-NS-40000728-ao-40000917-02-14.pdf",
+    "tamanho": 8170578,
+    "data_modificacao": "2025-12-24T04:11:20.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/skyjack/diesel/scissor-lift/SJ8831-e-SJ8841-RT/parts/SJ8841-RT-parts-PN-157954AE-SR1-NS-40000728-ao-40000917-02-14.pdf"
+  },
+  {
+    "nome_arquivo": "SJ8841-RT-service-PN-157945AE-NS-40000728-ao-40001134-03-18.pdf",
+    "caminho_r2": "skyjack/diesel/scissor-lift/SJ8831-e-SJ8841-RT/service/SJ8841-RT-service-PN-157945AE-NS-40000728-ao-40001134-03-18.pdf",
+    "tamanho": 17683521,
+    "data_modificacao": "2025-12-13T15:45:50.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/skyjack/diesel/scissor-lift/SJ8831-e-SJ8841-RT/service/SJ8841-RT-service-PN-157945AE-NS-40000728-ao-40001134-03-18.pdf"
+  },
+  {
+    "nome_arquivo": "SJ9250-RT-parts-PN-160618AE-rev2-NS-50-000-873-and-50-000-879-ao-50-001-023-09-16.pdf",
+    "caminho_r2": "skyjack/diesel/scissor-lift/SJ9250-RT/parts/SJ9250-RT-parts-PN-160618AE-rev2-NS-50-000-873-and-50-000-879-ao-50-001-023-09-16.pdf",
+    "tamanho": 10996081,
+    "data_modificacao": "2025-12-24T04:44:28.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/skyjack/diesel/scissor-lift/SJ9250-RT/parts/SJ9250-RT-parts-PN-160618AE-rev2-NS-50-000-873-and-50-000-879-ao-50-001-023-09-16.pdf"
+  },
+  {
+    "nome_arquivo": "SJ9250-RT-service-PN-157955AE-NS-50000746-ao-50001023-date-03-18.pdf",
+    "caminho_r2": "skyjack/diesel/scissor-lift/SJ9250-RT/service/SJ9250-RT-service-PN-157955AE-NS-50000746-ao-50001023-date-03-18.pdf",
+    "tamanho": 14725309,
+    "data_modificacao": "2025-12-13T15:49:26.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/skyjack/diesel/scissor-lift/SJ9250-RT/service/SJ9250-RT-service-PN-157955AE-NS-50000746-ao-50001023-date-03-18.pdf"
+  },
+  {
+    "nome_arquivo": "SJIII3215-a-SJIII3219-parts-PN-160607AG-22032963-22032964-22035881-22037437-a-22057771-11-2018.pdf",
+    "caminho_r2": "skyjack/electric/scissor-lift/SJIII3215-a-SJIII3219/parts/SJIII3215-a-SJIII3219-parts-PN-160607AG-22032963-22032964-22035881-22037437-a-22057771-11-2018.pdf",
+    "tamanho": 8903709,
+    "data_modificacao": "2025-12-23T15:23:24.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/skyjack/electric/scissor-lift/SJIII3215-a-SJIII3219/parts/SJIII3215-a-SJIII3219-parts-PN-160607AG-22032963-22032964-22035881-22037437-a-22057771-11-2018.pdf"
+  },
+  {
+    "nome_arquivo": "SJIII3215-a-SJIII3219-parts-PN-165973AK2-a-partir-SN-22057772-08-2020.pdf",
+    "caminho_r2": "skyjack/electric/scissor-lift/SJIII3215-a-SJIII3219/parts/SJIII3215-a-SJIII3219-parts-PN-165973AK2-a-partir-SN-22057772-08-2020.pdf",
+    "tamanho": 9583667,
+    "data_modificacao": "2025-12-13T16:09:58.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/skyjack/electric/scissor-lift/SJIII3215-a-SJIII3219/parts/SJIII3215-a-SJIII3219-parts-PN-165973AK2-a-partir-SN-22057772-08-2020.pdf"
+  },
+  {
+    "nome_arquivo": "SJIII3215-a-SJIII3219-service-PN-157927AN3–08-2020-INGLÊS.pdf",
+    "caminho_r2": "skyjack/electric/scissor-lift/SJIII3215-a-SJIII3219/service/SJIII3215-a-SJIII3219-service-PN-157927AN3–08-2020-INGLÊS.pdf",
+    "tamanho": 11687882,
+    "data_modificacao": "2025-12-13T15:56:32.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/skyjack/electric/scissor-lift/SJIII3215-a-SJIII3219/service/SJIII3215-a-SJIII3219-service-PN-157927AN3%E2%80%9308-2020-INGL%C3%8AS.pdf"
+  },
+  {
+    "nome_arquivo": "SJIII3220-a-SIII4632-parts-SJIII3226-SJIII4620-SJIII4626-SJIII4632-PN-160609AG-SJIII3226-27010423-a-27017550 -70010916-a-70017595-10-2018.pdf",
+    "caminho_r2": "skyjack/electric/scissor-lift/SJIII3220-a-SJIII4632/parts/SJIII3220-a-SIII4632-parts-SJIII3226-SJIII4620-SJIII4626-SJIII4632-PN-160609AG-SJIII3226-27010423-a-27017550 -70010916-a-70017595-10-2018.pdf",
+    "tamanho": 11001856,
+    "data_modificacao": "2025-12-23T15:29:40.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/skyjack/electric/scissor-lift/SJIII3220-a-SJIII4632/parts/SJIII3220-a-SIII4632-parts-SJIII3226-SJIII4620-SJIII4626-SJIII4632-PN-160609AG-SJIII3226-27010423-a-27017550%20-70010916-a-70017595-10-2018.pdf"
+  },
+  {
+    "nome_arquivo": "SJIII3220-a-SIII4632-parts-SJIII3226-SJIII4620-SJIII4626-SJIII4632-PN-165974AK3-SJIII3226-a-partir-do-no-serie-27017551a-a-partir-do-no-serie-70017596-08-2020.pdf",
+    "caminho_r2": "skyjack/electric/scissor-lift/SJIII3220-a-SJIII4632/parts/SJIII3220-a-SIII4632-parts-SJIII3226-SJIII4620-SJIII4626-SJIII4632-PN-165974AK3-SJIII3226-a-partir-do-no-serie-27017551a-a-partir-do-no-serie-70017596-08-2020.pdf",
+    "tamanho": 11088398,
+    "data_modificacao": "2025-12-23T15:36:06.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/skyjack/electric/scissor-lift/SJIII3220-a-SJIII4632/parts/SJIII3220-a-SIII4632-parts-SJIII3226-SJIII4620-SJIII4626-SJIII4632-PN-165974AK3-SJIII3226-a-partir-do-no-serie-27017551a-a-partir-do-no-serie-70017596-08-2020.pdf"
+  },
+  {
+    "nome_arquivo": "SJIII3220-a-SJIII4632-service-SJIII3226-SJIII4620-SJIII4626-PN-157928AN3–08-2020-en.pdf",
+    "caminho_r2": "skyjack/electric/scissor-lift/SJIII3220-a-SJIII4632/service/SJIII3220-a-SJIII4632-service-SJIII3226-SJIII4620-SJIII4626-PN-157928AN3–08-2020-en.pdf",
+    "tamanho": 17687631,
+    "data_modificacao": "2025-12-13T15:54:42.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/skyjack/electric/scissor-lift/SJIII3220-a-SJIII4632/service/SJIII3220-a-SJIII4632-service-SJIII3226-SJIII4620-SJIII4626-PN-157928AN3%E2%80%9308-2020-en.pdf"
   }
 ]
