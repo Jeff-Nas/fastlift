@@ -97,6 +97,7 @@ export default function Manufacturer() {
                 width={200}
                 height={600}
                 alt={cat.label}
+                loading="eager"
                 className="w-20 h-28 lg:w-30 lg:h-38 group-hover:scale-110 group-active:scale-120 transition-transform duration-300"
               />
             </figure>

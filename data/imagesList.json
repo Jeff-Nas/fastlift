@@ -1,0 +1,641 @@
+[
+  {
+    "nome": "s100",
+    "marca": "genie",
+    "nome_arquivo": "S100.png",
+    "caminho_r2": "genie/diesel/big-boom/s100/S100.png",
+    "tamanho": 235846,
+    "data_modificacao": "2025-12-25T09:24:34.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/genie/diesel/big-boom/s100/S100.png"
+  },
+  {
+    "nome": "s125",
+    "marca": "genie",
+    "nome_arquivo": "S125.png",
+    "caminho_r2": "genie/diesel/big-boom/s125/S125.png",
+    "tamanho": 115973,
+    "data_modificacao": "2026-02-28T14:02:51.864392000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/genie/diesel/big-boom/s125/S125.png"
+  },
+  {
+    "nome": "sx-180",
+    "marca": "genie",
+    "nome_arquivo": "SX180.png",
+    "caminho_r2": "genie/diesel/big-boom/sx-180/SX180.png",
+    "tamanho": 134807,
+    "data_modificacao": "2025-12-25T09:24:34.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/genie/diesel/big-boom/sx-180/SX180.png"
+  },
+  {
+    "nome": "z135",
+    "marca": "genie",
+    "nome_arquivo": "Z135.png",
+    "caminho_r2": "genie/diesel/big-boom/z135/Z135.png",
+    "tamanho": 243333,
+    "data_modificacao": "2026-02-28T13:53:21.287780000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/genie/diesel/big-boom/z135/Z135.png"
+  },
+  {
+    "nome": "zx135",
+    "marca": "genie",
+    "nome_arquivo": "ZX135-70.png",
+    "caminho_r2": "genie/diesel/big-boom/zx135/ZX135-70.png",
+    "tamanho": 224992,
+    "data_modificacao": "2026-02-28T10:44:39.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/genie/diesel/big-boom/zx135/ZX135-70.png"
+  },
+  {
+    "nome": "S60-e-S65",
+    "marca": "genie",
+    "nome_arquivo": "S60.png",
+    "caminho_r2": "genie/diesel/boom-lift/S60-e-S65/S60.png",
+    "tamanho": 172027,
+    "data_modificacao": "2025-12-25T09:24:34.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/genie/diesel/boom-lift/S60-e-S65/S60.png"
+  },
+  {
+    "nome": "TZ34-20",
+    "marca": "genie",
+    "nome_arquivo": "TZ34-20.png",
+    "caminho_r2": "genie/diesel/boom-lift/TZ34-20/TZ34-20.png",
+    "tamanho": 119170,
+    "data_modificacao": "2026-02-28T10:44:39.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/genie/diesel/boom-lift/TZ34-20/TZ34-20.png"
+  },
+  {
+    "nome": "Z34-22",
+    "marca": "genie",
+    "nome_arquivo": "Z34-22RT.png",
+    "caminho_r2": "genie/diesel/boom-lift/Z34-22/Z34-22RT.png",
+    "tamanho": 138385,
+    "data_modificacao": "2026-02-28T10:44:39.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/genie/diesel/boom-lift/Z34-22/Z34-22RT.png"
+  },
+  {
+    "nome": "Z45-22IC",
+    "marca": "genie",
+    "nome_arquivo": "Z45-25-e-Z45-25J-IC.png",
+    "caminho_r2": "genie/diesel/boom-lift/Z45-22IC/Z45-25-e-Z45-25J-IC.png",
+    "tamanho": 102896,
+    "data_modificacao": "2026-02-28T10:44:39.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/genie/diesel/boom-lift/Z45-22IC/Z45-25-e-Z45-25J-IC.png"
+  },
+  {
+    "nome": "Z60-34",
+    "marca": "genie",
+    "nome_arquivo": "Z60-34.png",
+    "caminho_r2": "genie/diesel/boom-lift/Z60-34/Z60-34.png",
+    "tamanho": 117103,
+    "data_modificacao": "2026-02-28T10:44:39.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/genie/diesel/boom-lift/Z60-34/Z60-34.png"
+  },
+  {
+    "nome": "Z80-60",
+    "marca": "genie",
+    "nome_arquivo": "Z80-60.png",
+    "caminho_r2": "genie/diesel/boom-lift/Z80-60/Z80-60.png",
+    "tamanho": 164139,
+    "data_modificacao": "2026-02-28T10:44:39.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/genie/diesel/boom-lift/Z80-60/Z80-60.png"
+  },
+  {
+    "nome": "z51-30",
+    "marca": "genie",
+    "nome_arquivo": "z51-30.png",
+    "caminho_r2": "genie/diesel/boom-lift/z51-30/z51-30.png",
+    "tamanho": 119228,
+    "data_modificacao": "2026-02-28T18:51:50.259445354-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/genie/diesel/boom-lift/z51-30/z51-30.png"
+  },
+  {
+    "nome": "GS3369-RT",
+    "marca": "genie",
+    "nome_arquivo": "GS3369-RT.png",
+    "caminho_r2": "genie/diesel/scissor-lift/GS3369-RT/GS3369-RT.png",
+    "tamanho": 247156,
+    "data_modificacao": "2026-02-28T10:44:39.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/genie/diesel/scissor-lift/GS3369-RT/GS3369-RT.png"
+  },
+  {
+    "nome": "GS3384-rt-a-GS5390-rt",
+    "marca": "genie",
+    "nome_arquivo": "GS3384-a-GS5390.png",
+    "caminho_r2": "genie/diesel/scissor-lift/GS3384-rt-a-GS5390-rt/GS3384-a-GS5390.png",
+    "tamanho": 162096,
+    "data_modificacao": "2026-02-28T10:44:39.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/genie/diesel/scissor-lift/GS3384-rt-a-GS5390-rt/GS3384-a-GS5390.png"
+  },
+  {
+    "nome": "gs2668-rt",
+    "marca": "genie",
+    "nome_arquivo": "GS2668-RT.png",
+    "caminho_r2": "genie/diesel/scissor-lift/gs2668-rt/GS2668-RT.png",
+    "tamanho": 274529,
+    "data_modificacao": "2026-02-28T10:44:39.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/genie/diesel/scissor-lift/gs2668-rt/GS2668-RT.png"
+  },
+  {
+    "nome": "gs3268-rt",
+    "marca": "genie",
+    "nome_arquivo": "GS3268-rt.png",
+    "caminho_r2": "genie/diesel/scissor-lift/gs3268-rt/GS3268-rt.png",
+    "tamanho": 300732,
+    "data_modificacao": "2026-02-28T19:09:03.341956000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/genie/diesel/scissor-lift/gs3268-rt/GS3268-rt.png"
+  },
+  {
+    "nome": "GTH-2506",
+    "marca": "genie",
+    "nome_arquivo": "GTH-2506.png",
+    "caminho_r2": "genie/diesel/telehandler/GTH-2506/GTH-2506.png",
+    "tamanho": 214209,
+    "data_modificacao": "2026-02-28T19:23:41.528006000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/genie/diesel/telehandler/GTH-2506/GTH-2506.png"
+  },
+  {
+    "nome": "z-30",
+    "marca": "genie",
+    "nome_arquivo": "z30-20rj.png",
+    "caminho_r2": "genie/electric/boom-lift/z-30/z30-20rj.png",
+    "tamanho": 105180,
+    "data_modificacao": "2025-12-25T09:24:34.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/genie/electric/boom-lift/z-30/z30-20rj.png"
+  },
+  {
+    "nome": "z-34",
+    "marca": "genie",
+    "nome_arquivo": "z34-22.png",
+    "caminho_r2": "genie/electric/boom-lift/z-34/z34-22.png",
+    "tamanho": 145997,
+    "data_modificacao": "2025-12-25T09:24:34.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/genie/electric/boom-lift/z-34/z34-22.png"
+  },
+  {
+    "nome": "z-45",
+    "marca": "genie",
+    "nome_arquivo": "z45-dc.png",
+    "caminho_r2": "genie/electric/boom-lift/z-45/z45-dc.png",
+    "tamanho": 120304,
+    "data_modificacao": "2026-02-27T18:02:46.295587984-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/genie/electric/boom-lift/z-45/z45-dc.png"
+  },
+  {
+    "nome": "gr-20",
+    "marca": "genie",
+    "nome_arquivo": "gr-20.png",
+    "caminho_r2": "genie/electric/mast-lift/gr-20/gr-20.png",
+    "tamanho": 271005,
+    "data_modificacao": "2026-02-27T17:58:12.466820832-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/genie/electric/mast-lift/gr-20/gr-20.png"
+  },
+  {
+    "nome": "gr-26",
+    "marca": "genie",
+    "nome_arquivo": "gr-26J.png",
+    "caminho_r2": "genie/electric/mast-lift/gr-26/gr-26J.png",
+    "tamanho": 191908,
+    "data_modificacao": "2025-12-25T09:24:34.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/genie/electric/mast-lift/gr-26/gr-26J.png"
+  },
+  {
+    "nome": "gs-1530",
+    "marca": "genie",
+    "nome_arquivo": "gs-1530.png",
+    "caminho_r2": "genie/electric/scissor-lift/gs-1530/gs-1530.png",
+    "tamanho": 424958,
+    "data_modificacao": "2026-02-27T16:02:27.154744943-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/genie/electric/scissor-lift/gs-1530/gs-1530.png"
+  },
+  {
+    "nome": "gs-2032",
+    "marca": "genie",
+    "nome_arquivo": "gs-2032.png",
+    "caminho_r2": "genie/electric/scissor-lift/gs-2032/gs-2032.png",
+    "tamanho": 451983,
+    "data_modificacao": "2025-12-25T09:24:34.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/genie/electric/scissor-lift/gs-2032/gs-2032.png"
+  },
+  {
+    "nome": "gs-2632",
+    "marca": "genie",
+    "nome_arquivo": "gs-2632.png",
+    "caminho_r2": "genie/electric/scissor-lift/gs-2632/gs-2632.png",
+    "tamanho": 352550,
+    "data_modificacao": "2025-12-25T09:24:34.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/genie/electric/scissor-lift/gs-2632/gs-2632.png"
+  },
+  {
+    "nome": "gs-2668",
+    "marca": "genie",
+    "nome_arquivo": "gs-2668-dc.png",
+    "caminho_r2": "genie/electric/scissor-lift/gs-2668/gs-2668-dc.png",
+    "tamanho": 298075,
+    "data_modificacao": "2025-12-25T09:24:34.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/genie/electric/scissor-lift/gs-2668/gs-2668-dc.png"
+  },
+  {
+    "nome": "gs-3246",
+    "marca": "genie",
+    "nome_arquivo": "gs-3246.png",
+    "caminho_r2": "genie/electric/scissor-lift/gs-3246/gs-3246.png",
+    "tamanho": 365976,
+    "data_modificacao": "2025-12-25T09:24:34.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/genie/electric/scissor-lift/gs-3246/gs-3246.png"
+  },
+  {
+    "nome": "ha32-px-e-ha100-jrt",
+    "marca": "haulotte",
+    "nome_arquivo": "ha32-px.png",
+    "caminho_r2": "haulotte/diesel/big-boom/ha32-px-e-ha100-jrt/ha32-px.png",
+    "tamanho": 202373,
+    "data_modificacao": "2026-03-01T19:29:12.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/haulotte/diesel/big-boom/ha32-px-e-ha100-jrt/ha32-px.png"
+  },
+  {
+    "nome": "ha120-px-a-ha260-px",
+    "marca": "haulotte",
+    "nome_arquivo": "ha120-px.png",
+    "caminho_r2": "haulotte/diesel/boom-lift/ha120-px-a-ha260-px/ha120-px.png",
+    "tamanho": 127329,
+    "data_modificacao": "2026-03-01T19:29:12.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/haulotte/diesel/boom-lift/ha120-px-a-ha260-px/ha120-px.png"
+  },
+  {
+    "nome": "ha16spx",
+    "marca": "haulotte",
+    "nome_arquivo": "ha16spx.png",
+    "caminho_r2": "haulotte/diesel/boom-lift/ha16spx/ha16spx.png",
+    "tamanho": 110286,
+    "data_modificacao": "2026-03-01T19:29:12.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/haulotte/diesel/boom-lift/ha16spx/ha16spx.png"
+  },
+  {
+    "nome": "ha18-px-a-ha51-sjrt",
+    "marca": "haulotte",
+    "nome_arquivo": "ha18-px.png",
+    "caminho_r2": "haulotte/diesel/boom-lift/ha18-px-a-ha51-sjrt/ha18-px.png",
+    "tamanho": 180765,
+    "data_modificacao": "2026-03-01T19:29:12.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/haulotte/diesel/boom-lift/ha18-px-a-ha51-sjrt/ha18-px.png"
+  },
+  {
+    "nome": "htl4014-htl4017",
+    "marca": "haulotte",
+    "nome_arquivo": "htl4014.png",
+    "caminho_r2": "haulotte/diesel/telehandler/htl4014-htl4017/htl4014.png",
+    "tamanho": 228197,
+    "data_modificacao": "2026-03-01T19:29:12.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/haulotte/diesel/telehandler/htl4014-htl4017/htl4014.png"
+  },
+  {
+    "nome": "ha15ip-a-ha43je",
+    "marca": "haulotte",
+    "nome_arquivo": "ha15-ip.png",
+    "caminho_r2": "haulotte/electric/boom-lift/ha15ip-a-ha43je/ha15-ip.png",
+    "tamanho": 192361,
+    "data_modificacao": "2026-03-01T19:29:12.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/haulotte/electric/boom-lift/ha15ip-a-ha43je/ha15-ip.png"
+  },
+  {
+    "nome": "star8-a-star26j",
+    "marca": "haulotte",
+    "nome_arquivo": "star-8.png",
+    "caminho_r2": "haulotte/electric/mast-lift/star8-a-star26j/star-8.png",
+    "tamanho": 182642,
+    "data_modificacao": "2026-03-01T19:29:12.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/haulotte/electric/mast-lift/star8-a-star26j/star-8.png"
+  },
+  {
+    "nome": "compact-14",
+    "marca": "haulotte",
+    "nome_arquivo": "compact-14.png",
+    "caminho_r2": "haulotte/electric/scissor-lift/compact-14/compact-14.png",
+    "tamanho": 297973,
+    "data_modificacao": "2026-03-01T19:29:12.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/haulotte/electric/scissor-lift/compact-14/compact-14.png"
+  },
+  {
+    "nome": "hero",
+    "marca": "hero",
+    "nome_arquivo": "hero-image.png",
+    "caminho_r2": "hero/hero-image.png",
+    "tamanho": 868100,
+    "data_modificacao": "2025-07-28T15:28:01.609058000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/hero/hero-image.png"
+  },
+  {
+    "nome": "icons",
+    "marca": "icons",
+    "nome_arquivo": "icon-genie.png",
+    "caminho_r2": "icons/icon-genie.png",
+    "tamanho": 5673,
+    "data_modificacao": "2025-07-28T15:28:01.609058000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/icons/icon-genie.png"
+  },
+  {
+    "nome": "icons",
+    "marca": "icons",
+    "nome_arquivo": "icon-haulotte.png",
+    "caminho_r2": "icons/icon-haulotte.png",
+    "tamanho": 218834,
+    "data_modificacao": "2026-02-25T08:54:01.112496516-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/icons/icon-haulotte.png"
+  },
+  {
+    "nome": "icons",
+    "marca": "icons",
+    "nome_arquivo": "icon-jlg.png",
+    "caminho_r2": "icons/icon-jlg.png",
+    "tamanho": 5053,
+    "data_modificacao": "2025-07-28T15:28:01.610058000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/icons/icon-jlg.png"
+  },
+  {
+    "nome": "icons",
+    "marca": "icons",
+    "nome_arquivo": "icon-skj.png",
+    "caminho_r2": "icons/icon-skj.png",
+    "tamanho": 9565,
+    "data_modificacao": "2025-07-28T15:28:01.610058000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/icons/icon-skj.png"
+  },
+  {
+    "nome": "1200SJP-1350SJP",
+    "marca": "jlg",
+    "nome_arquivo": "1200sjp.png",
+    "caminho_r2": "jlg/diesel/big-boom/1200SJP-1350SJP/1200sjp.png",
+    "tamanho": 85793,
+    "data_modificacao": "2026-03-02T15:06:50.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/jlg/diesel/big-boom/1200SJP-1350SJP/1200sjp.png"
+  },
+  {
+    "nome": "1250AJP",
+    "marca": "jlg",
+    "nome_arquivo": "1250-ajp.png",
+    "caminho_r2": "jlg/diesel/big-boom/1250AJP/1250-ajp.png",
+    "tamanho": 200892,
+    "data_modificacao": "2026-03-02T15:06:50.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/jlg/diesel/big-boom/1250AJP/1250-ajp.png"
+  },
+  {
+    "nome": "1350SJP",
+    "marca": "jlg",
+    "nome_arquivo": "1350-sjp.png",
+    "caminho_r2": "jlg/diesel/big-boom/1350SJP/1350-sjp.png",
+    "tamanho": 124420,
+    "data_modificacao": "2026-03-02T15:06:50.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/jlg/diesel/big-boom/1350SJP/1350-sjp.png"
+  },
+  {
+    "nome": "340AJ",
+    "marca": "jlg",
+    "nome_arquivo": "340aj.png",
+    "caminho_r2": "jlg/diesel/boom-lift/340AJ/340aj.png",
+    "tamanho": 207469,
+    "data_modificacao": "2026-03-02T15:06:50.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/jlg/diesel/boom-lift/340AJ/340aj.png"
+  },
+  {
+    "nome": "450A-450AJ",
+    "marca": "jlg",
+    "nome_arquivo": "450aj.png",
+    "caminho_r2": "jlg/diesel/boom-lift/450A-450AJ/450aj.png",
+    "tamanho": 156269,
+    "data_modificacao": "2026-03-02T15:06:50.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/jlg/diesel/boom-lift/450A-450AJ/450aj.png"
+  },
+  {
+    "nome": "600A-600AJ",
+    "marca": "jlg",
+    "nome_arquivo": "600aj.png",
+    "caminho_r2": "jlg/diesel/boom-lift/600A-600AJ/600aj.png",
+    "tamanho": 203215,
+    "data_modificacao": "2026-03-02T15:06:50.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/jlg/diesel/boom-lift/600A-600AJ/600aj.png"
+  },
+  {
+    "nome": "600SC-660SJC",
+    "marca": "jlg",
+    "nome_arquivo": "600sc.png",
+    "caminho_r2": "jlg/diesel/boom-lift/600SC-660SJC/600sc.png",
+    "tamanho": 128219,
+    "data_modificacao": "2026-03-02T15:06:50.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/jlg/diesel/boom-lift/600SC-660SJC/600sc.png"
+  },
+  {
+    "nome": "800A-800AJ",
+    "marca": "jlg",
+    "nome_arquivo": "800aj.png",
+    "caminho_r2": "jlg/diesel/boom-lift/800A-800AJ/800aj.png",
+    "tamanho": 150225,
+    "data_modificacao": "2026-03-02T15:06:50.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/jlg/diesel/boom-lift/800A-800AJ/800aj.png"
+  },
+  {
+    "nome": "800S-860SJ",
+    "marca": "jlg",
+    "nome_arquivo": "800s.png",
+    "caminho_r2": "jlg/diesel/boom-lift/800S-860SJ/800s.png",
+    "tamanho": 130226,
+    "data_modificacao": "2026-03-02T15:06:50.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/jlg/diesel/boom-lift/800S-860SJ/800s.png"
+  },
+  {
+    "nome": "3394RT-4394RT",
+    "marca": "jlg",
+    "nome_arquivo": "3394rt.png",
+    "caminho_r2": "jlg/diesel/scissor-lift/3394RT-4394RT/3394rt.png",
+    "tamanho": 265040,
+    "data_modificacao": "2025-07-28T15:28:01.615058000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/jlg/diesel/scissor-lift/3394RT-4394RT/3394rt.png"
+  },
+  {
+    "nome": "e300-ajp",
+    "marca": "jlg",
+    "nome_arquivo": "e300ajp.png",
+    "caminho_r2": "jlg/electric/boom-lift/e300-ajp/e300ajp.png",
+    "tamanho": 508893,
+    "data_modificacao": "2025-07-28T15:28:01.597058000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/jlg/electric/boom-lift/e300-ajp/e300ajp.png"
+  },
+  {
+    "nome": "e450-ajp",
+    "marca": "jlg",
+    "nome_arquivo": "e450ajp.png",
+    "caminho_r2": "jlg/electric/boom-lift/e450-ajp/e450ajp.png",
+    "tamanho": 330766,
+    "data_modificacao": "2025-07-28T15:28:01.599058000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/jlg/electric/boom-lift/e450-ajp/e450ajp.png"
+  },
+  {
+    "nome": "e600",
+    "marca": "jlg",
+    "nome_arquivo": "e600.png",
+    "caminho_r2": "jlg/electric/boom-lift/e600/e600.png",
+    "tamanho": 117543,
+    "data_modificacao": "2025-07-28T15:28:01.600058000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/jlg/electric/boom-lift/e600/e600.png"
+  },
+  {
+    "nome": "toucan",
+    "marca": "jlg",
+    "nome_arquivo": "toucan.png",
+    "caminho_r2": "jlg/electric/mast-lifts/toucan/toucan.png",
+    "tamanho": 90701,
+    "data_modificacao": "2025-07-28T15:28:01.601058000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/jlg/electric/mast-lifts/toucan/toucan.png"
+  },
+  {
+    "nome": "1930es-e-2030es",
+    "marca": "jlg",
+    "nome_arquivo": "2030es.png",
+    "caminho_r2": "jlg/electric/scissor-lift/1930es-e-2030es/2030es.png",
+    "tamanho": 389473,
+    "data_modificacao": "2025-07-28T15:28:01.618058000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/jlg/electric/scissor-lift/1930es-e-2030es/2030es.png"
+  },
+  {
+    "nome": "2630es",
+    "marca": "jlg",
+    "nome_arquivo": "2630es.png",
+    "caminho_r2": "jlg/electric/scissor-lift/2630es/2630es.png",
+    "tamanho": 1906080,
+    "data_modificacao": "2025-07-28T15:28:01.624058000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/jlg/electric/scissor-lift/2630es/2630es.png"
+  },
+  {
+    "nome": "2646es",
+    "marca": "jlg",
+    "nome_arquivo": "2646es.png",
+    "caminho_r2": "jlg/electric/scissor-lift/2646es/2646es.png",
+    "tamanho": 942153,
+    "data_modificacao": "2025-07-28T15:28:01.629058000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/jlg/electric/scissor-lift/2646es/2646es.png"
+  },
+  {
+    "nome": "3246es",
+    "marca": "jlg",
+    "nome_arquivo": "3246es.webp",
+    "caminho_r2": "jlg/electric/scissor-lift/3246es/3246es.webp",
+    "tamanho": 52628,
+    "data_modificacao": "2025-07-28T15:28:01.629058000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/jlg/electric/scissor-lift/3246es/3246es.webp"
+  },
+  {
+    "nome": "3369le-4069le",
+    "marca": "jlg",
+    "nome_arquivo": "3369le-4069le.png",
+    "caminho_r2": "jlg/electric/scissor-lift/3369le-4069le/3369le-4069le.png",
+    "tamanho": 288994,
+    "data_modificacao": "2025-07-28T15:28:01.631058000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/jlg/electric/scissor-lift/3369le-4069le/3369le-4069le.png"
+  },
+  {
+    "nome": "6rs-10rs",
+    "marca": "jlg",
+    "nome_arquivo": "10rs.png",
+    "caminho_r2": "jlg/electric/scissor-lift/6rs-10rs/10rs.png",
+    "tamanho": 138004,
+    "data_modificacao": "2025-07-28T15:28:01.616058000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/jlg/electric/scissor-lift/6rs-10rs/10rs.png"
+  },
+  {
+    "nome": "SJ6832-RT",
+    "marca": "skyjack",
+    "nome_arquivo": "SJ6832-RT.png",
+    "caminho_r2": "skyjack/diesel/scissor-lift/SJ6832-RT/SJ6832-RT.png",
+    "tamanho": 937104,
+    "data_modificacao": "2026-02-28T19:35:15.896181000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/skyjack/diesel/scissor-lift/SJ6832-RT/SJ6832-RT.png"
+  },
+  {
+    "nome": "SJ8831-e-SJ8841-RT",
+    "marca": "skyjack",
+    "nome_arquivo": "SJ-8841.png",
+    "caminho_r2": "skyjack/diesel/scissor-lift/SJ8831-e-SJ8841-RT/SJ-8841.png",
+    "tamanho": 287121,
+    "data_modificacao": "2026-02-28T19:34:48.816365000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/skyjack/diesel/scissor-lift/SJ8831-e-SJ8841-RT/SJ-8841.png"
+  },
+  {
+    "nome": "SJ9250-RT",
+    "marca": "skyjack",
+    "nome_arquivo": "SJ-9250.png",
+    "caminho_r2": "skyjack/diesel/scissor-lift/SJ9250-RT/SJ-9250.png",
+    "tamanho": 317188,
+    "data_modificacao": "2026-02-28T19:36:50.006653000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/skyjack/diesel/scissor-lift/SJ9250-RT/SJ-9250.png"
+  },
+  {
+    "nome": "SJIII3215-a-SJIII3219",
+    "marca": "skyjack",
+    "nome_arquivo": "SJIII3215-a-SJIII3219.png",
+    "caminho_r2": "skyjack/electric/scissor-lift/SJIII3215-a-SJIII3219/SJIII3215-a-SJIII3219.png",
+    "tamanho": 266586,
+    "data_modificacao": "2026-02-28T19:41:04.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/skyjack/electric/scissor-lift/SJIII3215-a-SJIII3219/SJIII3215-a-SJIII3219.png"
+  },
+  {
+    "nome": "SJIII3220-a-SJIII4632",
+    "marca": "skyjack",
+    "nome_arquivo": "SJIII-3220-a-SJIII-4632.png",
+    "caminho_r2": "skyjack/electric/scissor-lift/SJIII3220-a-SJIII4632/SJIII-3220-a-SJIII-4632.png",
+    "tamanho": 298597,
+    "data_modificacao": "2026-02-28T19:41:04.000000000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/skyjack/electric/scissor-lift/SJIII3220-a-SJIII4632/SJIII-3220-a-SJIII-4632.png"
+  },
+  {
+    "nome": "vector",
+    "marca": "vector",
+    "nome_arquivo": "big-boom.png",
+    "caminho_r2": "vector/big-boom.png",
+    "tamanho": 14245,
+    "data_modificacao": "2025-07-28T15:28:01.592058000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/vector/big-boom.png"
+  },
+  {
+    "nome": "vector",
+    "marca": "vector",
+    "nome_arquivo": "boom-lift.png",
+    "caminho_r2": "vector/boom-lift.png",
+    "tamanho": 62253,
+    "data_modificacao": "2025-07-28T15:28:01.601058000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/vector/boom-lift.png"
+  },
+  {
+    "nome": "vector",
+    "marca": "vector",
+    "nome_arquivo": "electric-boom.png",
+    "caminho_r2": "vector/electric-boom.png",
+    "tamanho": 51761,
+    "data_modificacao": "2025-07-28T15:28:01.602058000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/vector/electric-boom.png"
+  },
+  {
+    "nome": "vector",
+    "marca": "vector",
+    "nome_arquivo": "mastro-vertical.png",
+    "caminho_r2": "vector/mastro-vertical.png",
+    "tamanho": 30448,
+    "data_modificacao": "2025-07-28T15:28:01.612058000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/vector/mastro-vertical.png"
+  },
+  {
+    "nome": "vector",
+    "marca": "vector",
+    "nome_arquivo": "scissor-lift-mini.png",
+    "caminho_r2": "vector/scissor-lift-mini.png",
+    "tamanho": 56542,
+    "data_modificacao": "2025-07-28T15:28:01.591058000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/vector/scissor-lift-mini.png"
+  },
+  {
+    "nome": "vector",
+    "marca": "vector",
+    "nome_arquivo": "scissors-lift.png",
+    "caminho_r2": "vector/scissors-lift.png",
+    "tamanho": 243416,
+    "data_modificacao": "2025-07-28T15:28:01.614058000-03:00",
+    "url_publica": "https://imagens.fastlift.com.br/vector/scissors-lift.png"
+  }
+]

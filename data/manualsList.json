@@ -1,87 +1,115 @@
 [
   {
-    "nome_arquivo": "S-65-4WD-esquema-hidraulico.pdf",
-    "caminho_r2": "genie/diesel/boom-lift/S-60-e-S-65/esquemas/S-65-4WD-esquema-hidraulico.pdf",
-    "tamanho": 84638,
-    "data_modificacao": "2025-12-11T22:38:00.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S-60-e-S-65/esquemas/S-65-4WD-esquema-hidraulico.pdf"
-  },
-  {
-    "nome_arquivo": "S60-e-S65-operation-pt-br.pdf",
-    "caminho_r2": "genie/diesel/boom-lift/S-60-e-S-65/operation/S60-e-S65-operation-pt-br.pdf",
-    "tamanho": 794179,
-    "data_modificacao": "2025-12-11T22:38:00.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S-60-e-S-65/operation/S60-e-S65-operation-pt-br.pdf"
-  },
-  {
-    "nome_arquivo": "S60-S65-parts-from-SN-9154.pdf",
-    "caminho_r2": "genie/diesel/boom-lift/S-60-e-S-65/parts/S60-S65-parts-from-SN-9154.pdf",
-    "tamanho": 5617333,
-    "data_modificacao": "2025-12-11T22:38:00.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S-60-e-S-65/parts/S60-S65-parts-from-SN-9154.pdf"
-  },
-  {
-    "nome_arquivo": "S60-S65-service-PN-77828-SN-9154-a-14781.pdf",
-    "caminho_r2": "genie/diesel/boom-lift/S-60-e-S-65/service/S60-S65-service-PN-77828-SN-9154-a-14781.pdf",
-    "tamanho": 7120312,
-    "data_modificacao": "2025-12-11T22:38:00.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S-60-e-S-65/service/S60-S65-service-PN-77828-SN-9154-a-14781.pdf"
-  },
-  {
     "nome_arquivo": "S100-a-S125-service-PN-102916-jan-2019-en.pdf",
-    "caminho_r2": "genie/diesel/boom-lift/S100-a-S125/service/S100-a-S125-service-PN-102916-jan-2019-en.pdf",
+    "caminho_r2": "genie/diesel/big-boom/S100-a-S125/service/S100-a-S125-service-PN-102916-jan-2019-en.pdf",
     "tamanho": 12303283,
     "data_modificacao": "2025-12-26T03:38:36.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S100-a-S125/service/S100-a-S125-service-PN-102916-jan-2019-en.pdf"
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/big-boom/S100-a-S125/service/S100-a-S125-service-PN-102916-jan-2019-en.pdf"
   },
   {
     "nome_arquivo": "S100-a-S125-service-PN-102916PB-mai-2011-pt.pdf",
-    "caminho_r2": "genie/diesel/boom-lift/S100-a-S125/service/S100-a-S125-service-PN-102916PB-mai-2011-pt.pdf",
+    "caminho_r2": "genie/diesel/big-boom/S100-a-S125/service/S100-a-S125-service-PN-102916PB-mai-2011-pt.pdf",
     "tamanho": 7065539,
     "data_modificacao": "2025-12-26T03:38:20.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S100-a-S125/service/S100-a-S125-service-PN-102916PB-mai-2011-pt.pdf"
-  },
-  {
-    "nome_arquivo": "S80XC-e-S85XC-maintenance-a-partir-SN-101-en.pdf",
-    "caminho_r2": "genie/diesel/boom-lift/S80XC-&-S85XC/maintenance/S80XC-e-S85XC-maintenance-a-partir-SN-101-en.pdf",
-    "tamanho": 5991847,
-    "data_modificacao": "2025-12-11T22:38:00.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S80XC-%26-S85XC/maintenance/S80XC-e-S85XC-maintenance-a-partir-SN-101-en.pdf"
-  },
-  {
-    "nome_arquivo": "S80XC-e-S85XC-operation-a-partir-SN-101-pt-br.pdf",
-    "caminho_r2": "genie/diesel/boom-lift/S80XC-&-S85XC/operation/S80XC-e-S85XC-operation-a-partir-SN-101-pt-br.pdf",
-    "tamanho": 3037564,
-    "data_modificacao": "2025-12-11T22:38:00.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S80XC-%26-S85XC/operation/S80XC-e-S85XC-operation-a-partir-SN-101-pt-br.pdf"
-  },
-  {
-    "nome_arquivo": "S80XC-e-S85XC-parts-a-partir-SN-101.pdf",
-    "caminho_r2": "genie/diesel/boom-lift/S80XC-&-S85XC/parts/S80XC-e-S85XC-parts-a-partir-SN-101.pdf",
-    "tamanho": 131999174,
-    "data_modificacao": "2025-12-11T22:38:00.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S80XC-%26-S85XC/parts/S80XC-e-S85XC-parts-a-partir-SN-101.pdf"
-  },
-  {
-    "nome_arquivo": "S80XC-e-S85XC-service-and-repair-a-partir-SN-101.pdf",
-    "caminho_r2": "genie/diesel/boom-lift/S80XC-&-S85XC/service/S80XC-e-S85XC-service-and-repair-a-partir-SN-101.pdf",
-    "tamanho": 7729485,
-    "data_modificacao": "2025-12-11T22:38:00.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S80XC-%26-S85XC/service/S80XC-e-S85XC-service-and-repair-a-partir-SN-101.pdf"
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/big-boom/S100-a-S125/service/S100-a-S125-service-PN-102916PB-mai-2011-pt.pdf"
   },
   {
     "nome_arquivo": "SX180-service-PN-218229PB-SN-do-SX18014-100-09-2017-pt.pdf",
-    "caminho_r2": "genie/diesel/boom-lift/SX180/service/SX180-service-PN-218229PB-SN-do-SX18014-100-09-2017-pt.pdf",
+    "caminho_r2": "genie/diesel/big-boom/SX180/service/SX180-service-PN-218229PB-SN-do-SX18014-100-09-2017-pt.pdf",
     "tamanho": 11878253,
     "data_modificacao": "2025-12-25T10:10:12.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/SX180/service/SX180-service-PN-218229PB-SN-do-SX18014-100-09-2017-pt.pdf"
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/big-boom/SX180/service/SX180-service-PN-218229PB-SN-do-SX18014-100-09-2017-pt.pdf"
   },
   {
     "nome_arquivo": "SX180-service-and-repair-PN-1268497-SN-from-SX18014-101-to-SX18016-599–date-12-2019-en.pdf",
-    "caminho_r2": "genie/diesel/boom-lift/SX180/service/SX180-service-and-repair-PN-1268497-SN-from-SX18014-101-to-SX18016-599–date-12-2019-en.pdf",
+    "caminho_r2": "genie/diesel/big-boom/SX180/service/SX180-service-and-repair-PN-1268497-SN-from-SX18014-101-to-SX18016-599–date-12-2019-en.pdf",
     "tamanho": 19176079,
     "data_modificacao": "2025-12-26T03:39:24.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/SX180/service/SX180-service-and-repair-PN-1268497-SN-from-SX18014-101-to-SX18016-599%E2%80%93date-12-2019-en.pdf"
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/big-boom/SX180/service/SX180-service-and-repair-PN-1268497-SN-from-SX18014-101-to-SX18016-599%E2%80%93date-12-2019-en.pdf"
+  },
+  {
+    "nome_arquivo": "Z135-70-service-and-repair-PN-1268557-SN-from-Z13505-101-to-Z13513-2000-out-2018-en.pdf",
+    "caminho_r2": "genie/diesel/big-boom/Z135-70/service/Z135-70-service-and-repair-PN-1268557-SN-from-Z13505-101-to-Z13513-2000-out-2018-en.pdf",
+    "tamanho": 7164877,
+    "data_modificacao": "2025-12-25T07:55:44.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/big-boom/Z135-70/service/Z135-70-service-and-repair-PN-1268557-SN-from-Z13505-101-to-Z13513-2000-out-2018-en.pdf"
+  },
+  {
+    "nome_arquivo": "ZX135-70-parts-from-SN-ZX13513-2001-to-ZX13516-2789-en.pdf",
+    "caminho_r2": "genie/diesel/big-boom/ZX135-70/parts/ZX135-70-parts-from-SN-ZX13513-2001-to-ZX13516-2789-en.pdf",
+    "tamanho": 7651911,
+    "data_modificacao": "2025-12-25T07:50:20.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/big-boom/ZX135-70/parts/ZX135-70-parts-from-SN-ZX13513-2001-to-ZX13516-2789-en.pdf"
+  },
+  {
+    "nome_arquivo": "ZX135-70-service-PN-218700-SN-de-ZX13513-2001-ate-ZX13514-2532-set-15-en.pdf",
+    "caminho_r2": "genie/diesel/big-boom/ZX135-70/service/ZX135-70-service-PN-218700-SN-de-ZX13513-2001-ate-ZX13514-2532-set-15-en.pdf",
+    "tamanho": 10285932,
+    "data_modificacao": "2025-12-26T03:37:40.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/big-boom/ZX135-70/service/ZX135-70-service-PN-218700-SN-de-ZX13513-2001-ate-ZX13514-2532-set-15-en.pdf"
+  },
+  {
+    "nome_arquivo": "ZX135-70-service-PN-218700PB-SN-de-ZX13513-2001-mar-2015-pt.pdf",
+    "caminho_r2": "genie/diesel/big-boom/ZX135-70/service/ZX135-70-service-PN-218700PB-SN-de-ZX13513-2001-mar-2015-pt.pdf",
+    "tamanho": 10437599,
+    "data_modificacao": "2025-12-25T07:51:46.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/big-boom/ZX135-70/service/ZX135-70-service-PN-218700PB-SN-de-ZX13513-2001-mar-2015-pt.pdf"
+  },
+  {
+    "nome_arquivo": "S-65-4WD-esquema-hidraulico.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/S60-e-S65/esquemas/S-65-4WD-esquema-hidraulico.pdf",
+    "tamanho": 84638,
+    "data_modificacao": "2025-12-11T22:38:00.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S60-e-S65/esquemas/S-65-4WD-esquema-hidraulico.pdf"
+  },
+  {
+    "nome_arquivo": "S60-e-S65-operation-pt-br.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/S60-e-S65/operation/S60-e-S65-operation-pt-br.pdf",
+    "tamanho": 794179,
+    "data_modificacao": "2025-12-11T22:38:00.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S60-e-S65/operation/S60-e-S65-operation-pt-br.pdf"
+  },
+  {
+    "nome_arquivo": "S60-S65-parts-from-SN-9154.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/S60-e-S65/parts/S60-S65-parts-from-SN-9154.pdf",
+    "tamanho": 5617333,
+    "data_modificacao": "2025-12-11T22:38:00.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S60-e-S65/parts/S60-S65-parts-from-SN-9154.pdf"
+  },
+  {
+    "nome_arquivo": "S60-S65-service-PN-77828-SN-9154-a-14781.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/S60-e-S65/service/S60-S65-service-PN-77828-SN-9154-a-14781.pdf",
+    "tamanho": 7120312,
+    "data_modificacao": "2025-12-11T22:38:00.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S60-e-S65/service/S60-S65-service-PN-77828-SN-9154-a-14781.pdf"
+  },
+  {
+    "nome_arquivo": "S80XC-e-S85XC-maintenance-a-partir-SN-101-en.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/S80XC-e-S85XC/maintenance/S80XC-e-S85XC-maintenance-a-partir-SN-101-en.pdf",
+    "tamanho": 5991847,
+    "data_modificacao": "2025-12-11T22:38:00.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S80XC-e-S85XC/maintenance/S80XC-e-S85XC-maintenance-a-partir-SN-101-en.pdf"
+  },
+  {
+    "nome_arquivo": "S80XC-e-S85XC-operation-a-partir-SN-101-pt-br.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/S80XC-e-S85XC/operation/S80XC-e-S85XC-operation-a-partir-SN-101-pt-br.pdf",
+    "tamanho": 3037564,
+    "data_modificacao": "2025-12-11T22:38:00.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S80XC-e-S85XC/operation/S80XC-e-S85XC-operation-a-partir-SN-101-pt-br.pdf"
+  },
+  {
+    "nome_arquivo": "S80XC-e-S85XC-parts-a-partir-SN-101.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/S80XC-e-S85XC/parts/S80XC-e-S85XC-parts-a-partir-SN-101.pdf",
+    "tamanho": 131999174,
+    "data_modificacao": "2025-12-11T22:38:00.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S80XC-e-S85XC/parts/S80XC-e-S85XC-parts-a-partir-SN-101.pdf"
+  },
+  {
+    "nome_arquivo": "S80XC-e-S85XC-service-and-repair-a-partir-SN-101.pdf",
+    "caminho_r2": "genie/diesel/boom-lift/S80XC-e-S85XC/service/S80XC-e-S85XC-service-and-repair-a-partir-SN-101.pdf",
+    "tamanho": 7729485,
+    "data_modificacao": "2025-12-11T22:38:00.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/S80XC-e-S85XC/service/S80XC-e-S85XC-service-and-repair-a-partir-SN-101.pdf"
   },
   {
     "nome_arquivo": "TZ34-20-service-PN-84382-SN-from-TZ3403-001-to-TZ3413-595-jun-13-en.pdf",
@@ -89,13 +117,6 @@
     "tamanho": 2977196,
     "data_modificacao": "2025-12-25T10:07:26.000000000-03:00",
     "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/TZ34-20/service/TZ34-20-service-PN-84382-SN-from-TZ3403-001-to-TZ3413-595-jun-13-en.pdf"
-  },
-  {
-    "nome_arquivo": "Z135-70-service-and-repair-PN-1268557-SN-from-Z13505-101-to-Z13513-2000-out-2018-en.pdf",
-    "caminho_r2": "genie/diesel/boom-lift/Z135-70/service/Z135-70-service-and-repair-PN-1268557-SN-from-Z13505-101-to-Z13513-2000-out-2018-en.pdf",
-    "tamanho": 7164877,
-    "data_modificacao": "2025-12-25T07:55:44.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/Z135-70/service/Z135-70-service-and-repair-PN-1268557-SN-from-Z13505-101-to-Z13513-2000-out-2018-en.pdf"
   },
   {
     "nome_arquivo": "Z34-22-IC-service-PN-128300PB-jan-2011-pt.pdf",
@@ -175,53 +196,32 @@
     "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/Z80-60/service/Z80-60-service-PN-88619PB-mai-2011-pt.pdf"
   },
   {
-    "nome_arquivo": "ZX135-70-parts-from-SN-ZX13513-2001-to-ZX13516-2789-en.pdf",
-    "caminho_r2": "genie/diesel/boom-lift/ZX135-70/parts/ZX135-70-parts-from-SN-ZX13513-2001-to-ZX13516-2789-en.pdf",
-    "tamanho": 7651911,
-    "data_modificacao": "2025-12-25T07:50:20.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/ZX135-70/parts/ZX135-70-parts-from-SN-ZX13513-2001-to-ZX13516-2789-en.pdf"
-  },
-  {
-    "nome_arquivo": "ZX135-70-service-PN-218700-SN-de-ZX13513-2001-ate-ZX13514-2532-set-15-en.pdf",
-    "caminho_r2": "genie/diesel/boom-lift/ZX135-70/service/ZX135-70-service-PN-218700-SN-de-ZX13513-2001-ate-ZX13514-2532-set-15-en.pdf",
-    "tamanho": 10285932,
-    "data_modificacao": "2025-12-26T03:37:40.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/ZX135-70/service/ZX135-70-service-PN-218700-SN-de-ZX13513-2001-ate-ZX13514-2532-set-15-en.pdf"
-  },
-  {
-    "nome_arquivo": "ZX135-70-service-PN-218700PB-SN-de-ZX13513-2001-mar-2015-pt.pdf",
-    "caminho_r2": "genie/diesel/boom-lift/ZX135-70/service/ZX135-70-service-PN-218700PB-SN-de-ZX13513-2001-mar-2015-pt.pdf",
-    "tamanho": 10437599,
-    "data_modificacao": "2025-12-25T07:51:46.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/genie/diesel/boom-lift/ZX135-70/service/ZX135-70-service-PN-218700PB-SN-de-ZX13513-2001-mar-2015-pt.pdf"
-  },
-  {
     "nome_arquivo": "GS-2668RT-service-PN-112657-NS-from-GS6805-44771-date-06-16-en.pdf",
-    "caminho_r2": "genie/diesel/scissor-lift/GS-2668RT-&-GS3268RT/service/GS-2668RT-service-PN-112657-NS-from-GS6805-44771-date-06-16-en.pdf",
+    "caminho_r2": "genie/diesel/scissor-lift/GS2668-RT-e-GS3268-RT/service/GS-2668RT-service-PN-112657-NS-from-GS6805-44771-date-06-16-en.pdf",
     "tamanho": 3125130,
     "data_modificacao": "2025-12-25T03:15:54.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/genie/diesel/scissor-lift/GS-2668RT-%26-GS3268RT/service/GS-2668RT-service-PN-112657-NS-from-GS6805-44771-date-06-16-en.pdf"
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/scissor-lift/GS2668-RT-e-GS3268-RT/service/GS-2668RT-service-PN-112657-NS-from-GS6805-44771-date-06-16-en.pdf"
   },
   {
     "nome_arquivo": "GS-3369RT-service-PN-1272215-jun-19-en.pdf",
-    "caminho_r2": "genie/diesel/scissor-lift/GS-3369RT/service/GS-3369RT-service-PN-1272215-jun-19-en.pdf",
+    "caminho_r2": "genie/diesel/scissor-lift/GS3369-RT/service/GS-3369RT-service-PN-1272215-jun-19-en.pdf",
     "tamanho": 3048547,
     "data_modificacao": "2025-12-25T10:18:34.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/genie/diesel/scissor-lift/GS-3369RT/service/GS-3369RT-service-PN-1272215-jun-19-en.pdf"
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/scissor-lift/GS3369-RT/service/GS-3369RT-service-PN-1272215-jun-19-en.pdf"
   },
   {
-    "nome_arquivo": "GS-3384-a-GS-5390-service-and-repair-&-models-GS-3390-GS-4390-PN-1272222-OUT-2020-en.pdf",
-    "caminho_r2": "genie/diesel/scissor-lift/GS-3384-a-GS-5390/service/GS-3384-a-GS-5390-service-and-repair-&-models-GS-3390-GS-4390-PN-1272222-OUT-2020-en.pdf",
+    "nome_arquivo": "GS-3384-a-GS-5390-service-and-repair-e-models-GS-3390-GS-4390-PN-1272222-OUT-2020-en.pdf",
+    "caminho_r2": "genie/diesel/scissor-lift/GS3384-rt-a-GS5390-rt/service/GS-3384-a-GS-5390-service-and-repair-e-models-GS-3390-GS-4390-PN-1272222-OUT-2020-en.pdf",
     "tamanho": 9648764,
     "data_modificacao": "2025-12-24T11:54:18.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/genie/diesel/scissor-lift/GS-3384-a-GS-5390/service/GS-3384-a-GS-5390-service-and-repair-%26-models-GS-3390-GS-4390-PN-1272222-OUT-2020-en.pdf"
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/scissor-lift/GS3384-rt-a-GS5390-rt/service/GS-3384-a-GS-5390-service-and-repair-e-models-GS-3390-GS-4390-PN-1272222-OUT-2020-en.pdf"
   },
   {
-    "nome_arquivo": "GS-3384-a-GS-5390-service-service-&-models-GS-3390-GS-4390-PN-84793PB-MAR-2010-pt.pdf",
-    "caminho_r2": "genie/diesel/scissor-lift/GS-3384-a-GS-5390/service/GS-3384-a-GS-5390-service-service-&-models-GS-3390-GS-4390-PN-84793PB-MAR-2010-pt.pdf",
+    "nome_arquivo": "GS-3384-a-GS-5390-service-service-e-models-GS-3390-GS-4390-PN-84793PB-MAR-2010-pt.pdf",
+    "caminho_r2": "genie/diesel/scissor-lift/GS3384-rt-a-GS5390-rt/service/GS-3384-a-GS-5390-service-service-e-models-GS-3390-GS-4390-PN-84793PB-MAR-2010-pt.pdf",
     "tamanho": 4039510,
     "data_modificacao": "2025-12-25T10:18:12.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/genie/diesel/scissor-lift/GS-3384-a-GS-5390/service/GS-3384-a-GS-5390-service-service-%26-models-GS-3390-GS-4390-PN-84793PB-MAR-2010-pt.pdf"
+    "url_publica": "https://files.fastlift.com.br/genie/diesel/scissor-lift/GS3384-rt-a-GS5390-rt/service/GS-3384-a-GS-5390-service-service-e-models-GS-3390-GS-4390-PN-84793PB-MAR-2010-pt.pdf"
   },
   {
     "nome_arquivo": "GTH-2506-operation-manual.pdf",
@@ -259,6 +259,13 @@
     "url_publica": "https://files.fastlift.com.br/genie/electric/boom-lift/Z45/service/Z45-25-e-Z-45-25JDC-service-and-repair-PN-1268530-11-2017-en.pdf"
   },
   {
+    "nome_arquivo": "GR26J-service-PN-227656-SET-17-en.pdf",
+    "caminho_r2": "genie/electric/mast-lift/GR-20J-e-GR-26J/service/GR26J-service-PN-227656-SET-17-en.pdf",
+    "tamanho": 3685120,
+    "data_modificacao": "2025-12-24T11:54:50.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/genie/electric/mast-lift/GR-20J-e-GR-26J/service/GR26J-service-PN-227656-SET-17-en.pdf"
+  },
+  {
     "nome_arquivo": "GS-1530-GS-1930-GS-2032-GS-2632-GS-3232-GS-2046-GS-2646-GS-3246-service-PN-97385-fev-2012-en.pdf",
     "caminho_r2": "genie/electric/scissor-lift/GS-1530-a-GS3246/service/GS-1530-GS-1930-GS-2032-GS-2632-GS-3232-GS-2046-GS-2646-GS-3246-service-PN-97385-fev-2012-en.pdf",
     "tamanho": 13146596,
@@ -266,74 +273,67 @@
     "url_publica": "https://files.fastlift.com.br/genie/electric/scissor-lift/GS-1530-a-GS3246/service/GS-1530-GS-1930-GS-2032-GS-2632-GS-3232-GS-2046-GS-2646-GS-3246-service-PN-97385-fev-2012-en.pdf"
   },
   {
-    "nome_arquivo": "GS-2668-e-GS-3268DC-parts-SN-depois-de-GS68-41217.pdf",
-    "caminho_r2": "genie/electric/scissor-lift/GS-2668-&-GS-3268DC/parts/GS-2668-e-GS-3268DC-parts-SN-depois-de-GS68-41217.pdf",
+    "nome_arquivo": "GS-2668dc-e-GS-3268DC-parts-SN-depois-de-GS68-41217.pdf",
+    "caminho_r2": "genie/electric/scissor-lift/gs-2668dc-e-gs-3268dc/parts/GS-2668dc-e-GS-3268DC-parts-SN-depois-de-GS68-41217.pdf",
     "tamanho": 4673143,
     "data_modificacao": "2025-12-25T03:08:12.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/genie/electric/scissor-lift/GS-2668-%26-GS-3268DC/parts/GS-2668-e-GS-3268DC-parts-SN-depois-de-GS68-41217.pdf"
+    "url_publica": "https://files.fastlift.com.br/genie/electric/scissor-lift/gs-2668dc-e-gs-3268dc/parts/GS-2668dc-e-GS-3268DC-parts-SN-depois-de-GS68-41217.pdf"
   },
   {
-    "nome_arquivo": "gs-2668-&-gs-3268dc-service-manual.pdf",
-    "caminho_r2": "genie/electric/scissor-lift/GS-2668-&-GS-3268DC/service/gs-2668-&-gs-3268dc-service-manual.pdf",
+    "nome_arquivo": "gs-2668dc-e-gs-3268dc-service-manual.pdf",
+    "caminho_r2": "genie/electric/scissor-lift/gs-2668dc-e-gs-3268dc/service/gs-2668dc-e-gs-3268dc-service-manual.pdf",
     "tamanho": 3565438,
     "data_modificacao": "2025-12-11T22:37:00.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/genie/electric/scissor-lift/GS-2668-%26-GS-3268DC/service/gs-2668-%26-gs-3268dc-service-manual.pdf"
+    "url_publica": "https://files.fastlift.com.br/genie/electric/scissor-lift/gs-2668dc-e-gs-3268dc/service/gs-2668dc-e-gs-3268dc-service-manual.pdf"
   },
   {
     "nome_arquivo": "GS1330-a-GS4655-service-and-repair-PN-1309020-date-03-2021-en.pdf",
-    "caminho_r2": "genie/electric/scissor-lift/GS1330-a-GS4655/service/GS1330-a-GS4655-service-and-repair-PN-1309020-date-03-2021-en.pdf",
+    "caminho_r2": "genie/electric/scissor-lift/gs1330-a-GS4655/service/GS1330-a-GS4655-service-and-repair-PN-1309020-date-03-2021-en.pdf",
     "tamanho": 4400268,
     "data_modificacao": "2025-12-26T05:04:06.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/genie/electric/scissor-lift/GS1330-a-GS4655/service/GS1330-a-GS4655-service-and-repair-PN-1309020-date-03-2021-en.pdf"
-  },
-  {
-    "nome_arquivo": "GR26J-service-PN-227656-SET-17-en.pdf",
-    "caminho_r2": "genie/electric/vertical-mast-lift/GR-20J-&-GR-26J/service/GR26J-service-PN-227656-SET-17-en.pdf",
-    "tamanho": 3685120,
-    "data_modificacao": "2025-12-24T11:54:50.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/genie/electric/vertical-mast-lift/GR-20J-%26-GR-26J/service/GR26J-service-PN-227656-SET-17-en.pdf"
-  },
-  {
-    "nome_arquivo": "ha120px-parts-manual.pdf",
-    "caminho_r2": "haulotte/diesel/boom-lift/ha120px-a-ha260px/parts/ha120px-parts-manual.pdf",
-    "tamanho": 16076354,
-    "data_modificacao": "2025-12-23T20:27:00.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/haulotte/diesel/boom-lift/ha120px-a-ha260px/parts/ha120px-parts-manual.pdf"
-  },
-  {
-    "nome_arquivo": "ha120px-a-ha260px-service-manual.pdf",
-    "caminho_r2": "haulotte/diesel/boom-lift/ha120px-a-ha260px/service/ha120px-a-ha260px-service-manual.pdf",
-    "tamanho": 24088852,
-    "data_modificacao": "2025-12-25T11:34:48.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/haulotte/diesel/boom-lift/ha120px-a-ha260px/service/ha120px-a-ha260px-service-manual.pdf"
-  },
-  {
-    "nome_arquivo": "ha16-spx-parts-pn-2420327510–07-05.pdf",
-    "caminho_r2": "haulotte/diesel/boom-lift/ha16spx/parts/ha16-spx-parts-pn-2420327510–07-05.pdf",
-    "tamanho": 8635115,
-    "data_modificacao": "2025-12-25T11:45:36.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/haulotte/diesel/boom-lift/ha16spx/parts/ha16-spx-parts-pn-2420327510%E2%80%9307-05.pdf"
-  },
-  {
-    "nome_arquivo": "ha18px-a-ha51sjrt-parts-pn-4000415260-04-15.pdf",
-    "caminho_r2": "haulotte/diesel/boom-lift/ha18px-a-ha51sjrt/parts/ha18px-a-ha51sjrt-parts-pn-4000415260-04-15.pdf",
-    "tamanho": 72005432,
-    "data_modificacao": "2025-12-25T11:44:44.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/haulotte/diesel/boom-lift/ha18px-a-ha51sjrt/parts/ha18px-a-ha51sjrt-parts-pn-4000415260-04-15.pdf"
+    "url_publica": "https://files.fastlift.com.br/genie/electric/scissor-lift/gs1330-a-GS4655/service/GS1330-a-GS4655-service-and-repair-PN-1309020-date-03-2021-en.pdf"
   },
   {
     "nome_arquivo": "ha32px-ha100jrt-parts-pn-4000316770-10-14.pdf",
-    "caminho_r2": "haulotte/diesel/boom-lift/ha32px-a-ha100jrt/parts/ha32px-ha100jrt-parts-pn-4000316770-10-14.pdf",
+    "caminho_r2": "haulotte/diesel/big-boom/ha32-px-e-ha100-jrt/parts/ha32px-ha100jrt-parts-pn-4000316770-10-14.pdf",
     "tamanho": 65553286,
     "data_modificacao": "2025-12-25T11:42:44.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/haulotte/diesel/boom-lift/ha32px-a-ha100jrt/parts/ha32px-ha100jrt-parts-pn-4000316770-10-14.pdf"
+    "url_publica": "https://files.fastlift.com.br/haulotte/diesel/big-boom/ha32-px-e-ha100-jrt/parts/ha32px-ha100jrt-parts-pn-4000316770-10-14.pdf"
   },
   {
     "nome_arquivo": "ha32px-a-ha100jrt-service-manual-pn-2420344160-03-14.pdf",
-    "caminho_r2": "haulotte/diesel/boom-lift/ha32px-a-ha100jrt/service/ha32px-a-ha100jrt-service-manual-pn-2420344160-03-14.pdf",
+    "caminho_r2": "haulotte/diesel/big-boom/ha32-px-e-ha100-jrt/service/ha32px-a-ha100jrt-service-manual-pn-2420344160-03-14.pdf",
     "tamanho": 17706940,
     "data_modificacao": "2025-12-25T11:32:28.000000000-03:00",
-    "url_publica": "https://files.fastlift.com.br/haulotte/diesel/boom-lift/ha32px-a-ha100jrt/service/ha32px-a-ha100jrt-service-manual-pn-2420344160-03-14.pdf"
+    "url_publica": "https://files.fastlift.com.br/haulotte/diesel/big-boom/ha32-px-e-ha100-jrt/service/ha32px-a-ha100jrt-service-manual-pn-2420344160-03-14.pdf"
+  },
+  {
+    "nome_arquivo": "ha120px-parts-manual.pdf",
+    "caminho_r2": "haulotte/diesel/boom-lift/ha120-px-a-ha260-px/parts/ha120px-parts-manual.pdf",
+    "tamanho": 16076354,
+    "data_modificacao": "2025-12-23T20:27:00.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/haulotte/diesel/boom-lift/ha120-px-a-ha260-px/parts/ha120px-parts-manual.pdf"
+  },
+  {
+    "nome_arquivo": "ha120px-a-ha260px-service-manual.pdf",
+    "caminho_r2": "haulotte/diesel/boom-lift/ha120-px-a-ha260-px/service/ha120px-a-ha260px-service-manual.pdf",
+    "tamanho": 24088852,
+    "data_modificacao": "2025-12-25T11:34:48.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/haulotte/diesel/boom-lift/ha120-px-a-ha260-px/service/ha120px-a-ha260px-service-manual.pdf"
+  },
+  {
+    "nome_arquivo": "ha16-spx-parts-pn-2420327510–07-05.pdf",
+    "caminho_r2": "haulotte/diesel/boom-lift/ha16-spx/parts/ha16-spx-parts-pn-2420327510–07-05.pdf",
+    "tamanho": 8635115,
+    "data_modificacao": "2025-12-25T11:45:36.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/haulotte/diesel/boom-lift/ha16-spx/parts/ha16-spx-parts-pn-2420327510%E2%80%9307-05.pdf"
+  },
+  {
+    "nome_arquivo": "ha18px-a-ha51sjrt-parts-pn-4000415260-04-15.pdf",
+    "caminho_r2": "haulotte/diesel/boom-lift/ha18-px-e-ha51-sjrt/parts/ha18px-a-ha51sjrt-parts-pn-4000415260-04-15.pdf",
+    "tamanho": 72005432,
+    "data_modificacao": "2025-12-25T11:44:44.000000000-03:00",
+    "url_publica": "https://files.fastlift.com.br/haulotte/diesel/boom-lift/ha18-px-e-ha51-sjrt/parts/ha18px-a-ha51sjrt-parts-pn-4000415260-04-15.pdf"
   },
   {
     "nome_arquivo": "htl4014-htl4017-parts-evolution-pn-4000202020-12-13.pdf",
