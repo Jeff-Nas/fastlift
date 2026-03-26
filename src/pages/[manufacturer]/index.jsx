@@ -16,6 +16,7 @@ import {
 export default function Manufacturer() {
   const router = useRouter();
   const { manufacturer } = router.query;
+  console.log(manufacturer);
   const currrentBrand = MANUFACTURERS.find(
     (brand) => brand.label === manufacturer,
   );
@@ -24,9 +25,7 @@ export default function Manufacturer() {
     /*The  onValueChange passes the string value*/
   }
   const handleManufacturerChange = (selectedBrand) => {
-    if (selectedBrand) {
-      router.push(`/${selectedBrand}`);
-    }
+    selectedBrand ? router.push(`/${selectedBrand}`) : router.push("/jlg");
   };
 
   return (
@@ -55,7 +54,7 @@ export default function Manufacturer() {
         )}
       </div>
 
-      {/* manufacturer  selection section*/}
+      {/* manufacturer  selection section - shadcn ui*/}
       <div className="flex justify-center mb-8">
         <Select
           value={manufacturer || ""}

@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 
 export default function ManualsPage() {
   const router = useRouter();
-  console.log(router.asPath);
+  console.log(router.query);
   return (
     <div>
       <h1>{router.asPath}</h1>
