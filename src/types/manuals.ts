@@ -1,7 +1,12 @@
 export interface Manual {
-  nome_arquivo: string;
-  caminho_r2: string;
+  nomeArquivo: string;
+  caminhoR2: string;
   tamanho: number;
-  data_modificacao: string;
-  url_publica: string;
+  dataModificacao: string;
+  urlPublica: string;
+}
+
+export interface ModelImage extends Manual {
+  nome: string;
+  marca: string;
 }

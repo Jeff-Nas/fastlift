@@ -1,0 +1,20 @@
+import { Manual, ModelImage } from "@/types/manuals";
+
+//Adapting props for camelCase
+export const mapManualToFrontEnd = (data: any): Manual => {
+  return {
+    nomeArquivo: data.nome_arquivo,
+    caminhoR2: data.caminho_r2,
+    tamanho: data.tamanho,
+    dataModificacao: data.data_modificacao,
+    urlPublica: data.url_publica,
+  };
+};
+
+export const mapImageToFront = (data: any): ModelImage => {
+  return {
+    ...mapManualToFrontEnd(data),
+    nome: data.nome,
+    marca: data.marca,
+  };
+};
