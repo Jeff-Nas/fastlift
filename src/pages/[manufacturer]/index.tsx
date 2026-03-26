@@ -1,8 +1,9 @@
 import { CATEGORIES, MANUFACTURERS } from "../../../constants/categories";
+import { Category, Builder } from "@/types/categories";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link";
-import { RotateCw } from "lucide-react";
+import { Cat, RotateCw } from "lucide-react";
 import {
   Select,
   SelectContent,
@@ -15,16 +16,20 @@ import {
 
 export default function Manufacturer() {
   const router = useRouter();
-  const { manufacturer } = router.query;
-  console.log(manufacturer);
-  const currrentBrand = MANUFACTURERS.find(
+  const manufacturer = router.query.manufacturer as string;
+  console.log(router);
+
+  const manuafacturersList = MANUFACTURERS as Builder[];
+  const categoriesList = CATEGORIES as Category[];
+
+  const currrentBrand = manuafacturersList.find(
     (brand) => brand.label === manufacturer,
   );
 
   {
     /*The  onValueChange passes the string value*/
   }
-  const handleManufacturerChange = (selectedBrand) => {
+  const handleManufacturerChange = (selectedBrand: string) => {
     selectedBrand ? router.push(`/${selectedBrand}`) : router.push("/jlg");
   };
 
@@ -68,7 +73,7 @@ export default function Manufacturer() {
             <SelectGroup>
               <SelectLabel className="text-gray-500">Fabricantes</SelectLabel>
 
-              {MANUFACTURERS.map((brand, index) => (
+              {manuafacturersList.map((brand, index) => (
                 <SelectItem
                   key={`${brand.label}-${index}`}
                   value={brand.label}
@@ -84,7 +89,7 @@ export default function Manufacturer() {
 
       {/*categories section*/}
       <div className="grid grid-cols-2 gap-3 lg:grid-cols-3 lg:gap-5 lg:mx-8">
-        {CATEGORIES.map((cat, index) => (
+        {categoriesList.map((cat, index) => (
           <Link
             href={`/${manufacturer}/${cat.slug}`}
             key={`${cat.slug}-${index}`}

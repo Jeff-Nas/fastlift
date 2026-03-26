@@ -4,7 +4,7 @@ export interface Category {
   image: string;
 }
 
-export interface Manufacturer {
+export interface Builder {
   label: string;
   image: string;
 }
