@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
-import manualData from "../../../data/manualsList.json";
-import imagesData from "../../../data/imagesList.json";
+import manualData from "../../../data/lista_manuais.json";
+import imagesData from "../../../data/lista_imagens.json";
 import { mapManualToFrontEnd, mapImageToFront } from "@/lib/manualMappers";
 
 export default function ManualsPage() {
