@@ -16,5 +16,6 @@ export const mapImageToFront = (data: any): ModelImage => {
     ...mapManualToFrontEnd(data),
     nome: data.nome,
     marca: data.marca,
+    filtro: data.filtro,
   };
 };

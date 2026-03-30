@@ -9,4 +9,5 @@ export interface Manual {
 export interface ModelImage extends Manual {
   nome: string;
   marca: string;
+  filtro: string;
 }
