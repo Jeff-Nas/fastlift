@@ -3,12 +3,14 @@ import { Category } from "@/types/categories";
 
 type Item = {
   item: Category;
-  clasName: string;
+  clasName?: string;
 };
 
-export function MachineCard({ item, clasName }: Item) {
+export function MachineCard({ item, clasName = "" }: Item) {
   return (
-    <figure className="group shadow-card rounded-md flex flex-col items-center justify-center h-42 lg:h-60 hover:bg-gray-200 bg-white active:bg-orange-200">
+    <figure
+      className={`group shadow-card rounded-md flex flex-col items-center justify-center h-42 lg:h-60  hover:bg-gray-200 bg-white active:bg-orange-200 ${clasName}`}
+    >
       <figcaption className="mb-2">{item.label}</figcaption>
       <Image
         src={item.image}

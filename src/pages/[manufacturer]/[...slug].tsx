@@ -1,7 +1,9 @@
 import { useRouter } from "next/router";
-import manualData from "../../../data/lista_manuais.json";
+import manualsData from "../../../data/lista_manuais.json";
 import imagesData from "../../../data/lista_imagens.json";
 import { mapManualToFrontEnd, mapImageToFront } from "@/lib/manualMappers";
+import { ModelCard } from "@/components/ui/modelCard";
+import Image from "next/image";
 
 export default function ManualsPage() {
   const router = useRouter();
@@ -10,7 +12,7 @@ export default function ManualsPage() {
   //path to filter manual array
   const modelPath = Array.isArray(slug) ? slug.join("/") : "";
   const fullPath = `${manufacturer}/${modelPath}`;
-  const modelSelected = manualData.filter((manual) =>
+  const modelSelected = manualsData.filter((manual) =>
     manual.caminho_r2.includes(fullPath),
   );
   //path to filter image array
@@ -23,11 +25,18 @@ export default function ManualsPage() {
     mapManualToFrontEnd(model),
   );
 
-  console.log(modelIMages);
+  const imageModelAdapted = modelIMages.map((model) => mapImageToFront(model));
+
+  console.log(imageModelAdapted);
 
   return (
-    <div>
+    <div className="bg-slate-50 h-dvh">
       <h1>{router.asPath}</h1>
+      <div className="w-full grid grid-cols-2 gap-3 mx-auto md:grid-cols-4 lg:grid-cols-7 lg:gap-1 lg:mx-8">
+        {imageModelAdapted.map((model) => (
+          <ModelCard item={model} key={model.caminhoR2} />
+        ))}
+      </div>
     </div>
   );
 }
