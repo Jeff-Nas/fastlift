@@ -1,28 +1,41 @@
 import Image from "next/image";
 import { ModelImage } from "@/types/manuals";
+import { useState } from "react";
 
-type Item = {
+type ModelCardProps = {
   item: ModelImage;
   className?: string;
+  active: boolean;
+  onClick: () => void;
 };
 
-export function ModelCard({ item, className = "" }: Item) {
+export function ModelCard({
+  item,
+  className = "",
+  active,
+  onClick,
+}: ModelCardProps) {
   return (
-    <figure
-      className={`group bg-slate-50 justify-self-center shadow-neumorphic rounded-md flex flex-col items-center justify-center py-2 h-auto w-30 md:w-44 lg:w-40  hover:bg-gray-200 cursor-pointer active:bg-orange-200 ${className}`}
+    <button
+      onClick={onClick}
+      className="w-fit justify-self-center h-auto p-0 border-none bg-transparent"
     >
-      <Image
-        src={item.urlPublica}
-        width={200}
-        height={400}
-        alt={item.nome}
-        unoptimized={true}
-        priority
-        className="w-16 h-20 md:w-30 md:h-38 group-hover:scale-105 group-active:scale-110 transition-transform duration-300 opacity-85"
-      />
-      <figcaption className="text-sm md:text-2xl text-center">
-        {item.nome}
-      </figcaption>
-    </figure>
+      <figure
+        className={`group justify-self-center rounded-md shadow-neumorphic flex flex-col items-center justify-center py-2 h-auto w-30 md:w-44 lg:w-40  hover:bg-gray-200 cursor-pointer ${className} ${active ? "bg-[#f7e6cd] opacity-100" : "bg-slate-50"}`}
+      >
+        <Image
+          src={item.urlPublica}
+          width={200}
+          height={400}
+          alt={item.nome}
+          unoptimized={true}
+          priority
+          className="w-16 h-20 md:w-30 md:h-38 group-hover:scale-105 group-active:scale-110 transition-transform duration-300 opacity-85"
+        />
+        <figcaption className="text-sm md:text-2xl text-center">
+          {item.nome}
+        </figcaption>
+      </figure>
+    </button>
   );
 }
