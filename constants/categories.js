@@ -37,17 +37,21 @@ export const MANUFACTURERS = [
   {
     label: "jlg",
     image: "/images/logos/icon-jlg-v3.png",
+    site: "https://www.jlg.com/pt-br/support-and-services/service",
   },
   {
     label: "genie",
     image: "/images/logos/icon-genie.png",
+    site: "https://www.genielift.com/pt/suport/manuals",
   },
   {
     label: "skyjack",
     image: "/images/logos/icon-skyjack.png",
+    site: "https://techpub.skyjack.com/?skip-global=yes",
   },
   {
     label: "haulotte",
     image: "/images/logos/icon-haulotte.png",
+    site: "https://www.haulotte.com.br/pt_BR/myhaulotte",
   },
 ];
