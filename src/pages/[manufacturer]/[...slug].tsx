@@ -12,15 +12,6 @@ export default function ManualsPage() {
 
   const router = useRouter();
 
-  if (!router.isReady) {
-    return (
-      <div className="bg-slate-50 h-dvh mx-auto w-full flex flex-col items-center justify-center gap-2">
-        <RotateCw size={40} className="animate-spin text-orange-400" />
-        <p className="font-light">Carregando...</p>
-      </div>
-    );
-  }
-
   const { manufacturer, slug } = router.query;
   //path to filter manual array
   const modelPath = Array.isArray(slug) ? slug.join("/") : "";
@@ -65,6 +56,15 @@ export default function ManualsPage() {
     console.log(`This is the filter: ${filter}`);
     console.log(selectedManuals);
   };
+
+  if (!router.isReady) {
+    return (
+      <div className="bg-slate-50 h-dvh mx-auto w-full flex flex-col items-center justify-center gap-2">
+        <RotateCw size={40} className="animate-spin text-orange-400" />
+        <p className="font-light">Carregando...</p>
+      </div>
+    );
+  }
 
   return (
     <div className="bg-slate-50 h-dvh p-2">
