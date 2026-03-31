@@ -47,7 +47,9 @@ export default function ManualsPage() {
 
   useEffect(() => {
     if (machineImagesAdapted.length > 0 && !selectedMachine) {
-      setSelectedMachine(machineImagesAdapted[0].filtro);
+      setTimeout(() => {
+        setSelectedMachine(machineImagesAdapted[0].filtro);
+      }, 400);
     }
   }, [machineImagesAdapted, selectedMachine]);
 
@@ -59,7 +61,7 @@ export default function ManualsPage() {
 
   if (!router.isReady) {
     return (
-      <div className="bg-slate-50 h-dvh mx-auto w-full flex flex-col items-center justify-center gap-2">
+      <div className="bg-stone-50 h-dvh mx-auto w-full flex flex-col items-center justify-center gap-2">
         <RotateCw size={40} className="animate-spin text-orange-400" />
         <p className="font-light">Carregando...</p>
       </div>
@@ -67,7 +69,7 @@ export default function ManualsPage() {
   }
 
   return (
-    <div className="bg-slate-50 h-dvh p-2">
+    <div className="bg-stone-50 h-dvh p-2">
       {manualExist ? (
         <div className="w-full grid grid-cols-2 gap-3 mx-auto md:grid-cols-4 lg:grid-cols-7 lg:gap-1 lg:mx-8">
           {machineImagesAdapted.map((model) => (
