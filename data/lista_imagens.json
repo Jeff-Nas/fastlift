@@ -452,12 +452,12 @@
   {
     "nome": "1250 AJP",
     "marca": "jlg",
-    "filtro": "1250aj",
-    "nome_arquivo": "1250AJ.webp",
-    "caminho_r2": "jlg/diesel/big-boom/1250-AJP/1250AJ.webp",
+    "filtro": "1250ajp",
+    "nome_arquivo": "1250ajp.webp",
+    "caminho_r2": "jlg/diesel/big-boom/1250-AJP/1250ajp.webp",
     "tamanho": 34828,
     "data_modificacao": "2026-03-29T15:14:02.619343387-03:00",
-    "url_publica": "https://imagens.fastlift.com.br/jlg/diesel/big-boom/1250-AJP/1250AJ.webp"
+    "url_publica": "https://imagens.fastlift.com.br/jlg/diesel/big-boom/1250-AJP/1250ajp.webp"
   },
   {
     "nome": "1350 SJP",
@@ -542,12 +542,12 @@
   {
     "nome": "E300AJ",
     "marca": "jlg",
-    "filtro": "e300ajp",
-    "nome_arquivo": "e300ajp.webp",
-    "caminho_r2": "jlg/electric/boom-lift/e300aj/e300ajp.webp",
+    "filtro": "e300aj",
+    "nome_arquivo": "e300aj.webp",
+    "caminho_r2": "jlg/electric/boom-lift/e300aj/e300aj.webp",
     "tamanho": 77268,
     "data_modificacao": "2026-03-29T15:14:02.178340434-03:00",
-    "url_publica": "https://imagens.fastlift.com.br/jlg/electric/boom-lift/e300aj/e300ajp.webp"
+    "url_publica": "https://imagens.fastlift.com.br/jlg/electric/boom-lift/e300aj/e300aj.webp"
   },
   {
     "nome": "E450AJ",
@@ -672,42 +672,42 @@
   {
     "nome": "SJ8831 e SJ8841RT",
     "marca": "skyjack",
-    "filtro": "sj-8841",
-    "nome_arquivo": "SJ-8841.webp",
-    "caminho_r2": "skyjack/diesel/scissor-lift/SJ8831-e-SJ8841RT/SJ-8841.webp",
+    "filtro": "sj8841",
+    "nome_arquivo": "sj8841.webp",
+    "caminho_r2": "skyjack/diesel/scissor-lift/SJ8831-e-SJ8841RT/sj8841.webp",
     "tamanho": 49086,
     "data_modificacao": "2026-03-29T15:14:08.263381190-03:00",
-    "url_publica": "https://imagens.fastlift.com.br/skyjack/diesel/scissor-lift/SJ8831-e-SJ8841RT/SJ-8841.webp"
+    "url_publica": "https://imagens.fastlift.com.br/skyjack/diesel/scissor-lift/SJ8831-e-SJ8841RT/sj8841.webp"
   },
   {
     "nome": "SJ9250/RT",
     "marca": "skyjack",
-    "filtro": "sj-9250",
-    "nome_arquivo": "SJ-9250.webp",
-    "caminho_r2": "skyjack/diesel/scissor-lift/SJ9250_RT/SJ-9250.webp",
+    "filtro": "sj9250",
+    "nome_arquivo": "sj9250.webp",
+    "caminho_r2": "skyjack/diesel/scissor-lift/SJ9250_RT/sj9250.webp",
     "tamanho": 72728,
     "data_modificacao": "2026-03-29T15:14:07.611376821-03:00",
-    "url_publica": "https://imagens.fastlift.com.br/skyjack/diesel/scissor-lift/SJ9250_RT/SJ-9250.webp"
+    "url_publica": "https://imagens.fastlift.com.br/skyjack/diesel/scissor-lift/SJ9250_RT/sj9250.webp"
   },
   {
     "nome": "SJIII3215 a SJIII3219",
     "marca": "skyjack",
-    "filtro": "sjiii3215-a-sjiii3219",
-    "nome_arquivo": "SJIII3215-A-SJIII3219.webp",
-    "caminho_r2": "skyjack/electric/scissor-lift/SJIII3215-A-SJIII3219/SJIII3215-A-SJIII3219.webp",
+    "filtro": "sjiii3215",
+    "nome_arquivo": "sjiii3215.webp",
+    "caminho_r2": "skyjack/electric/scissor-lift/SJIII3215-A-SJIII3219/sjiii3215.webp",
     "tamanho": 44400,
     "data_modificacao": "2026-03-29T15:14:07.307374785-03:00",
-    "url_publica": "https://imagens.fastlift.com.br/skyjack/electric/scissor-lift/SJIII3215-A-SJIII3219/SJIII3215-A-SJIII3219.webp"
+    "url_publica": "https://imagens.fastlift.com.br/skyjack/electric/scissor-lift/SJIII3215-A-SJIII3219/sjiii3215.webp"
   },
   {
     "nome": "SJIII3220 a SJIII4632",
     "marca": "skyjack",
-    "filtro": "sjiii-3220-a-sjiii-4632",
-    "nome_arquivo": "SJIII-3220-A-SJIII-4632.webp",
-    "caminho_r2": "skyjack/electric/scissor-lift/SJIII3220-A-SJIII4632/SJIII-3220-A-SJIII-4632.webp",
+    "filtro": "sjiii3220",
+    "nome_arquivo": "sjiii3220.webp",
+    "caminho_r2": "skyjack/electric/scissor-lift/SJIII3220-A-SJIII4632/sjiii3220.webp",
     "tamanho": 49672,
     "data_modificacao": "2026-03-29T15:14:07.467375857-03:00",
-    "url_publica": "https://imagens.fastlift.com.br/skyjack/electric/scissor-lift/SJIII3220-A-SJIII4632/SJIII-3220-A-SJIII-4632.webp"
+    "url_publica": "https://imagens.fastlift.com.br/skyjack/electric/scissor-lift/SJIII3220-A-SJIII4632/sjiii3220.webp"
   },
   {
     "nome": "VECTOR",

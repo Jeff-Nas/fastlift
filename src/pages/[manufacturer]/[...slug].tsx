@@ -15,13 +15,12 @@ export default function ManualsPage() {
   //path to filter manual array
   const modelPath = Array.isArray(slug) ? slug.join("/") : "";
   const fullPath = `${manufacturer}/${modelPath}`;
-  const modelSelected = manualsData.filter((manual) =>
+  const machineModels = manualsData.filter((manual) =>
     manual.caminho_r2.includes(fullPath),
   );
   const manualExist = imagesData.some((item) =>
     item.caminho_r2.toLowerCase().includes(fullPath.toLowerCase()),
   );
-  console.log(manualExist);
 
   //path to filter image array
   const modelIMages = imagesData.filter((model) =>
@@ -29,9 +28,14 @@ export default function ManualsPage() {
   );
   //Adapting props for camelCase
 
-  const manualModelAdapted = modelSelected.map((model) =>
+  const manualModelAdapted = machineModels.map((model) =>
     mapManualToFrontEnd(model),
   );
+  const selectedManuals = manualModelAdapted.filter((manual) =>
+    manual.caminhoR2.toLowerCase().includes(selectedModel),
+  );
+  console.log(selectedManuals);
+  console.log(selectedModel);
 
   const imageModelAdapted = modelIMages.map((model) => mapImageToFront(model));
 
@@ -41,6 +45,7 @@ export default function ManualsPage() {
 
   const handleSelectModel = (filter: string) => {
     setSelectedModel(filter);
+    console.log(`This is the filter: ${filter}`);
   };
 
   return (
@@ -64,7 +69,7 @@ export default function ManualsPage() {
             informações.
           </p>
           <a
-            href={manufacturerData.site}
+            href={manufacturerData?.site}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block p-2 bg-orange-500 rounded-sm text-white hover:bg-orange-500 transition-colors text-center"
