@@ -35,7 +35,7 @@ export default function Manufacturer() {
   };
 
   return (
-    <div className="p-4 bg-slate-50">
+    <div className="p-4 bg-stone-50">
       <div className="flex flex-col items-center mb-2 h-37.5">
         <h1 className="text-4xl text-center my-4 font-semibold text-gray-800">
           Manuais Técnicos
