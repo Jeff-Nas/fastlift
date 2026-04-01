@@ -4,6 +4,7 @@ import manualsData from "../../../data/lista_manuais.json";
 import imagesData from "../../../data/lista_imagens.json";
 import { mapManualToFrontEnd, mapImageToFront } from "@/lib/manualMappers";
 import { ModelCard } from "@/components/ui/modelCard";
+import { ManualCard } from "@/components/ui/manualCard";
 import Image from "next/image";
 import { MANUFACTURERS } from "../../../constants/categories";
 import { RotateCw } from "lucide-react";
@@ -45,6 +46,10 @@ export default function ManualsPage() {
     (brand) => brand.label === manufacturer,
   );
 
+  const activeMachine = machineImagesAdapted.find(
+    (m) => m.filtro === selectedMachine,
+  );
+
   useEffect(() => {
     if (machineImagesAdapted.length > 0 && !selectedMachine) {
       setTimeout(() => {
@@ -55,8 +60,9 @@ export default function ManualsPage() {
 
   const handleSelectMachine = (filter: string) => {
     setSelectedMachine(filter);
-    console.log(`This is the filter: ${filter}`);
     console.log(selectedManuals);
+    console.log(machineImagesAdapted);
+    console.log(activeMachine);
   };
 
   if (!router.isReady) {
@@ -71,15 +77,31 @@ export default function ManualsPage() {
   return (
     <div className="bg-stone-50 h-dvh p-2">
       {manualExist ? (
-        <div className="w-full grid grid-cols-2 gap-3 mx-auto md:grid-cols-4 lg:grid-cols-7 lg:gap-1 lg:mx-8">
-          {machineImagesAdapted.map((model) => (
-            <ModelCard
-              item={model}
-              key={model.caminhoR2}
-              onClick={() => handleSelectMachine(model.filtro)}
-              active={selectedMachine === model.filtro}
-            />
-          ))}
+        <div>
+          <div className="w-full grid grid-cols-2 gap-3 items-stretch mx-auto md:grid-cols-4 lg:grid-cols-7 lg:gap-1 lg:mx-8">
+            {machineImagesAdapted.map((model) => (
+              <ModelCard
+                item={model}
+                key={model.caminhoR2}
+                onClick={() => handleSelectMachine(model.filtro)}
+                active={selectedMachine === model.filtro}
+              />
+            ))}
+          </div>
+          <div className="mt-8">
+            <h3 className="text-[20px] text-gray-700 font-bold uppercase tracking-wider text-center transform mb-6">
+              {activeMachine?.nome || "Selecione uma máquina"}
+            </h3>
+            <div className="grid grid-cols-1 gap-3 px-2 lg:grid-cols-3 lg:mx-20">
+              {selectedManuals?.map((m) => (
+                <ManualCard
+                  machine={activeMachine?.nome}
+                  description={m.nomeArquivo}
+                  pdfUrl={m.urlPublica}
+                />
+              ))}
+            </div>
+          </div>
         </div>
       ) : (
         <div className="flex flex-col justify-center items-center">
