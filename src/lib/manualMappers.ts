@@ -1,7 +1,7 @@
 import { Manual, ModelImage } from "@/types/manuals";
 
 const manualCategories = ["parts", "service", "operation"] as const;
-//pega qualquer valor acessado por índice numérico desse array
+//retrieves any value accessed by a numeric index from this array.
 type ManualCategory = (typeof manualCategories)[number];
 
 const findManualCategory = (path: string): ManualCategory | null => {

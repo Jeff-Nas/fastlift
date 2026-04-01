@@ -3,7 +3,7 @@ import { Category, Builder } from "@/types/categories";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link";
-import { Cat, RotateCw } from "lucide-react";
+import { RotateCw } from "lucide-react";
 import { MachineCard } from "@/components/ui/machineCard";
 import {
   Select,
@@ -18,8 +18,6 @@ import {
 export default function Manufacturer() {
   const router = useRouter();
   const manufacturer = router.query.manufacturer as string;
-  console.log(router);
-
   const manuafacturersList = MANUFACTURERS as Builder[];
   const categoriesList = CATEGORIES as Category[];
 

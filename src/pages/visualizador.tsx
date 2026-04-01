@@ -1,6 +1,7 @@
 import dynamic from "next/dynamic";
-import { useState } from "react";
 import Head from "next/head";
+import { RotateCw } from "lucide-react";
+import { useRouter } from "next/router";
 
 const ViewerPDF = dynamic(() => import("@/components/ViewerPDF"), {
   ssr: false,
@@ -14,7 +15,25 @@ const ViewerPDF = dynamic(() => import("@/components/ViewerPDF"), {
   ),
 });
 export default function ViewerPage() {
-  const [pdfUrl, setPdfUrl] = useState<string>("/documents/banner-viwer.pdf");
+  // const [pdfUrl, setPdfUrl] = useState<string>("/documents/banner-viwer.pdf");
+  const router = useRouter();
+  const queryUrl = router.query.pdfUrl;
+
+  // Se for array, pega o primeiro item. Se não, usa o valor ou o padrão.
+  const pdfUrl: string = Array.isArray(queryUrl)
+    ? queryUrl[0]
+    : queryUrl || "/documents/banner-viwer.pdf";
+
+  console.log(pdfUrl);
+  // Enquanto o router não está pronto, mostramos um loading ou null
+  if (!router.isReady) {
+    return (
+      <div className="bg-stone-50 h-dvh mx-auto w-full flex flex-col items-center justify-center gap-2">
+        <RotateCw size={40} className="animate-spin text-orange-400" />
+        <p className="font-light">Preparando manual...</p>
+      </div>
+    );
+  }
   return (
     <div>
       <Head>

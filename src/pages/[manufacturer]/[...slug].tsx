@@ -17,6 +17,7 @@ export default function ManualsPage() {
   //path to filter manual array
   const modelPath = Array.isArray(slug) ? slug.join("/") : "";
   const fullPath = `${manufacturer}/${modelPath}`;
+  //verifica se o manual existe no JSON
   const manualExist = imagesData.some((item) =>
     item.caminho_r2.toLowerCase().includes(fullPath.toLowerCase()),
   );
@@ -45,7 +46,7 @@ export default function ManualsPage() {
   const manufacturerData = MANUFACTURERS.find(
     (brand) => brand.label === manufacturer,
   );
-
+  // única máquina selecionada
   const activeMachine = machineImagesAdapted.find(
     (m) => m.filtro === selectedMachine,
   );
@@ -61,7 +62,7 @@ export default function ManualsPage() {
   const handleSelectMachine = (filter: string) => {
     setSelectedMachine(filter);
     console.log(selectedManuals);
-    console.log(machineImagesAdapted);
+    console.log(machineManualsAdapted);
     console.log(activeMachine);
   };
 
@@ -75,10 +76,13 @@ export default function ManualsPage() {
   }
 
   return (
-    <div className="bg-stone-50 h-dvh p-2">
+    <div className="bg-stone-50 min-h-screen p-2">
       {manualExist ? (
-        <div>
-          <div className="w-full grid grid-cols-2 gap-3 items-stretch mx-auto md:grid-cols-4 lg:grid-cols-7 lg:gap-1 lg:mx-8">
+        <div className="max-w-450 mx-auto w-full space-y-12">
+          {" "}
+          {/* Controle para card não crescer muito em tela grande - max-w-450 */}
+          {/* Grid de Modelos (Superior) */}
+          <div className="w-full grid grid-cols-2 gap-3 items-stretch mx-auto md:grid-cols-4 lg:grid-cols-7 lg:gap-4">
             {machineImagesAdapted.map((model) => (
               <ModelCard
                 item={model}
@@ -88,25 +92,31 @@ export default function ManualsPage() {
               />
             ))}
           </div>
+          {/* Seção de Manuais (Inferior) */}
           <div className="mt-8">
-            <h3 className="text-[20px] text-gray-700 font-bold uppercase tracking-wider text-center transform mb-6">
+            <h3 className="text-[20px] md:text-[25px] text-gray-700 font-bold uppercase tracking-wider text-center transform mb-6">
               {activeMachine?.nome || "Selecione uma máquina"}
             </h3>
-            <div className="grid grid-cols-1 gap-3 px-2 lg:grid-cols-3 lg:mx-20">
+            {/* Grid de Cards*/}
+            <div className="grid grid-cols-1 gap-3 px-2 lg:grid-cols-3 w-full">
               {selectedManuals?.map((m) => (
                 <ManualCard
+                  key={m.caminhoR2}
                   machine={activeMachine?.nome}
                   description={m.nomeArquivo}
                   pdfUrl={m.urlPublica}
+                  manualType={m.categoria}
                 />
               ))}
             </div>
           </div>
         </div>
       ) : (
-        <div className="flex flex-col justify-center items-center">
-          <h2 className="text-2xl my-4">Nenhum manual encontrado</h2>
-          <p className="text-sm text-gray-500 my-2 text-center max-w-md">
+        <div className="max-w-md mx-auto flex flex-col justify-center items-center">
+          <h2 className="text-2xl md:text-3xl my-4">
+            Nenhum manual encontrado
+          </h2>
+          <p className="text-sm md:text-base text-gray-500 my-2 lg:my-6 text-center max-w-md">
             Não encontrou o que procurava? Acesse o site do fabricante para mais
             informações.
           </p>
@@ -114,7 +124,7 @@ export default function ManualsPage() {
             href={manufacturerData?.site || "#"}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block p-2 bg-orange-500 rounded-sm text-white hover:bg-orange-500 transition-colors text-center"
+            className="w-fit inline-block p-2 bg-orange-500 rounded-sm text-white md:text-xl md:my-8 hover:bg-orange-500 transition-colors text-center"
           >
             Acesse
           </a>
@@ -124,7 +134,7 @@ export default function ManualsPage() {
             width={300}
             height={300}
             loading="eager"
-            className="w-68 h-auto md:w-120 mt-8 grayscale-75"
+            className="w-68 h-auto md:w-90 mt-8 grayscale-75"
           />
         </div>
       )}
