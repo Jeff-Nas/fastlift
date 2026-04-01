@@ -5,24 +5,34 @@ interface ManualCardProps {
   machine?: string;
   description: string;
   pdfUrl: string;
+  manualType: string;
 }
 
-export function ManualCard({ machine, description, pdfUrl }: ManualCardProps) {
+export function ManualCard({
+  machine,
+  description,
+  pdfUrl,
+  manualType,
+}: ManualCardProps) {
   return (
     <div className="w-full h-full bg-white border border-gray-300 rounded-lg shadow-sm flex flex-col transition-all hover:shadow-md hover:border-gray-300">
       {/* Header */}
-      <div className="flex justify-between items-center bg-gray-50 px-4 py-3 border-b border-gray-100 rounded-t-lg">
+      <div className="flex justify-between items-center bg-gray-100 px-4 py-3 border-b border-gray-100 rounded-t-lg">
         <div className="flex items-center gap-2 text-gray-800">
           <FileText size={18} className="text-orange-500" />
           <p className="font-semibold text-sm uppercase tracking-wide">
             {machine}
           </p>
         </div>
-
-        {/* Badge PDF */}
-        <span className="bg-gray-200 text-gray-600 px-2 py-0.5 text-[10px] font-bold uppercase rounded-sm tracking-wider">
-          PDF
-        </span>
+        <div className="flex gap-2">
+          <span className="bg-blue-100/90 text-gray-600 px-2 py-0.5 text-[10px] font-bold uppercase rounded-sm tracking-wider">
+            {manualType}
+          </span>
+          {/* Badge PDF */}
+          <span className="bg-gray-200 text-gray-600 px-2 py-0.5 text-[10px] font-bold uppercase rounded-sm tracking-wider">
+            PDF
+          </span>
+        </div>
       </div>
 
       {/* Content - Espaçamento melhorado para leitura */}
@@ -49,7 +59,7 @@ export function ManualCard({ machine, description, pdfUrl }: ManualCardProps) {
         <Link
           href={{
             pathname: "/visualizador",
-            query: { pdfUrl },
+            query: { pdfUrl: pdfUrl }, //O query espera um objeto (chave: valor)
           }}
           className="flex flex-1 justify-center items-center gap-2 px-3 py-2 text-xs md:py-3 md:text-sm font-bold bg-orange-500 text-white rounded hover:bg-orange-600 transition-colors shadow-sm"
         >
