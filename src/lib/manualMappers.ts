@@ -1,5 +1,13 @@
 import { Manual, ModelImage } from "@/types/manuals";
 
+const manualCategories = ["parts", "service", "operation"] as const;
+//pega qualquer valor acessado por índice numérico desse array
+type ManualCategory = (typeof manualCategories)[number];
+
+const findManualCategory = (path: string): ManualCategory | null => {
+  return manualCategories.find((c) => path.includes(c)) || null;
+};
+
 //Adapting props for camelCase
 export const mapManualToFrontEnd = (data: any): Manual => {
   return {
@@ -8,6 +16,7 @@ export const mapManualToFrontEnd = (data: any): Manual => {
     tamanho: data.tamanho,
     dataModificacao: data.data_modificacao,
     urlPublica: data.url_publica,
+    categoria: findManualCategory(data.caminho_r2),
   };
 };
 

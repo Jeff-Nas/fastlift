@@ -4,6 +4,7 @@ export interface Manual {
   tamanho: number;
   dataModificacao: string;
   urlPublica: string;
+  categoria: string;
 }
 
 export interface ModelImage extends Manual {
