@@ -18,23 +18,23 @@ import "react-pdf/dist/Page/TextLayer.css";
 // Configuração do Worker
 pdfjs.GlobalWorkerOptions.workerSrc = `/pdf.worker.min.mjs`;
 
-// 1. Tipagem das Props do componente
 interface ViewerPDFProps {
   pdfUrl: string;
 }
 
 const ViewerPDF = ({ pdfUrl }: ViewerPDFProps) => {
-  // 2. Tipagem dos States
   const [numPages, setNumPages] = useState<number | null>(null);
   const [pageNumber, setPageNumber] = useState<number>(1);
   const [pageInput, setPageInput] = useState<number | string>(1);
   const [hasOutline, setHasOutline] = useState<boolean>(true);
 
-  const [sidebarOpen, setSidebarOpen] = useState<boolean>(true);
+  // NOVO: Estado para controlar a porcentagem de carregamento
+  const [loadProgress, setLoadProgress] = useState<number>(0);
+
+  const [sidebarOpen, setSidebarOpen] = useState<boolean>(false);
   const [scale, setScale] = useState<number>(1.0);
   const [containerWidth, setContainerWidth] = useState<number | null>(null);
 
-  // 3. Tipagem da Ref
   const containerRef = useRef<HTMLDivElement>(null);
 
   const options = useMemo(
@@ -71,7 +71,6 @@ const ViewerPDF = ({ pdfUrl }: ViewerPDFProps) => {
     return () => resizeObserver.disconnect();
   }, [sidebarOpen]);
 
-  // 4. Tipagem do objeto PDF retornado pelo react-pdf
   function onDocumentLoadSuccess(pdf: {
     numPages: number;
     getOutline: () => Promise<any[]>;
@@ -89,7 +88,18 @@ const ViewerPDF = ({ pdfUrl }: ViewerPDFProps) => {
       });
   }
 
-  // 5. Tipagem do parâmetro da função
+  // NOVO: Função que calcula o progresso de download do PDF
+  function onDocumentLoadProgress({
+    loaded,
+    total,
+  }: {
+    loaded: number;
+    total: number;
+  }) {
+    const progress = Math.round((loaded / total) * 100);
+    setLoadProgress(progress);
+  }
+
   function changePage(offset: number) {
     setPageNumber((prev) => {
       if (!numPages) return prev;
@@ -97,7 +107,6 @@ const ViewerPDF = ({ pdfUrl }: ViewerPDFProps) => {
     });
   }
 
-  // 6. Tipagem do Evento de Form/Input
   const handlePageSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     let page = typeof pageInput === "string" ? parseInt(pageInput) : pageInput;
@@ -109,7 +118,6 @@ const ViewerPDF = ({ pdfUrl }: ViewerPDFProps) => {
     }
   };
 
-  // 7. Tipagem do retorno do clique no Outline
   function onItemClick({ pageNumber }: { pageNumber: string | number }) {
     const pageNum =
       typeof pageNumber === "string" ? parseInt(pageNumber) : pageNumber;
@@ -151,10 +159,14 @@ const ViewerPDF = ({ pdfUrl }: ViewerPDFProps) => {
             <div className="[&_ul]:list-none [&_ul]:pl-2 [&_li]:mt-2 [&_a]:text-sm [&_a]:text-gray-600 [&_a]:no-underline [&_a]:block [&_a]:cursor-pointer [&_a]:transition-colors hover:[&_a]:text-blue-600 hover:[&_a]:font-medium">
               <Document
                 file={pdfUrl}
-                loading="Carregando índice..."
+                loading={
+                  <div className="text-sm text-gray-500 animate-pulse">
+                    Carregando índice...
+                  </div>
+                }
                 options={options}
               >
-                {/* @ts-ignore - Ignorando erro de tipagem interno do react-pdf */}
+                {/* @ts-ignore */}
                 <Outline onItemClick={onItemClick} />
               </Document>
             </div>
@@ -250,24 +262,41 @@ const ViewerPDF = ({ pdfUrl }: ViewerPDFProps) => {
           ref={containerRef}
           className="flex-1 bg-slate-700 overflow-auto flex items-start p-2 lg:p-8 relative"
         >
-          {/*página do pdf */}
-          <div className="shadow-2xl h-fit mx-auto">
+          <div className="shadow-2xl h-fit mx-auto w-full flex justify-center">
             <Document
               file={pdfUrl}
               options={options}
               onLoadSuccess={onDocumentLoadSuccess}
+              onLoadProgress={onDocumentLoadProgress} // NOVO: Listener de progresso
               loading={
-                <div className="flex items-center gap-2 text-white">
-                  <RotateCw className="animate-spin text-orange-400" />{" "}
-                  Carregando...
+                // NOVO: UI de carregamento com barra de progresso
+                <div className="flex flex-col items-center justify-center gap-4 text-white mt-20 w-full max-w-sm mx-auto bg-slate-800/50 p-6 rounded-xl backdrop-blur-sm border border-slate-600">
+                  <div className="flex items-center gap-3">
+                    <RotateCw
+                      className="animate-spin text-blue-400"
+                      size={24}
+                    />
+                    <span className="font-medium">Carregando documento...</span>
+                  </div>
+
+                  <div className="w-full bg-slate-600 rounded-full h-2.5 overflow-hidden">
+                    <div
+                      className="bg-blue-400 h-2.5 rounded-full transition-all duration-300 ease-out"
+                      style={{ width: `${loadProgress}%` }}
+                    ></div>
+                  </div>
+                  <span className="text-sm text-slate-300">
+                    {loadProgress}% concluído
+                  </span>
                 </div>
               }
               error={
-                <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded">
-                  Erro ao carregar PDF
+                <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mt-20">
+                  Erro ao carregar PDF. Verifique se o arquivo existe e está
+                  acessível.
                 </div>
               }
-              className="flex flex-col gap-4"
+              className="flex flex-col gap-4 items-center"
             >
               <Page
                 pageNumber={pageNumber}
