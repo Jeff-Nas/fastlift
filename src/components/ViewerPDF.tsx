@@ -260,16 +260,16 @@ const ViewerPDF = ({ pdfUrl }: ViewerPDFProps) => {
 
         <div
           ref={containerRef}
-          className="flex-1 bg-slate-700 overflow-auto flex items-start p-2 lg:p-8 relative"
+          className="flex-1 bg-slate-700 overflow-auto p-2 lg:p-8 relative"
         >
-          <div className="shadow-2xl h-fit mx-auto w-full flex justify-center">
+          {/* MUDANÇA AQUI: de "w-full flex justify-center" para "w-max" */}
+          <div className="shadow-2xl h-fit w-max mx-auto">
             <Document
               file={pdfUrl}
               options={options}
               onLoadSuccess={onDocumentLoadSuccess}
-              onLoadProgress={onDocumentLoadProgress} // NOVO: Listener de progresso
+              onLoadProgress={onDocumentLoadProgress}
               loading={
-                // NOVO: UI de carregamento com barra de progresso
                 <div className="flex flex-col items-center justify-center gap-4 text-white mt-20 w-full max-w-sm mx-auto bg-slate-800/50 p-6 rounded-xl backdrop-blur-sm border border-slate-600">
                   <div className="flex items-center gap-3">
                     <RotateCw
@@ -296,7 +296,7 @@ const ViewerPDF = ({ pdfUrl }: ViewerPDFProps) => {
                   acessível.
                 </div>
               }
-              className="flex flex-col gap-4 items-center"
+              className="flex flex-col gap-4"
             >
               <Page
                 pageNumber={pageNumber}
