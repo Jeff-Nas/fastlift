@@ -207,7 +207,7 @@ const ViewerPDF = ({ pdfUrl }: ViewerPDFProps) => {
             <button
               onClick={() => changePage(-1)}
               disabled={pageNumber <= 1}
-              className="p-1 md:p-1.5 hover:bg-white hover:shadow-sm rounded disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+              className="hidden md:flex p-1 md:p-1.5 hover:bg-white hover:shadow-sm rounded disabled:opacity-30 disabled:cursor-not-allowed transition-all"
             >
               <ChevronLeft size={16} />
             </button>
@@ -231,7 +231,7 @@ const ViewerPDF = ({ pdfUrl }: ViewerPDFProps) => {
             <button
               onClick={() => changePage(1)}
               disabled={numPages ? pageNumber >= numPages : true}
-              className="p-1 md:p-1.5 hover:bg-white hover:shadow-sm rounded disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+              className="hidden md:flex p-1 md:p-1.5 hover:bg-white hover:shadow-sm rounded disabled:opacity-30 disabled:cursor-not-allowed transition-all"
             >
               <ChevronRight size={16} />
             </button>
@@ -257,7 +257,33 @@ const ViewerPDF = ({ pdfUrl }: ViewerPDFProps) => {
             </button>
           </div>
         </div>
+        {/* NOVOS BOTÕES FLUTUANTES (Esquerda e Direita) */}
+        <div className="absolute bottom-6 left-0 right-0 w-full px-4 lg:px-12 flex justify-between items-center z-40 pointer-events-none">
+          <button
+            onClick={() => changePage(-1)}
+            disabled={pageNumber <= 1}
+            className="pointer-events-auto w-14 h-14 md:w-16 md:h-16 bg-orange-600 opacity-80 text-white rounded-full flex items-center justify-center shadow-[0_4px_12px_rgba(0,0,0,0.4)] disabled:opacity-0 transition-all active:scale-95 border-2 border-white/20 hover:bg-orange-700"
+            aria-label="Página anterior"
+          >
+            <ChevronLeft size={36} strokeWidth={2.5} />
+          </button>
 
+          {/* Opcional: Um mini indicador de página no meio para o técnico não ter que olhar pro topo */}
+          <div className="pointer-events-auto md:hidden bg-black/50 backdrop-blur-sm text-white px-3 py-1 rounded-full text-xs font-medium shadow-md">
+            {pageNumber} / {numPages || "--"}
+          </div>
+
+          <button
+            onClick={() => changePage(1)}
+            disabled={numPages ? pageNumber >= numPages : true}
+            className="pointer-events-auto w-14 h-14 md:w-16 md:h-16 bg-orange-600 opacity-80 text-white rounded-full flex items-center justify-center shadow-[0_4px_12px_rgba(0,0,0,0.4)] disabled:opacity-0 transition-all active:scale-95 border-2 border-white/20 hover:bg-orange-700"
+            aria-label="Próxima página"
+          >
+            <ChevronRight size={36} strokeWidth={2.5} />
+          </button>
+        </div>
+
+        {/*Container do PDF */}
         <div
           ref={containerRef}
           className="flex-1 bg-slate-700 overflow-auto p-2 lg:p-8 relative"
