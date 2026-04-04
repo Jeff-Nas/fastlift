@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <>
-      {/* Script Principal do Google - trava de segurança caso ID não carregue */}
+      {/* Script Principal do Google - trava de segurança caso ID não carregue -rebuild*/}
       {gaId && (
         <>
           <Script
