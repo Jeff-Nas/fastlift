@@ -5,7 +5,7 @@ import Script from "next/script";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      {/* Script Principal do Google com o ID fixo */}
+      {/* Script Principal do Google Analytics com o ID fixo */}
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-DLE0CW8HRQ"
         strategy="afterInteractive"
