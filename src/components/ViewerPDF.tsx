@@ -41,6 +41,10 @@ const ViewerPDF = ({ pdfUrl }: ViewerPDFProps) => {
 
   const [sidebarOpen, setSidebarOpen] = useState<boolean>(false);
   const [scale, setScale] = useState<number>(1.0);
+  //Controle de Zoom
+  const [showZoomIndicator, setShowZoomIndicator] = useState(false);
+  const zoomTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const isInitialMount = useRef(true);
   const [containerWidth, setContainerWidth] = useState<number | null>(null);
 
   const containerRef = useRef<HTMLDivElement>(null);
@@ -53,6 +57,24 @@ const ViewerPDF = ({ pdfUrl }: ViewerPDFProps) => {
     }),
     [],
   );
+
+  // Controle de exibição do zoom
+  useEffect(() => {
+    if (isInitialMount.current) {
+      isInitialMount.current = false;
+      return;
+    }
+    setShowZoomIndicator(true);
+    if (zoomTimeoutRef.current) {
+      clearTimeout(zoomTimeoutRef.current);
+    }
+    zoomTimeoutRef.current = setTimeout(() => {
+      setShowZoomIndicator(false);
+    }, 1500);
+    return () => {
+      if (zoomTimeoutRef.current) clearTimeout(zoomTimeoutRef.current);
+    };
+  }, [scale]);
 
   useEffect(() => {
     setPageInput(pageNumber);
@@ -290,8 +312,8 @@ const ViewerPDF = ({ pdfUrl }: ViewerPDFProps) => {
             </button>
           </div>
 
-          {/* 2. CENTRO: Busca e Página */}
-          <div className="flex items-center gap-1.5 md:gap-4 shrink-0 mx-auto">
+          {/* 2. DIREITA: Busca e Página (Sem as lupas antigas) */}
+          <div className="flex items-center gap-1.5 md:gap-4 shrink-0 ml-auto">
             {/* FORMULÁRIO DE BUSCA */}
             <form
               onSubmit={handleGlobalSearch}
@@ -347,52 +369,62 @@ const ViewerPDF = ({ pdfUrl }: ViewerPDFProps) => {
               <button type="submit" hidden />
             </form>
           </div>
+        </div>
 
-          {/* 3. DIREITA: Zoom */}
-          <div className="flex items-center gap-0.5 md:gap-1 bg-gray-50 p-1 rounded-lg border border-gray-200 shrink-0">
+        {/* Indiador do Zoom */}
+        <div
+          className={`absolute top-20 left-1/2 -translate-x-1/2 z-50 bg-black/70 backdrop-blur-sm text-white px-4 py-1.5 rounded-full text-sm font-semibold shadow-lg transition-opacity duration-300 pointer-events-none flex items-center gap-2 ${
+            showZoomIndicator ? "opacity-100" : "opacity-0"
+          }`}
+        >
+          <Search size={16} className="text-gray-300" />
+          {Math.round(scale * 100)}%
+        </div>
+
+        {/* NOVOS BOTÕES FLUTUANTES NO RODAPÉ COM ZOOM */}
+        <div className="absolute bottom-16 md:bottom-12 left-0 right-0 w-full px-2 sm:px-4 lg:px-12 flex justify-between items-center z-40 pointer-events-none">
+          {/* GRUPO ESQUERDA: Voltar Página e Menos Zoom */}
+          <div className="flex items-center gap-2 sm:gap-3 pointer-events-none">
+            <button
+              onClick={() => changePage(-1)}
+              disabled={pageNumber <= 1}
+              className="pointer-events-auto w-14 h-14 md:w-16 md:h-16 bg-orange-600 opacity-80 text-white rounded-full flex items-center justify-center shadow-[0_4px_12px_rgba(0,0,0,0.4)] disabled:opacity-0 transition-all active:scale-95 border-2 border-white/20 hover:bg-orange-700"
+              aria-label="Página anterior"
+            >
+              <ChevronLeft size={36} strokeWidth={2.5} />
+            </button>
             <button
               onClick={() => setScale((s) => Math.max(0.5, s - 0.25))}
-              className="p-1 md:p-1.5 hover:bg-white hover:shadow-sm rounded transition-all text-gray-600"
+              className="pointer-events-auto w-12 h-12 md:w-14 md:h-14 bg-gray-100 opacity-80 text-gray-700 rounded-full flex items-center justify-center shadow-[0_4px_12px_rgba(0,0,0,0.3)] transition-all active:scale-95 border-2 border-white/50 hover:bg-gray-200"
+              aria-label="Menos zoom"
             >
-              <ZoomOut className="w-4 h-4 md:w-5 md:h-5" />
-            </button>
-
-            <span className="text-[10px] md:text-xs font-medium text-gray-500 w-7 md:w-10 text-center select-none">
-              {Math.round(scale * 100)}%
-            </span>
-
-            <button
-              onClick={() => setScale((s) => Math.min(3.0, s + 0.25))}
-              className="p-1 md:p-1.5 hover:bg-white hover:shadow-sm rounded transition-all text-gray-600"
-            >
-              <ZoomIn className="w-4 h-4 md:w-5 md:h-5" />
+              <ZoomOut size={24} strokeWidth={2.5} />
             </button>
           </div>
-        </div>
-        {/* NOVOS BOTÕES FLUTUANTES (Esquerda e Direita) */}
-        <div className="absolute bottom-16 md:bottom-12 left-0 right-0 w-full px-4 lg:px-12 flex justify-between items-center z-40 pointer-events-none">
-          <button
-            onClick={() => changePage(-1)}
-            disabled={pageNumber <= 1}
-            className="pointer-events-auto w-14 h-14 md:w-16 md:h-16 bg-orange-600 opacity-80 text-white rounded-full flex items-center justify-center shadow-[0_4px_12px_rgba(0,0,0,0.4)] disabled:opacity-0 transition-all active:scale-95 border-2 border-white/20 hover:bg-orange-700"
-            aria-label="Página anterior"
-          >
-            <ChevronLeft size={36} strokeWidth={2.5} />
-          </button>
 
-          {/* Opcional: Um mini indicador de página no meio para o técnico não ter que olhar pro topo */}
-          <div className="pointer-events-auto md:hidden bg-black/50 backdrop-blur-sm text-white px-3 py-1 rounded-full text-xs font-medium shadow-md">
+          {/* CENTRO: Indicador de Página (Mobile) */}
+          <div className="pointer-events-auto md:hidden bg-black/50 backdrop-blur-sm text-white px-3 py-1 rounded-full text-xs font-medium shadow-md mx-1">
             {pageNumber} / {numPages || "--"}
           </div>
 
-          <button
-            onClick={() => changePage(1)}
-            disabled={numPages ? pageNumber >= numPages : true}
-            className="pointer-events-auto w-14 h-14 md:w-16 md:h-16 bg-orange-600 opacity-80 text-white rounded-full flex items-center justify-center shadow-[0_4px_12px_rgba(0,0,0,0.4)] disabled:opacity-0 transition-all active:scale-95 border-2 border-white/20 hover:bg-orange-700"
-            aria-label="Próxima página"
-          >
-            <ChevronRight size={36} strokeWidth={2.5} />
-          </button>
+          {/* GRUPO DIREITA: Mais Zoom e Avançar Página */}
+          <div className="flex items-center gap-2 sm:gap-3 pointer-events-none">
+            <button
+              onClick={() => setScale((s) => Math.min(3.0, s + 0.25))}
+              className="pointer-events-auto w-12 h-12 md:w-14 md:h-14 bg-gray-100 opacity-80 text-gray-700 rounded-full flex items-center justify-center shadow-[0_4px_12px_rgba(0,0,0,0.3)] transition-all active:scale-95 border-2 border-white/50 hover:bg-gray-200"
+              aria-label="Mais zoom"
+            >
+              <ZoomIn size={24} strokeWidth={2.5} />
+            </button>
+            <button
+              onClick={() => changePage(1)}
+              disabled={numPages ? pageNumber >= numPages : true}
+              className="pointer-events-auto w-14 h-14 md:w-16 md:h-16 bg-orange-600 opacity-80 text-white rounded-full flex items-center justify-center shadow-[0_4px_12px_rgba(0,0,0,0.4)] disabled:opacity-0 transition-all active:scale-95 border-2 border-white/20 hover:bg-orange-700"
+              aria-label="Próxima página"
+            >
+              <ChevronRight size={36} strokeWidth={2.5} />
+            </button>
+          </div>
         </div>
 
         {/*Container do PDF */}
