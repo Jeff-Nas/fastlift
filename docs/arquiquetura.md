@@ -1,5 +1,3 @@
-Este projeto usa JavaScript inicialmente, pois comecei aprendendo Next sem uma base sólida de Typescript. Portanto, optei por usar Javascript e converter para Typescript posteriormente.
-
 ## 🏗️ Arquitetura de Roteamento e Filtragem (Catálogo de Manuais)
 
 Para garantir alta performance e escalabilidade, o sistema de roteamento do FastLift foi projetado para espelhar a estrutura de diretórios do storage (Cloudflare R2).
