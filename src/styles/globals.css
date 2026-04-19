@@ -5,10 +5,12 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
+  /*SHADOW*/
   --shadow-card: 1px 1px 3px rgba(9, 9, 9, 0.463);
   --shadow-neumorphic: 2px 2px 4px #b1b1b3, -4px -4px 6px #ffffff;
   --shadow-neumorphic-pressed:
     inset 2px 2px 4px #b1b1b3, inset -2px -2px 4px #ffffff;
+  /*ANIMATION*/
   --animate-fade-in: fade-in 0.5s ease-in-out;
 
   @keyframes fade-in {
@@ -19,6 +21,11 @@
       opacity: 1;
     }
   }
+  /*FONTS*/
+  /*var is variable from Next font - /fonts.ts*/
+  --font-body: var(--font-inter);
+  --font-brand: var(--font-audiowide);
+  --font-header: var(--font-montserrat);
 }
 
 /* Shadcn UI*/
