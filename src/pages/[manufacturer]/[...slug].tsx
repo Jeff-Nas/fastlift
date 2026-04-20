@@ -8,6 +8,9 @@ import { ManualCard } from "@/components/ui/manualCard";
 import Image from "next/image";
 import { MANUFACTURERS } from "../../../constants/categories";
 import { RotateCw } from "lucide-react";
+import Link from "next/link";
+import { ScrollToTopButton } from "@/components/scrollToTopButton";
+
 export default function ManualsPage() {
   const [selectedMachine, setSelectedMachine] = useState<string | null>(null); //selecionar primeiro elemento do array
 
@@ -83,20 +86,21 @@ export default function ManualsPage() {
           {/* Grid de Modelos (Superior) */}
           <div className="w-full grid grid-cols-2 gap-3 items-stretch mx-auto md:grid-cols-4 lg:grid-cols-7 lg:gap-4">
             {machineImagesAdapted.map((model) => (
-              <ModelCard
-                item={model}
-                key={model.caminhoR2}
-                onClick={() => handleSelectMachine(model.filtro)}
-                active={selectedMachine === model.filtro}
-              />
+              <Link href="#manuals-section" key={model.caminhoR2}>
+                <ModelCard
+                  item={model}
+                  onClick={() => handleSelectMachine(model.filtro)}
+                  active={selectedMachine === model.filtro}
+                />
+              </Link>
             ))}
           </div>
           {/* Seção de Manuais (Inferior) */}
-          <div className="mt-8">
+          <section id="manuals-section" className="mt-8">
             <h3 className="text-[20px] md:text-[25px] text-gray-700 font-bold uppercase tracking-wider text-center transform mb-6">
               {activeMachine?.nome || "Selecione uma máquina"}
             </h3>
-            {/* Grid de Cards*/}
+            {/* Grid de Cards dos manuais*/}
             <div className="grid grid-cols-1 gap-3 px-2 lg:grid-cols-3 w-full">
               {selectedManuals?.map((m) => (
                 <ManualCard
@@ -108,7 +112,8 @@ export default function ManualsPage() {
                 />
               ))}
             </div>
-          </div>
+            <ScrollToTopButton />
+          </section>
         </div>
       ) : (
         <div className="max-w-md mx-auto flex flex-col justify-center items-center">
