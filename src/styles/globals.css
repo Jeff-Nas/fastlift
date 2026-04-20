@@ -21,11 +21,20 @@
       opacity: 1;
     }
   }
-  /*FONTS*/
-  /*var is variable from Next font - /fonts.ts*/
-  --font-body: var(--font-inter);
-  --font-brand: var(--font-audiowide);
-  --font-header: var(--font-montserrat);
+}
+
+/*Utilitários Customizados para Fontes*/
+/*var is variable from Next font - /fonts.ts*/
+@utility font-body {
+  font-family: var(--font-inter);
+}
+
+@utility font-brand {
+  font-family: var(--font-audiowide);
+}
+
+@utility font-header {
+  font-family: var(--font-montserrat);
 }
 
 /* Shadcn UI*/
