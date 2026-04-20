@@ -19,11 +19,6 @@ export default function ViewerPage() {
   const router = useRouter();
   const queryUrl = router.query.pdfUrl;
 
-  // Se for array, pega o primeiro item. Se não, usa o valor ou o padrão.
-  const pdfUrl: string = Array.isArray(queryUrl)
-    ? queryUrl[0]
-    : queryUrl || "/documents/banner-viwer.pdf";
-
   // Enquanto o router não está pronto, mostramos um loading ou null
   if (!router.isReady) {
     return (
@@ -33,6 +28,12 @@ export default function ViewerPage() {
       </div>
     );
   }
+
+  // Se for array, pega o primeiro item. Se não, usa o valor ou o padrão.
+  const pdfUrl: string = Array.isArray(queryUrl)
+    ? queryUrl[0]
+    : queryUrl || "/documents/banner-viwer.pdf";
+
   return (
     <div>
       <Head>
