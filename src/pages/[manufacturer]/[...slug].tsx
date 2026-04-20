@@ -51,6 +51,7 @@ export default function ManualsPage() {
     (m) => m.filtro === selectedMachine,
   );
 
+  //verifica a mudança nas variáveis e seleciona o primeiro equipamento no array
   useEffect(() => {
     if (machineImagesAdapted.length > 0 && !selectedMachine) {
       setTimeout(() => {
@@ -59,11 +60,9 @@ export default function ManualsPage() {
     }
   }, [machineImagesAdapted, selectedMachine]);
 
+  //seta o estado para conter o campo 'filtro' do array de imagens
   const handleSelectMachine = (filter: string) => {
     setSelectedMachine(filter);
-    console.log(selectedManuals);
-    console.log(machineManualsAdapted);
-    console.log(activeMachine);
   };
 
   if (!router.isReady) {
@@ -76,7 +75,7 @@ export default function ManualsPage() {
   }
 
   return (
-    <div className="bg-stone-50 min-h-screen p-2">
+    <div className="bg-stone-50 min-h-screen p-2 pt-4">
       {manualExist ? (
         <div className="max-w-450 mx-auto w-full space-y-12">
           {" "}

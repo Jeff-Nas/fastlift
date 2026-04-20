@@ -34,8 +34,9 @@ export default function Manufacturer() {
 
   return (
     <div className="p-4 bg-stone-50">
-      <div className="flex flex-col items-center mb-2 h-37.5">
-        <h1 className="text-4xl text-center my-4 font-semibold text-gray-800">
+      {/*altura fixa para imagem não empurrar o container: h-34 */}
+      <div className="flex flex-col items-center h-34">
+        <h1 className="text-2xl font-header text-center my-4 font-semibold text-gray-800">
           Manuais Técnicos
         </h1>
 
@@ -59,7 +60,8 @@ export default function Manufacturer() {
       </div>
 
       {/* manufacturer  selection section - shadcn ui*/}
-      <div className="flex justify-center mb-8">
+      <div className="flex flex-col items-center justify-center mb-8 gap-1">
+        <p className="text-gray-600">Selecione um fabricante</p>
         <Select
           value={manufacturer || ""}
           onValueChange={handleManufacturerChange}

@@ -24,7 +24,6 @@ export default function ViewerPage() {
     ? queryUrl[0]
     : queryUrl || "/documents/banner-viwer.pdf";
 
-  console.log(pdfUrl);
   // Enquanto o router não está pronto, mostramos um loading ou null
   if (!router.isReady) {
     return (
@@ -37,9 +36,11 @@ export default function ViewerPage() {
   return (
     <div>
       <Head>
-        <title>FastLift</title>
+        <title>Visualizador | FastLift</title>
       </Head>
-      <h1 className="text-2xl font-bold">Visualizador</h1>
+      <h1 className="text-xl text-center font-header font-semibold text-slate-600">
+        Visualizador
+      </h1>
       <ViewerPDF pdfUrl={pdfUrl} />
     </div>
   );

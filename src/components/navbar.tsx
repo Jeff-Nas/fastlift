@@ -27,21 +27,18 @@ export function Navbar() {
 
   return (
     <>
-      <nav className="font-display relative">
+      <nav className="relative">
         <div className="flex justify-between items-center p-2 md:p-4  text-gray-800">
           <div className="md:flex gap-2 items-center ml-1.5">
-            <img
-              className="hidden md:flex w-12"
-              src="/public/assets/img/cokeyro-logo.png"
-              alt="logo"
-            />
-            <a href="/">
-              <h1 className="text-2xl font-bold tracking-tighter">FASTLIFT</h1>
-            </a>
+            <Link href="/">
+              <h1 className="text-2xl font-brand tracking-[0.5px] text-[#f4712f]">
+                FAST<span className="text-slate-700">LIFT</span>
+              </h1>
+            </Link>
           </div>
 
           {/* MENU DESKTOP */}
-          <div className="hidden md:flex gap-6 font-display md:text-xl">
+          <div className="hidden md:flex gap-6 md:text-xl">
             {/*Links para os manuais - será modificado depois */}
             <Link href="/jlg">JLG</Link>
             <Link href="/genie">Genie</Link>
@@ -58,7 +55,7 @@ export function Navbar() {
               className={`md:hidden ${isMenuOpen ? "opacity-0 invisible" : "opacity-100 visible"}`}
               onClick={() => setIsMenuOpen(true)}
             >
-              <MenuIcon />
+              <MenuIcon strokeWidth={"3px"} className="font-extrabold" />
             </button>
           </div>
         </div>
@@ -83,11 +80,12 @@ export function Navbar() {
         {/* Cabeçalho do menu gaveta */}
         <div className="flex justify-between p-4">
           <span className="font-bold text-xl">MENU</span>
+          {/*Botão para fechar menu */}
           <button
             onClick={() => setIsMenuOpen(false)}
             className="p-1 hover:bg-gray-100 rounded"
           >
-            <X className="w-6 h-6" />
+            <X className="font-bold w-7 h-7" strokeWidth={"3px"} />
           </button>
         </div>
         {/*Links para os manuais - serão modificados depois */}
