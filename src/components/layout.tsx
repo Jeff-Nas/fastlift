@@ -1,0 +1,24 @@
+import { inter, montserrat, audiowide } from "@/styles/fonts";
+import { ReactNode } from "react";
+import Header from "./header";
+import Head from "next/head";
+
+interface LayoutProps {
+  children: ReactNode; //React.ReactNode
+}
+export default function Layout({ children }: LayoutProps) {
+  return (
+    <>
+      <Head>
+        <title>FastLift</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
+      <div
+        className={`${inter.variable} ${audiowide.variable} ${montserrat.variable} font-body min-h-screen flex flex-col`}
+      >
+        <Header />
+        <main className="flex-1">{children}</main>
+      </div>
+    </>
+  );
+}
