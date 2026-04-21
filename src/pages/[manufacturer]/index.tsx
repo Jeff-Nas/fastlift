@@ -25,9 +25,7 @@ export default function Manufacturer() {
     (brand) => brand.label === manufacturer,
   );
 
-  {
-    /*The  onValueChange passes the string value*/
-  }
+  //Função pa inserir o nome do fabricante na URL
   const handleManufacturerChange = (selectedBrand: string) => {
     selectedBrand ? router.push(`/${selectedBrand}`) : router.push("/jlg");
   };
@@ -40,7 +38,7 @@ export default function Manufacturer() {
           Manuais Técnicos
         </h1>
 
-        {/* Image of manufacturer */}
+        {/* Imagem do fabricante */}
         {currrentBrand ? (
           <Image
             className="w-40 h-11 lg:w-60 lg:h-16 animate-fade-in"
@@ -58,12 +56,14 @@ export default function Manufacturer() {
           </div>
         )}
       </div>
+      <hr className="mb-2" />
 
       {/* manufacturer  selection section - shadcn ui*/}
       <div className="flex flex-col items-center justify-center mb-8 gap-1">
         <p className="text-gray-600">Selecione um fabricante</p>
+        {/*O valor do select já é passado automaticaente pelo componente */}
         <Select
-          value={manufacturer || ""}
+          value={manufacturer || "jlg"}
           onValueChange={handleManufacturerChange}
         >
           <SelectTrigger className="w-full max-w-55 border-2 border-gray-600 rounded-lg text-base font-semibold text-slate-700">
@@ -88,7 +88,7 @@ export default function Manufacturer() {
         </Select>
       </div>
 
-      {/*categories section*/}
+      {/*categories section - grid of cards*/}
       <div className="grid grid-cols-2 gap-3 lg:grid-cols-3 lg:gap-5 lg:mx-8">
         {categoriesList.map((cat, index) => (
           <Link
