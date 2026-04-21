@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { RotateCw } from "lucide-react";
 import { MachineCard } from "@/components/ui/machineCard";
+import { AnimatePresence, motion } from "motion/react";
 import {
   Select,
   SelectContent,
@@ -38,15 +39,25 @@ export default function Manufacturer() {
           Manuais Técnicos
         </h1>
 
-        {/* Imagem do fabricante */}
+        {/* Imagem do fabricante - verifica se currentBrand existe*/}
         {currrentBrand ? (
-          <Image
-            className="w-40 h-11 lg:w-60 lg:h-16 animate-fade-in"
-            src={currrentBrand.image}
-            width={200}
-            height={10}
-            alt={currrentBrand.label}
-          />
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={currrentBrand?.label}
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.9 }}
+              transition={{ duration: 0.2 }}
+            >
+              <Image
+                className="w-40 h-11 lg:w-60 lg:h-16 animate-fade-in"
+                src={currrentBrand.image}
+                width={200}
+                height={10}
+                alt={currrentBrand.label}
+              />
+            </motion.div>
+          </AnimatePresence>
         ) : (
           <div className="flex flex-col items-center gap-1">
             <RotateCw size={33} className="text-blue-400 animate-spin" />
@@ -88,16 +99,29 @@ export default function Manufacturer() {
         </Select>
       </div>
 
-      {/*categories section - grid of cards*/}
+      {/*categories section com motion para fade - grid of cards*/}
       <div className="grid grid-cols-2 gap-3 lg:grid-cols-3 lg:gap-5 lg:mx-8">
-        {categoriesList.map((cat, index) => (
-          <Link
-            href={`/${manufacturer}/${cat.slug}`}
-            key={`${cat.slug}-${index}`}
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={manufacturer}
+            initial={{ opacity: 0, y: 15 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -15 }}
+            transition={{ duration: 0.3, ease: "easeInOut" }}
+            className="grid grid-cols-2 gap-3 lg:grid-cols-3 lg:gap-5 col-span-full"
+            //col-span-full foi aplicado para o motion.div ocupar a grid toda e
+            // as classes da grid foram repetidas nele para os cards se manterem alinhados.
           >
-            <MachineCard item={cat} />
-          </Link>
-        ))}
+            {categoriesList.map((cat, index) => (
+              <Link
+                href={`/${manufacturer}/${cat.slug}`}
+                key={`${cat.slug}-${index}`}
+              >
+                <MachineCard item={cat} />
+              </Link>
+            ))}
+          </motion.div>
+        </AnimatePresence>
       </div>
     </div>
   );
