@@ -5,7 +5,7 @@ type Item = {
   item: Category;
   clasName?: string;
 };
-
+//card usado para seleção do tipo de máquina na página [manufacturer]
 export function MachineCard({ item, clasName = "" }: Item) {
   return (
     <figure
