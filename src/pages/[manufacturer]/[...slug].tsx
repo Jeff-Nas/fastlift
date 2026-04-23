@@ -9,6 +9,7 @@ import Image from "next/image";
 import { MANUFACTURERS } from "../../../constants/categories";
 import { RotateCw } from "lucide-react";
 import Link from "next/link";
+import { motion } from "motion/react";
 import { ScrollToTopButton } from "@/components/scrollToTopButton";
 
 export default function ManualsPage() {
@@ -17,7 +18,7 @@ export default function ManualsPage() {
   const router = useRouter();
 
   const { manufacturer, slug } = router.query;
-  //path to filter manual array
+  //caminho (path) para filtar array de manuais
   const modelPath = Array.isArray(slug) ? slug.join("/") : "";
   const fullPath = `${manufacturer}/${modelPath}`;
   //verifica se o manual existe no JSON
@@ -25,14 +26,14 @@ export default function ManualsPage() {
     item.caminho_r2.toLowerCase().includes(fullPath.toLowerCase()),
   );
 
-  //path to filter image array
+  //caminho para filtrar array de imagens
   const machineImages = imagesData.filter((machine) =>
     machine.caminho_r2.includes(fullPath),
   );
   const machineManuals = manualsData.filter((manual) =>
     manual.caminho_r2.includes(fullPath),
   );
-  //Adapting props for camelCase
+  //Adaptando props para camelCase
 
   const machineManualsAdapted = machineManuals.map((model) =>
     mapManualToFrontEnd(model),
@@ -81,7 +82,6 @@ export default function ManualsPage() {
     <div className="bg-stone-50 min-h-screen p-2 pt-4">
       {manualExist ? (
         <div className="max-w-450 mx-auto w-full space-y-12">
-          {" "}
           {/* Controle para card não crescer muito em tela grande - max-w-450 */}
           {/* Grid de Modelos (Superior) */}
           <div className="w-full grid grid-cols-2 gap-3 items-stretch mx-auto md:grid-cols-4 lg:grid-cols-7 lg:gap-4">
@@ -97,9 +97,18 @@ export default function ManualsPage() {
           </div>
           {/* Seção de Manuais (Inferior) */}
           <section id="manuals-section" className="mt-8">
-            <h3 className="text-[20px] md:text-[25px] text-gray-700 font-bold uppercase tracking-wider text-center transform mb-6">
+            {/*TÍTULO: nome do equipamento escolhido */}
+            <motion.h3
+              key={activeMachine?.nome}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.3 }}
+              className="text-[20px] md:text-[25px] text-gray-700 font-header font-bold uppercase tracking-wider text-center mb-6"
+            >
               {activeMachine?.nome || "Selecione uma máquina"}
-            </h3>
+            </motion.h3>
+
             {/* Grid de Cards dos manuais*/}
             <div className="grid grid-cols-1 gap-3 px-2 lg:grid-cols-3 w-full">
               {selectedManuals?.map((m) => (
@@ -112,6 +121,7 @@ export default function ManualsPage() {
                 />
               ))}
             </div>
+            {/*Botão para voltar ao topo */}
             <ScrollToTopButton />
           </section>
         </div>
