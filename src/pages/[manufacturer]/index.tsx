@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link";
 import { RotateCw } from "lucide-react";
-import { MachineCard } from "@/components/ui/machineCard";
+import { CategoryCard } from "@/components/ui/categoryCard";
 import { AnimatePresence, motion } from "motion/react";
 import {
   Select,
@@ -117,7 +117,7 @@ export default function Manufacturer() {
                 href={`/${manufacturer}/${cat.slug}`}
                 key={`${cat.slug}-${index}`}
               >
-                <MachineCard item={cat} />
+                <CategoryCard item={cat} />
               </Link>
             ))}
           </motion.div>

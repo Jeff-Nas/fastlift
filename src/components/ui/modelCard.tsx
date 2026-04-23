@@ -26,7 +26,7 @@ export function ModelCard({
     >
       <figure
         className={cn(
-          "group justify-self-center rounded-md shadow-neumorphic flex flex-col items-center justify-center py-2 px-1  w-36 h-auto md:w-44 lg:w-44 hover:bg-gray-200 cursor-pointer",
+          "group justify-self-center rounded-md shadow-neumorphic flex flex-col items-center justify-center py-2 px-1  w-36 h-auto md:w-44 lg:w-44 hover:bg-gray-200 cursor-pointer transition-colors duration-300",
           active ? "bg-[#f7e6cd] opacity-100" : "bg-white",
           className,
         )}
