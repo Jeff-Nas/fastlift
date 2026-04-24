@@ -7,6 +7,7 @@
 @theme {
   /*SHADOW*/
   --shadow-card: 1px 1px 3px rgba(9, 9, 9, 0.463);
+  --shadow-button: 0 2px 0 0 rgba(0, 0, 0, 0.7);
   --shadow-neumorphic: 2px 2px 4px #b1b1b3, -4px -4px 6px #ffffff;
   --shadow-neumorphic-pressed:
     inset 2px 2px 4px #b1b1b3, inset -2px -2px 4px #ffffff;

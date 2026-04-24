@@ -60,6 +60,7 @@ export function Navbar() {
           </div>
         </div>
       </nav>
+      <hr className="border-gray-100" />
 
       {/* FUNDO ESCURO - OVERLAY */}
       <div
