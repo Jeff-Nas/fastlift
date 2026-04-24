@@ -81,7 +81,7 @@ export default function ManualsPage() {
   return (
     <div className="bg-stone-50 min-h-screen p-2 pt-4">
       {manualExist ? (
-        <div className="max-w-450 mx-auto w-full space-y-12">
+        <div className="max-w-450 mx-auto w-full space-y-12 mb-20">
           {/* Controle para card não crescer muito em tela grande - max-w-450 */}
           {/* Grid de Modelos (Superior) */}
           <div className="w-full grid grid-cols-2 gap-3 items-stretch mx-auto md:grid-cols-4 lg:grid-cols-7 lg:gap-4">

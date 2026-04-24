@@ -1,6 +1,7 @@
 import { inter, montserrat, audiowide } from "@/styles/fonts";
 import { ReactNode } from "react";
 import Header from "./header";
+import Footer from "@/components/footer";
 import Head from "next/head";
 
 interface LayoutProps {
@@ -18,6 +19,8 @@ export default function Layout({ children }: LayoutProps) {
       >
         <Header />
         <main className="flex-1">{children}</main>
+
+        <Footer />
       </div>
     </>
   );

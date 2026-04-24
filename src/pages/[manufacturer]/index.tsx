@@ -100,7 +100,7 @@ export default function Manufacturer() {
       </div>
 
       {/*categories section com motion para fade - grid of cards*/}
-      <div className="grid grid-cols-2 gap-3 lg:grid-cols-3 lg:gap-5 lg:mx-8">
+      <div className="grid grid-cols-2 gap-3 lg:grid-cols-3 lg:gap-5 lg:mx-8 mb-20">
         <AnimatePresence mode="wait">
           <motion.div
             key={manufacturer}
