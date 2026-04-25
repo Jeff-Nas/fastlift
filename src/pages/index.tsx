@@ -51,7 +51,7 @@ export default function Home() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-center text-5xl font-body font-bold"
+          className="text-center text-5xl font-body font-bold mt-10"
         >
           Manuais Técnicos na palma da sua mão em{" "}
           <span className="block w-fit mx-auto bg-linear-to-t from-orange-200/60 text-orange-500 from-25% to-transparent to-25% bg-no-repeat">
@@ -90,9 +90,9 @@ export default function Home() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.7 }}
-          className="mt-16"
+          className="mt-25"
         >
-          <h2 className="text-3xl lg:text-4xl text-center font-semibold">
+          <h2 className="text-3xl lg:text-4xl text-center font-semibold font-header">
             Vizualizador Integrado
           </h2>
           <p className="text-center text-gray-700 mt-5 px-2">
@@ -115,7 +115,7 @@ export default function Home() {
         whileInView={{ opacity: 1, scale: 1 }}
         viewport={{ once: true, margin: "-50px" }}
         transition={{ duration: 0.6 }}
-        className="flex flex-col gap-8 px-6 py-10 bg-slate-900 text-center"
+        className="flex flex-col gap-8 px-6 py-10 mt-10 bg-slate-900 text-center"
       >
         <div ref={countRef} className="text-5xl font-bold text-orange-200">
           <motion.span>{rounded}</motion.span>s
@@ -130,7 +130,7 @@ export default function Home() {
       </motion.div>
       {/* Cards de funcionalidades - Animação Individual por Scroll */}
       <div className="flex flex-col lg:flex-row gap-10 p-6 mt-12 mx-auto">
-        {/* Card 1 - Aparece quando o scroll chega nele */}
+        {/* Card 1 - Efeito scroll */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -148,7 +148,7 @@ export default function Home() {
           </p>
         </motion.div>
 
-        {/* Card 2 - Aparece APENAS quando o scroll chega nele */}
+        {/* Card 2 - Efeito com scroll */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
