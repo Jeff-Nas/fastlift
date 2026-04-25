@@ -1,14 +1,22 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Component, Wrench } from "lucide-react";
-import { motion, Variants } from "motion/react";
+import { useEffect, useRef } from "react";
+import {
+  motion,
+  Variants,
+  useMotionValue,
+  useTransform,
+  animate,
+  useInView,
+} from "motion/react";
 
 // Variáveis para o efeito cascata (stagger) dos cards
 const containerVariants: Variants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
-    transition: { delayChildren: 0.1, staggerChildren: 0.3 },
+    transition: { delayChildren: 0.1, staggerChildren: 0.6 },
   },
 };
 
@@ -22,6 +30,19 @@ const cardVariants: Variants = {
 };
 
 export default function Home() {
+  // Setup do Contador de 0 a 10
+  const countRef = useRef<HTMLDivElement>(null);
+  const isInView = useInView(countRef, { once: true, margin: "-50px" });
+  const count = useMotionValue(0);
+  const rounded = useTransform(count, (latest) => Math.round(latest));
+
+  useEffect(() => {
+    if (isInView) {
+      // Duração de 1.5 segundos para a contagem
+      animate(count, 10, { duration: 1.5, ease: "easeOut" });
+    }
+  }, [isInView, count]);
+
   return (
     <div className="flex flex-col">
       <div className="p-4 mt-6">
@@ -88,7 +109,7 @@ export default function Home() {
           />
         </motion.div>
       </div>
-      {/*Destaque para tempo de acesso ao manual */}
+      {/*Destaque para tempo de acesso ao manual com contador */}
       <motion.div
         initial={{ opacity: 0, scale: 0.93 }}
         whileInView={{ opacity: 1, scale: 1 }}
@@ -96,7 +117,9 @@ export default function Home() {
         transition={{ duration: 0.6 }}
         className="flex flex-col gap-8 px-6 py-10 bg-slate-900 text-center"
       >
-        <span className="text-5xl font-bold text-orange-200">10s</span>
+        <div ref={countRef} className="text-5xl font-bold text-orange-200">
+          <motion.span>{rounded}</motion.span>s
+        </div>
         <p className="uppercase text-yellow-100 text-2xl font-semibold">
           Acesso instantâneo
         </p>
@@ -105,17 +128,14 @@ export default function Home() {
           plataforma.
         </p>
       </motion.div>
-      {/* Cards de funcionalidades - Animação em Cascata (Stagger) */}
-      <motion.div
-        variants={containerVariants}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-50px" }}
-        className="flex flex-col lg:flex-row gap-5 p-6 mt-12 mx-auto"
-      >
-        {/* Card 1 */}
+      {/* Cards de funcionalidades - Animação Individual por Scroll */}
+      <div className="flex flex-col lg:flex-row gap-10 p-6 mt-12 mx-auto">
+        {/* Card 1 - Aparece quando o scroll chega nele */}
         <motion.div
-          variants={cardVariants}
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.3 }} // amount: 0.3 exige que 30% do card esteja na tela
+          transition={{ duration: 0.6, ease: "easeOut" }}
           className="flex flex-col gap-3 border p-5 rounded max-w-100"
         >
           <span className="p-3 rounded bg-gray-100 w-fit text-orange-500">
@@ -128,9 +148,12 @@ export default function Home() {
           </p>
         </motion.div>
 
-        {/* Card 2 */}
+        {/* Card 2 - Aparece APENAS quando o scroll chega nele */}
         <motion.div
-          variants={cardVariants}
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
           className="flex flex-col gap-3 border p-5 rounded max-w-100"
         >
           <span className="p-3 rounded bg-gray-100 w-fit text-orange-500">
@@ -142,7 +165,7 @@ export default function Home() {
             comuns e códigos de erro mapeados para resolução imediata.
           </p>
         </motion.div>
-      </motion.div>
+      </div>
 
       {/* Banner - mecânico - Revelação suave */}
       <motion.div
