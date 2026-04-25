@@ -38,7 +38,7 @@ export function Navbar() {
           </div>
 
           {/* MENU DESKTOP */}
-          <div className="hidden md:flex gap-6 md:text-xl">
+          <div className="hidden md:flex gap-6 md:text-xl font-header font-semibold text-gray-800">
             {/*Links para os manuais - será modificado depois */}
             <Link href="/jlg">JLG</Link>
             <Link href="/genie">Genie</Link>
@@ -89,8 +89,8 @@ export function Navbar() {
             <X className="font-bold w-7 h-7" strokeWidth={"3px"} />
           </button>
         </div>
-        {/*Links para os manuais - serão modificados depois */}
-        <div className="flex flex-col p-4 gap-4 ml-4">
+        {/*Links para os manuais */}
+        <div className="flex flex-col p-4 gap-4 ml-4 font-header text-gray-800">
           <Link href="/jlg" className="text-lg font-medium hover:text-gray-600">
             JLG
           </Link>
