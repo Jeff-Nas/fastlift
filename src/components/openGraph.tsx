@@ -11,7 +11,7 @@ const OpenGraph = ({
   title = "Título Padrão do Projeto",
   description = "Descrição padrão do seu sistema de manutenção.",
   url = "https://fastlift.com.br",
-  image = "https://fastlift.com.br/images/logos/social-logo.webp", // URL absoluta
+  image = "https://fastlift.com.br/images/logos/social-logo.png", // URL absoluta
 }: OpenGraphProps) => {
   return (
     <Head>

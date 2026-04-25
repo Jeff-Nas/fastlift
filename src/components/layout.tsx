@@ -10,7 +10,7 @@ interface LayoutProps {
 export default function Layout({ children }: LayoutProps) {
   return (
     <>
-      <OpenGraph />
+      <OpenGraph title="FastLift" />
       <Head>
         <title>FastLift</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
