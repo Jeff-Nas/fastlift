@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Component, Wrench } from "lucide-react";
 import { useEffect, useRef } from "react";
+import dynamic from "next/dynamic";
 import {
   motion,
   Variants,
@@ -10,25 +11,15 @@ import {
   animate,
   useInView,
 } from "motion/react";
-import { DonationButton } from "@/components/features/donation/donationButton";
 
-// Variáveis para o efeito cascata (stagger) dos cards
-const containerVariants: Variants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: { delayChildren: 0.1, staggerChildren: 0.6 },
-  },
-};
-
-const cardVariants: Variants = {
-  hidden: { opacity: 0, y: 30 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.5, ease: "easeOut" },
-  },
-};
+//importação dinâmica para não quebrar a renderização
+const DonationButton = dynamic(
+  () =>
+    import("@/components/features/donation/donationButton").then(
+      (mod) => mod.default,
+    ),
+  { ssr: false },
+);
 
 export default function Home() {
   // Setup do Contador de 0 a 10
@@ -184,9 +175,15 @@ export default function Home() {
         />
       </motion.div>
 
-      <div className="mx-auto">
+      <motion.div
+        initial={{ opacity: 0, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ duration: 0.8 }}
+        className="mx-auto mb-10"
+      >
         <DonationButton />
-      </div>
+      </motion.div>
     </div>
   );
 }

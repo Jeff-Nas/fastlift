@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Image from "next/image";
-import { Coffee } from "lucide-react";
+import { Coffee } from "phosphor-react";
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
@@ -14,7 +14,7 @@ import {
 //garante que esse componente está sendo renderizado só no client
 //evita usar ele direto em _document.tsx
 
-export function DonationButton() {
+export default function DonationButton() {
   const [copied, setCopied] = useState<boolean>(false);
   const pixKey: string = "ad3c6f1f-964e-46f1-b0ab-fa67a1f38a54";
 
@@ -23,7 +23,7 @@ export function DonationButton() {
       navigator.clipboard.writeText(pixKey);
       setCopied(true);
 
-      setTimeout(() => setCopied(false), 2000);
+      setTimeout(() => setCopied(false), 2500);
     } catch (erro) {
       console.log("Erro ao copiar", erro);
     }
@@ -31,30 +31,34 @@ export function DonationButton() {
 
   return (
     <Dialog>
-      <DialogTrigger>
+      {/*Aqui vai quebrar se não usar aschild - o componente cria um botão por cima de outro*/}
+      <DialogTrigger asChild>
         {/*Botão padrão para abrir o Dialogue */}
-        <button className="flex items-center gap-3 py-2 px-3 border border-taupe-700 text-taupe-700 rounded-xl uppercase">
-          <Coffee />
+        <button className="flex items-center gap-3 py-2 px-3 border border-amber-950/80 text-amber-950/80 text-sm font-semibold rounded-md uppercase">
+          <Coffee size={24} weight="fill" />
           <span>Apoiar cotinuidade do projeto</span>
         </button>
       </DialogTrigger>
 
       <DialogContent>
         <DialogHeader>
-          <DialogTitle>Apoie o FastLift</DialogTitle>
+          <DialogTitle className="font-header text-xl">
+            Apoie o FastLift
+          </DialogTitle>
         </DialogHeader>
+        <hr />
 
-        <p className="text-sm text-muted-foreground">
+        <p className="text-base text-gray-700 mx-2">
           Se essa ferramenta te ajuda no dia a dia, você pode contribuir para
           manter e evoluir o projeto.
         </p>
 
         <div className="flex justify-center my-4">
           <Image
-            src="/images/donation/qrcode-pix.jpeg"
+            src="/images/donation/qr-code-pix.jpeg"
             alt="QR Code Pix"
-            width={160}
-            height={160}
+            width={180}
+            height={180}
           />
         </div>
 
@@ -64,7 +68,7 @@ export function DonationButton() {
             readOnly
             className="flex-1 text-sm px-3 py-2 border rounded-md"
           />
-          <Button onClick={handleCopy} size="sm">
+          <Button onClick={handleCopy} size="sm" className="min-w-22.5">
             {copied ? "Copiado" : "Copiar"}
           </Button>
         </div>
