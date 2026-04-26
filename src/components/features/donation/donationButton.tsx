@@ -2,6 +2,8 @@ import { useState } from "react";
 import Image from "next/image";
 import { Coffee } from "phosphor-react";
 import { Button } from "@/components/ui/button";
+import { ShinyButton } from "@/components/ui/shiny-button";
+
 import {
   Dialog,
   DialogContent,
@@ -31,13 +33,19 @@ export default function DonationButton() {
 
   return (
     <Dialog>
-      {/*Aqui vai quebrar se não usar aschild - o componente cria um botão por cima de outro*/}
+      {/*Aqui pode quebrar a aplicação se não usar aschild - o componente cria um botão por cima de outro*/}
       <DialogTrigger asChild>
         {/*Botão padrão para abrir o Dialogue */}
-        <button className="flex items-center gap-3 py-2 px-3 border border-amber-950/80 text-amber-950/80 text-sm font-semibold rounded-md uppercase">
-          <Coffee size={24} weight="fill" />
-          <span>Apoiar cotinuidade do projeto</span>
-        </button>
+        <ShinyButton
+          // 1. Personalização do componente
+          className="flex items-center gap-3 py-2 px-3 border border-amber-950/80 text-amber-950/80 text-sm font-semibold rounded-md uppercase transition-all"
+          // 2. Opcional: Ajuste a cor do brilho para combinar com o tom de Amber
+        >
+          <div className="flex items-center gap-3">
+            <Coffee size={24} weight="fill" />
+            <span>Apoiar continuidade do projeto</span>
+          </div>
+        </ShinyButton>
       </DialogTrigger>
 
       <DialogContent>
