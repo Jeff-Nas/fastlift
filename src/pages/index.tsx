@@ -10,6 +10,7 @@ import {
   animate,
   useInView,
 } from "motion/react";
+import { DonationButton } from "@/components/features/donation/donationButton";
 
 // Variáveis para o efeito cascata (stagger) dos cards
 const containerVariants: Variants = {
@@ -182,6 +183,10 @@ export default function Home() {
           className="h-55 md:h-100 object-cover mt-12 mx-auto mb-16"
         />
       </motion.div>
+
+      <div className="mx-auto">
+        <DonationButton />
+      </div>
     </div>
   );
 }
