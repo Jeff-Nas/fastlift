@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { ModelImage } from "@/types/manuals";
 import { useState } from "react";
-import { Skeleton } from "./skeleton";
+import { Skeleton } from "../ui/skeleton";
 import { cn } from "@/lib/utils";
 
 type ModelCardProps = {

@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link";
 import { RotateCw } from "lucide-react";
-import { CategoryCard } from "@/components/ui/categoryCard";
+import { CategoryCard } from "@/components/blocks/categoryCard";
 import { AnimatePresence, motion } from "motion/react";
 import {
   Select,

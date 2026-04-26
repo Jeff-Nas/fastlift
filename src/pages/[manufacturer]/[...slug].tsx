@@ -3,14 +3,14 @@ import { useState, useEffect } from "react";
 import manualsData from "../../../data/lista_manuais.json";
 import imagesData from "../../../data/lista_imagens.json";
 import { mapManualToFrontEnd, mapImageToFront } from "@/lib/manualMappers";
-import { ModelCard } from "@/components/ui/modelCard";
-import { ManualCard } from "@/components/ui/manualCard";
+import { ManualCard } from "@/components/blocks/manualCard";
+import { ModelCard } from "@/components/blocks/modelCard";
 import Image from "next/image";
 import { MANUFACTURERS } from "../../../constants/categories";
 import { RotateCw } from "lucide-react";
 import Link from "next/link";
 import { motion } from "motion/react";
-import { ScrollToTopButton } from "@/components/scrollToTopButton";
+import { ScrollToTopButton } from "@/components/blocks/scrollToTopButton";
 
 export default function ManualsPage() {
   const [selectedMachine, setSelectedMachine] = useState<string | null>(null); //selecionar primeiro elemento do array
