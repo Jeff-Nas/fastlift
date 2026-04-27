@@ -2,6 +2,11 @@ import { X } from "lucide-react";
 import { MenuIcon } from "lucide-react";
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { MANUFACTURERS } from "../../constants/categories";
+import { Builder } from "@/types/categories";
+
+//Array de fabricantes para renderizar Links
+const brands = MANUFACTURERS as Builder[];
 
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
@@ -79,7 +84,7 @@ export function Navbar() {
         //-translate-x-full: moves the menu completely to the negative X axis
       >
         {/* Cabeçalho do menu gaveta */}
-        <div className="flex justify-between p-4">
+        <div className="flex justify-between px-4 py-2">
           <span className="font-bold text-xl">MENU</span>
           {/*Botão para fechar menu */}
           <button
@@ -89,29 +94,20 @@ export function Navbar() {
             <X className="font-bold w-7 h-7" strokeWidth={"3px"} />
           </button>
         </div>
-        {/*Links para os manuais */}
+        <hr className="border-gray-100 mb-5" />
+
+        {/*Links para os manuais- onClick para fechar o menu ao clicar no link*/}
         <div className="flex flex-col p-4 gap-4 ml-4 font-header text-gray-800">
-          <Link href="/jlg" className="text-lg font-medium hover:text-gray-600">
-            JLG
-          </Link>
-          <Link
-            href="/genie"
-            className="text-lg font-medium hover:text-gray-600"
-          >
-            Genie
-          </Link>
-          <Link
-            href="/skyjack"
-            className="text-lg font-medium hover:text-gray-600"
-          >
-            Skyjack
-          </Link>
-          <Link
-            href="/haulotte"
-            className="text-lg font-medium hover:text-gray-600"
-          >
-            Haulotte
-          </Link>
+          {brands.map((b) => (
+            <Link
+              href={b.label}
+              key={b.label}
+              onClick={() => setIsMenuOpen(false)}
+              className="text-lg font-medium hover:text-gray-600"
+            >
+              {b.brand}
+            </Link>
+          ))}
         </div>
       </div>
     </>

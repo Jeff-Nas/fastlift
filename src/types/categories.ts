@@ -6,6 +6,7 @@ export interface Category {
 
 export interface Builder {
   label: string;
+  brand: string;
   image: string;
   site: string;
 }
