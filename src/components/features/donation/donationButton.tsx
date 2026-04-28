@@ -63,7 +63,7 @@ export default function DonationButton() {
 
         <div className="flex justify-center my-4">
           <Image
-            src="/images/donation/qr-code-pix.jpeg"
+            src="/images/donation/qr-code-pix.webp"
             alt="QR Code Pix"
             width={180}
             height={180}

@@ -2,6 +2,7 @@ import dynamic from "next/dynamic";
 import Head from "next/head";
 import { RotateCw } from "lucide-react";
 import { useRouter } from "next/router";
+import DonationButton from "@/components/features/donation/donationButton";
 
 const ViewerPDF = dynamic(
   () => import("@/components/features/viewer/ViewerPDF"),
@@ -46,6 +47,9 @@ export default function ViewerPage() {
         Visualizador
       </h1>
       <ViewerPDF pdfUrl={pdfUrl} />
+      <div className="w-full flex  justify-center mx-auto my-5">
+        <DonationButton />
+      </div>
     </div>
   );
 }

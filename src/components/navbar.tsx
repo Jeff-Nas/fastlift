@@ -43,7 +43,7 @@ export function Navbar() {
           </div>
 
           {/* MENU DESKTOP */}
-          <div className="hidden md:flex gap-6 md:text-xl font-header font-semibold text-gray-800">
+          <div className="hidden lg:flex gap-6 md:text-xl font-header font-semibold text-gray-800">
             {/*Links para os manuais - será modificado depois */}
             <Link href="/jlg">JLG</Link>
             <Link href="/genie">Genie</Link>
@@ -57,7 +57,7 @@ export function Navbar() {
 
             {/* BOTÃO PARA ABRIR O MENU*/}
             <button
-              className={`md:hidden ${isMenuOpen ? "opacity-0 invisible" : "opacity-100 visible"}`}
+              className={`lg:hidden ${isMenuOpen ? "opacity-0 invisible" : "opacity-100 visible"}`}
               onClick={() => setIsMenuOpen(true)}
             >
               <MenuIcon strokeWidth={"3px"} className="font-extrabold" />
